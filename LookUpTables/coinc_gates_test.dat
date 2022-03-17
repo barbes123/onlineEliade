@@ -6,7 +6,8 @@ labr_labr 33 3000
 #labr_bgo  45 20000
 #labr_hpge 13 40000
 det_type_trg 9999 3
-beta      1111 0.0743
+#beta      1111 0.0743
+beta      1111 0
 bunch_length 1000 100000
 #bunch_length 1000 400000
 #bunch_reset 1001 380000 
