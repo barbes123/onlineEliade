@@ -66,30 +66,23 @@ lim2=1100
 domnb=$FIRSTdomain
 while test $domnb -le $LASTdomain
 do
- echo "Now starting calib for domain $domnb"
+ echo "Now starting calib for domain $domnb"	
  
- #get if domain is a core
- domain=$(($domnb%100)) 
- if [[ "$domain" -gt "10" ]];
+ if [[ "$domnb" == "109" ]] ||  [[ "$domnb" == "119" ]]||  [[ "$domnb" == "129" ]]||  [[ "$domnb" == "139" ]];
  then
-  domain=$(($domain%10)) 
- fi
-  
- if [[ "$domain" == "9" ]];
- then
-  lim1=1500
-  lim2=2500
+  lim1=3000
+  lim2=5000
   fwhm=4
   ampl=100
-  echo "I see CORE $domnb"
+  echo "changed for core $domnb"
  else
   lim1=1700
   lim2=5000
   fwhm=10
   ampl=6
-  echo "I see segment $domnb"
+  echo "changed for segment $domnb"
  fi
-
+ 
  if test -f "mDelila_raw_py_$domnb.spe" 
    then
       #get full data on calibration

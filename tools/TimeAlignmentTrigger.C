@@ -52,8 +52,8 @@ void TimeAlignementTrigger(TH2 *matrix, float alignment_pos=50000.)
 
     //outputFile << j+channel_offset-1 << "  " << gaus->GetParameter(1) <<"\n";;
 //    outputFile << j+channel_offset-1 << "  " << max_value<< " offset: "<< alignment_pos - max_value <<"\n";;
-    outputFile << jj-1 << "  " << proj_y-> GetBinCenter(max_bin) - alignment_pos <<"\n";;
-    std::cout << jj-1 << "  " << proj_y-> GetBinCenter(max_bin) - alignment_pos <<"\n";;
+    outputFile << jj << "  " << proj_y-> GetBinCenter(max_bin) - alignment_pos <<"\n";;
+    std::cout << jj << "  " << proj_y-> GetBinCenter(max_bin) - alignment_pos <<"\n";;
     
    c1->WaitPrimitive();
     proj_y->Reset();
