@@ -7,7 +7,7 @@
 #include "TF1.h"
 #include "TCanvas.h"
 #include "TString.h"
-void TimeAlignementTrigger(TH2 *matrix, float alignment_pos=50000.)
+void TimeAlignementTrigger(TH2 *matrix, float alignment_pos=0.)
 {
 
   std::cout << "Welcome to the automatic TimeAlignement macro \n"
@@ -39,7 +39,7 @@ void TimeAlignementTrigger(TH2 *matrix, float alignment_pos=50000.)
     c1->cd();
 //    gaus->SetParameter(1,alignment_pos);
     //gaus->SetParLimits(1,4.0e+03,5e+03);
-    proj_y->Fit(gaus,"MR");
+//    proj_y->Fit(gaus,"MR");
     proj_y->Draw();
 
 //    std::cout<<"max_value "<<max_value<<" max bin "<< proj_y-> GetBinCenter(max_bin-1) <<"\n";

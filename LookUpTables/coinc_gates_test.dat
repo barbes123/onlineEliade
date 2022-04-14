@@ -6,7 +6,7 @@ hpge_hpge 11 900000
 #labr_labr 33 3000
 #labr_bgo  45 20000
 #labr_hpge 13 40000
-det_type_trg 9999 1
+det_type_trg 9999 109
 #beta      1111 0
 #bunch_length 1000 10000000000
-bunch_length 1000 900000
+bunch_length 1000 9000000
