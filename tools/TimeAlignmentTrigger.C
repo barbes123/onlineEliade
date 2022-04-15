@@ -7,7 +7,7 @@
 #include "TF1.h"
 #include "TCanvas.h"
 #include "TString.h"
-void TimeAlignementTrigger(TH2 *matrix, float alignment_pos=50000.)
+void TimeAlignementTrigger(TH2 *matrix, float alignment_pos=0.)
 {
 
   std::cout << "Welcome to the automatic TimeAlignement macro \n"
@@ -39,7 +39,7 @@ void TimeAlignementTrigger(TH2 *matrix, float alignment_pos=50000.)
     c1->cd();
 //    gaus->SetParameter(1,alignment_pos);
     //gaus->SetParLimits(1,4.0e+03,5e+03);
-    proj_y->Fit(gaus,"MR");
+//    proj_y->Fit(gaus,"MR");
     proj_y->Draw();
 
 //    std::cout<<"max_value "<<max_value<<" max bin "<< proj_y-> GetBinCenter(max_bin-1) <<"\n";
@@ -52,8 +52,8 @@ void TimeAlignementTrigger(TH2 *matrix, float alignment_pos=50000.)
 
     //outputFile << j+channel_offset-1 << "  " << gaus->GetParameter(1) <<"\n";;
 //    outputFile << j+channel_offset-1 << "  " << max_value<< " offset: "<< alignment_pos - max_value <<"\n";;
-    outputFile << jj-1 << "  " << proj_y-> GetBinCenter(max_bin) - alignment_pos <<"\n";;
-    std::cout << jj-1 << "  " << proj_y-> GetBinCenter(max_bin) - alignment_pos <<"\n";;
+    outputFile << jj << "  " << proj_y-> GetBinCenter(max_bin) - alignment_pos <<"\n";;
+    std::cout << jj << "  " << proj_y-> GetBinCenter(max_bin) - alignment_pos <<"\n";;
     
    c1->WaitPrimitive();
     proj_y->Reset();
