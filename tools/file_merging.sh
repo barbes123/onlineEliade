@@ -9,18 +9,15 @@ volume2=$4
 echo "Will run the selector for runs $FIRSTrun upto $LASTrun "
 echo "Will run the selector for volumes $volume1 upto $volume2 "		
 
-
 space=" "
 
 runnb=$FIRSTrun
 volnb=$volume1
-command="hadd selected_run_$runnb""_eliadeS$server"."root "
-
-fileout="selected_run_$runnb""_eliadeS$server"."root";
-echo "summed file: $fileout"
+fileout="sum_selected_run_$runnb""_$volume1""_$volume2""_eliadeS$server"."root"
+command="hadd sum_selected_run_$runnb""_$volume1""_$volume2""_eliadeS$server"."root "
 
 
-if test -f ""
+if test -f "$fileout"
    then
    rm "$fileout"
 fi
