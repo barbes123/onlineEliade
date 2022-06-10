@@ -1,11 +1,8 @@
 #!/bin/bash
 
-#echo "MASS first last"
-
-# DIST=$1
 FIRSTdomain=$1
-LASTdomain=$2
-activityCo60=$3
+LASTdomain=${2:-$1}
+activityCo60=${3:-1}
 #$activityCs137=$3
 
 
@@ -52,43 +49,42 @@ echo "Will run the calib for domains $FIRSTdomain upto $LASTdomain "
    	rm "resolution.txt"   
    fi
 ##################################
+    if test -f "resolution_1332.txt" 
+   then 
+   	rm "resolution_1332.txt"   
+   fi
+##################################
+   if test -f "resolution_1173.txt" 
+   then 
+   	rm "resolution_1173.txt"   
+   fi
+##################################
     if test -f "fulldata.calib" 
    then 
    	rm "fulldata.calib"   
    fi
 ##################################      
-   
-   
-
-lim1=800
-lim2=1100
+      
+lim1=3000 lim2=4000 fwhm=4 ampl=100
 
 domnb=$FIRSTdomain
 while test $domnb -le $LASTdomain
 do
  echo "Now starting calib for domain $domnb"
  
- #get if domain is a core
- domain=$(($domnb%100)) 
- if [[ "$domain" -gt "10" ]];
+ #get id
+ id=$(($domnb%100)) 
+ if [[ "$id" -gt "10" ]];
  then
-  domain=$(($domain%10)) 
+  id=$(($id%10)) 
  fi
-  
- if [[ "$domain" == "9" ]];
- then
-  lim1=1500
-  lim2=2500
-  fwhm=4
-  ampl=100
-  echo "I see CORE $domnb"
- else
-  lim1=1700
-  lim2=5000
-  fwhm=10
-  ampl=6
-  echo "I see segment $domnb"
- fi
+ 
+ case "$id" in
+"9")  lim1=800  lim2=1600 fwhm=4  ampl=100 ;;
+"10") lim1=1000 lim2=1600 fwhm=4  ampl=100 ;;
+*) echo "$id - default" ;;
+esac
+echo "settings for $id : limits: $lim1 $lim2 fwhm: $fwhm $ampl" 
 
  if test -f "mDelila_raw_py_$domnb.spe" 
    then

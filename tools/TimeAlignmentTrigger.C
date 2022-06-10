@@ -34,7 +34,7 @@ void TimeAlignementTrigger(TH2 *matrix, float alignment_pos=0.)
  
     matrix->ProjectionY(proj_y->GetName(),jj,jj);    
     if (proj_y->GetEntries() == 0) continue;
-    proj_y->GetXaxis()->SetRangeUser(-50e3,150e3);
+    proj_y->GetXaxis()->SetRangeUser(-50e3,1e6);
     
     proj_y->SetTitle(Form("dom%i",jj));
     int max_bin = proj_y->GetMaximumBin();
@@ -44,6 +44,7 @@ void TimeAlignementTrigger(TH2 *matrix, float alignment_pos=0.)
     gaus->SetParameter(1,max_bin_pos);
     gaus->SetParLimits(1,max_bin_pos-2000,max_bin_pos+2000);
     proj_y->Fit(gaus,"MR","",max_bin_pos-delta,max_bin_pos+delta);
+    
     
     gaus2->SetParameter(1,gaus->GetParameter(1));
     gaus2->SetParLimits(1,gaus->GetParameter(1) -1000,gaus->GetParameter(1) +1000);
