@@ -7,7 +7,7 @@ set lmargin 12
 set term eps
 set output 'eliade_resolution_all.eps'
 
-set title "Clover (ELIADE) resolution"
+set title "Clover 31 resolution"
 
 set xtics font ",14"
 set xtics 100,10,150
@@ -34,12 +34,21 @@ set style line 114 linecolor rgb '#ff8040' linetype 2 linewidth 1 dt 3 pointtype
 #set label 1 at 13, 15
 #set label 1 '(b)' font ",18" tc '#black'
 
-set key font ",10" at 110.0, 9.
+set key font ",9" at 101.0, 9.5
 #set nokey
-plot 'resolution_1173.txt'  using 1:6 linestyle 110  linecolor rgb '#0000FF' title "1173 keV",\
-     'resolution_1332.txt'  using 1:6 linestyle 110  linecolor rgb '#8A2BE2' title "1332 keV", \
-     'resolution_661.txt'  using 1:6 linestyle 110  linecolor rgb '#ff8040' title "661 keV", \
-     'resolution_1274.txt'  using 1:6 linestyle 110  linecolor rgb '#cccc00' title "1274 keV" 
+plot 'resolution_1173.txt'  using 1:6 linestyle 110  lc 1 title "1173",\
+     'resolution_1332.txt'  using 1:6 linestyle 110  lc 2 title "1332", \
+     'resolution_661.txt'  using 1:6 linestyle 110  lc 3 title "661", \
+     'resolution_244.txt'  using 1:6 linestyle 110  lc 5 title "244", \
+     'resolution_344.txt'  using 1:6 linestyle 110  lc 6 title "344", \
+     'resolution_411.txt'  using 1:6 linestyle 110  lc 7 title "411", \
+     'resolution_444.txt'  using 1:6 linestyle 110  lc 8 title "444", \
+     'resolution_778.txt'  using 1:6 linestyle 110  lc 9 title "778", \
+     'resolution_964.txt'  using 1:6 linestyle 110  lc 10 title "964", \
+     'resolution_1085.txt'  using 1:6 linestyle 110  lc 11 title "1085", \
+     'resolution_1112.txt'  using 1:6 linestyle 110  lc 12 title "1112", \
+     'resolution_1408.txt'  using 1:6 linestyle 110  lc 11 title "1408", \
+     'resolution_1274.txt'  using 1:6 linestyle 110  lc 12  title "1274" 
 #with lines, \
 #     'intensity.dat' using 1:2:($3-$2)  linestyle 110 linecolor '#black' linetype 2 notitle  with yerrorbars, \
 #     'intensity.dat' using 1:2    linestyle 110 notitle,  

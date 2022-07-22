@@ -1,16 +1,16 @@
 set size 0.95, 0.95
 set xrange [100:1500]  
-set yrange [1:8]  
+set yrange [0:0.02]  
 set bmargin 5
 set lmargin 12
 
 
 set term eps
-set output 'dom_'.DOM.'_res.eps'
+set output 'dom_'.DOM.'_eff.eps'
 
 
 
-set title 'Domain '.DOM.' (ELIADE) resolution'
+set title 'Domain '.DOM.' (ELIADE) efficiency'
 
 
 set xtics font ",14"
@@ -23,7 +23,7 @@ set encoding iso_8859_1
 set xlabel "keV" font ",16" offset 0,-1
 # set xlabel " "
 # set ylabel " "
-set ylabel "Resolution, keV" font ",16" offset -2,0
+set ylabel "Resolution, %" font ",16" offset -2,0
 
 set style line 1 linecolor rgb '#ff0000' linetype 2 linewidth 3 
 set style line 110 linecolor '#black' linetype 2 linewidth 2 dt 3 pointtype 7 pointsize .5 
@@ -40,7 +40,7 @@ set style line 114 linecolor rgb '#ff8040' linetype 2 linewidth 1 dt 3 pointtype
 
 set key font ",14" at 240.0, 9.
 #set nokey
-plot 'resolution_dom_'.DOM.'.txt'  using 3:6 linestyle 110  linecolor rgb '#0000FF' notitle
+plot 'resolution_dom_'.DOM.'.txt'  using 3:10 linestyle 110  linecolor rgb '#0000FF' notitle
 #     'resolution_1332.txt'  using 1:6 linestyle 110  linecolor rgb '#8A2BE2' title "1332 keV" \
 #with lines, \
 #     'intensity.dat' using 1:2:($3-$2)  linestyle 110 linecolor '#black' linetype 2 notitle  with yerrorbars, \
