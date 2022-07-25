@@ -28,13 +28,14 @@ void TimeAlignementTrigger(TH2 *matrix, float alignment_pos=0.)
  TH1D *proj_y =new TH1D("projection","proj",nb_bin_mat,range_min,range_max);
  TH1D *proj_y2 =new TH1D("projection2","proj2",nb_bin_mat,range_min,range_max);
  
- int delta = 50000;
+ int delta = 80000;
  
  for(int jj=0 ; jj<=matrix->GetXaxis()->GetNbins() ; jj++){
  
     matrix->ProjectionY(proj_y->GetName(),jj,jj);    
     if (proj_y->GetEntries() == 0) continue;
-    proj_y->GetXaxis()->SetRangeUser(-50e3,1e6);
+//    proj_y->GetXaxis()->SetRangeUser(-50e3,1e6);
+    proj_y->GetXaxis()->SetRangeUser(-1e5,1e6);
     
     proj_y->SetTitle(Form("dom%i",jj));
     int max_bin = proj_y->GetMaximumBin();
@@ -42,7 +43,7 @@ void TimeAlignementTrigger(TH2 *matrix, float alignment_pos=0.)
         
     c1->cd();
     gaus->SetParameter(1,max_bin_pos);
-    gaus->SetParLimits(1,max_bin_pos-2000,max_bin_pos+2000);
+    gaus->SetParLimits(1,max_bin_pos-10000,max_bin_pos+10000);
     proj_y->Fit(gaus,"MR","",max_bin_pos-delta,max_bin_pos+delta);
     
     
