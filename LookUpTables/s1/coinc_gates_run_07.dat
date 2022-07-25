@@ -11,7 +11,7 @@ hpge_seg 	12 	100000
 #------------------------------------
 #builder_parameters index value_ps
 #------------------------------------
-trg_det_type	9998	1
+trg_det_type	9998	-1
 trg_domain 	9999 	109
 window_length 	1000 	1e5
 pre_window	1002	0
