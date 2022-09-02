@@ -10,8 +10,11 @@ import sys
 import shutil #copy files
 from os.path import exists #check if file exists
 import subprocess #run external script
+from pathlib import Path
 
 time_format = "%Y-%m-%d %H:%M:%S"
+data_folder = '{}/onlineEliade/tools/calibration/calib_py/data'.format(Path.home())
+#data_folder = '/data/live/IT/Py/calib_py/data'
 
 class TIsotope:
     def __init__(self, name, t12, date0, a0):
@@ -22,12 +25,10 @@ class TIsotope:
 
     def setup_source_from_json(self, data, source_name):
         self.found = False
-        # time_format = "%Y-%m-%d %H:%M:%S"
         for source in data['sources']:
             if source['name'] == source_name:
                 self.name = source['name']
                 self.date0 = datetime.strptime(source['date'], time_format)
-                # self.date0 =source['date']
                 self.a0 = source['a0']
                 self.t12 = source['t12']*365*24*3600
                 self.found = True
@@ -50,24 +51,29 @@ class TIsotope:
         return(1 / 2 * (self.Activity(start) + self.Activity(stop)) * (stop - start).total_seconds())
 
 class TMeasurement:
-    def __init__(self, server, run, source, tstart, tstop):
+    def __init__(self, server, run, source, tstart, tstop, distance):
         self.run = run
         self.source = source
         self.tstart = tstart
         self.tstop = tstop
         self.server = server
+        self.distance = distance
         self.found = True
 
     def setup_run_from_json(self, data, val):
         self.found = False
         # time_format = "%Y-%m-%d %H:%M:%S"
-        for runnbr in data['measurements']:
-            if runnbr['run'] == val:
-                self.source = runnbr['source']
-                self.run = runnbr['run']
-                self.tstart = datetime.strptime(runnbr['tstart'],time_format)
-                self.tstop = datetime.strptime(runnbr['tstop'],time_format)
+        for runnbr in data:
+            if runnbr['runNumber'] == val:
+                # self.source = runnbr['source']
+                self.run = runnbr['runNumber']
+                self.tstart = datetime.strptime(runnbr['start'],time_format)
+                self.tstop = datetime.strptime(runnbr['stop'],time_format)
                 self.found = True
+            if runnbr['source'] is None:
+               runnbr['source'] = '60Co'
+            else:
+                self.source = runnbr['source']
                 # print("{}, YES".format(val))
 
     def __str__(self):
@@ -86,39 +92,49 @@ def swap_first_line(file, newline):
     shutil.copy('tempcp.txt', file)
     os.remove('tempcp.txt')
 
-my_run = TMeasurement('0','xxx','152Eu',datetime.strptime('2022-08-08 12:00:00', time_format), datetime.strptime('2022-08-21 11:00:00', time_format))
+my_run = TMeasurement('0','xxx','152Eu',datetime.strptime('2022-08-08 12:00:00', time_format), datetime.strptime('2022-08-21 11:00:00', time_format),0)
 my_source = TIsotope('152Eu',13.537,datetime.strptime('2015-9-9 12:00:00', time_format),543.5e3)
 
 #starting the processes
-
-with open('data/run_table.json','r') as ifile:
-    j_runs = json.load(ifile)
-
-
+# defaul values
 domain_start = 109
 domain_stop = 109
+server = 1
 # reading inline parameters
 if (len(sys.argv) > 1):
+    server =  sys.argv[1]
+
+json_log = '{}/ES_{}_log.json'.format(data_folder, server)
+
+if not exists('{}'.format(json_log)):
+    print('File {} not found'.format(json_log))
+    sys.exit()
+else:
+    print('File {} okay'.format(json_log))
+    with open('{}'.format(json_log,'r')) as ifile:
+        delila_log = json.load(ifile)
+
+if (len(sys.argv) > 2):
     # print(sys.argv[1])
-    my_run.setup_run_from_json(j_runs,sys.argv[1])
+    my_run.setup_run_from_json(delila_log,int(sys.argv[2]))
     # print(my_run.__str__())
     if my_run.found:
         # print(my_run.__str__())
-        print('I found {} in run_table.json'.format(sys.argv[1]))
+        print('I found {} in run_table.json'.format(sys.argv[2]))
     else:
-        print('I not found the run {} in run_table.json'.format(sys.argv[1]))
+        print('I did not found the run {} in run_table.json'.format(sys.argv[2]))
         sys.exit()
 
-if (len(sys.argv) == 3):
-    domain_start = sys.argv[2]
-    domain_stop = sys.argv[2]
-
 if (len(sys.argv) == 4):
-    domain_start = sys.argv[2]
+    domain_start = sys.argv[3]
     domain_stop = sys.argv[3]
 
+if (len(sys.argv) == 5):
+    domain_start = sys.argv[3]
+    domain_stop = sys.argv[4]
 
-with open('data/sources.json','r') as ifile:
+
+with open('{}/sources.json'.format(data_folder),'r') as ifile:
     j_sourses = json.load(ifile)
 
 my_source.setup_source_from_json(j_sourses, my_run.source)
