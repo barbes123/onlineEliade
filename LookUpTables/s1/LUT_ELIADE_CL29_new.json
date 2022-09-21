@@ -1,0 +1,614 @@
+[
+   {
+      "channel": 101,
+      "domain": 101,
+      "detType": 2,
+      "serial": "32",
+      "TimeOffset": 0,
+      "theta": 0,
+      "phi": 0,
+      "threshold": 25,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         3.0839,
+         1.244085
+      ]
+   },
+   {
+      "channel": 102,
+      "domain": 102,
+      "detType": 2,
+      "serial": "32",
+      "TimeOffset": 0,
+      "theta": 0,
+      "phi": 0,
+      "threshold": 10,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         -1.912,
+         1.270961
+      ]
+   },
+   {
+      "channel": 103,
+      "domain": 103,
+      "detType": 2,
+      "serial": "32",
+      "TimeOffset": 0,
+      "theta": 0,
+      "phi": 0,
+      "threshold": 10,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         1.5255,
+         1.286151
+      ]
+   },
+   {
+      "channel": 104,
+      "domain": 104,
+      "detType": 2,
+      "serial": "32",
+      "TimeOffset": 0,
+      "theta": 0,
+      "phi": 0,
+      "threshold": 22,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         -1.3604,
+         1.266571
+      ]
+   },
+   {
+      "channel": 105,
+      "domain": 105,
+      "detType": 2,
+      "serial": "32",
+      "TimeOffset": 0,
+      "theta": 0,
+      "phi": 0,
+      "threshold": 15,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         0.0628,
+         1.310991
+      ]
+   },
+   {
+      "channel": 106,
+      "domain": 106,
+      "detType": 2,
+      "serial": "32",
+      "TimeOffset": 0,
+      "theta": 0,
+      "phi": 0,
+      "threshold": 15,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         7.569,
+         1.311719
+      ]
+   },
+   {
+      "channel": 107,
+      "domain": 107,
+      "detType": 2,
+      "serial": "32",
+      "TimeOffset": 0,
+      "theta": 0,
+      "phi": 0,
+      "threshold": 15,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         1.7921,
+         1.465799
+      ]
+   },
+   {
+      "channel": 108,
+      "domain": 108,
+      "detType": 2,
+      "serial": "32",
+      "TimeOffset": 0,
+      "theta": 0,
+      "phi": 0,
+      "threshold": 18,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         -4.9175,
+         1.274258
+      ]
+   },
+   {
+      "channel": 109,
+      "domain": 109,
+      "detType": 1,
+      "serial": "32",
+      "TimeOffset": 0,
+      "theta": 0,
+      "phi": 0,
+      "threshold": 10,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         3.8779,
+         1.253699
+      ]
+   },
+   {
+      "channel": 111,
+      "domain": 111,
+      "detType": 2,
+      "serial": "32",
+      "TimeOffset": -31,
+      "theta": 0,
+      "phi": 0,
+      "threshold": 12,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         -0.0,
+         1.0
+      ]
+   },
+   {
+      "channel": 112,
+      "domain": 112,
+      "detType": 2,
+      "serial": "32",
+      "TimeOffset": -31,
+      "theta": 0,
+      "phi": 0,
+      "threshold": 14,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         -0.0,
+         1.0
+      ]
+   },
+   {
+      "channel": 113,
+      "domain": 113,
+      "detType": 2,
+      "serial": "32",
+      "TimeOffset": -31,
+      "theta": 0,
+      "phi": 0,
+      "threshold": 17,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         -0.0,
+         1.0
+      ]
+   },
+   {
+      "channel": 114,
+      "domain": 114,
+      "detType": 2,
+      "serial": "32",
+      "TimeOffset": -31,
+      "theta": 0,
+      "phi": 0,
+      "threshold": 16,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         -0.0,
+         1.0
+      ]
+   },
+   {
+      "channel": 115,
+      "domain": 115,
+      "detType": 2,
+      "serial": "32",
+      "TimeOffset": -31,
+      "theta": 0,
+      "phi": 0,
+      "threshold": 20,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         -0.0,
+         1.0
+      ]
+   },
+   {
+      "channel": 116,
+      "domain": 116,
+      "detType": 2,
+      "serial": "32",
+      "TimeOffset": -31,
+      "theta": 0,
+      "phi": 0,
+      "threshold": 15,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         -0.0,
+         1.0
+      ]
+   },
+   {
+      "channel": 117,
+      "domain": 117,
+      "detType": 2,
+      "serial": "32",
+      "TimeOffset": -31,
+      "theta": 0,
+      "phi": 0,
+      "threshold": 14,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         -0.0,
+         1.0
+      ]
+   },
+   {
+      "channel": 118,
+      "domain": 118,
+      "detType": 2,
+      "serial": "32",
+      "TimeOffset": -31,
+      "theta": 0,
+      "phi": 0,
+      "threshold": 12,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         -0.0,
+         1.0
+      ]
+   },
+   {
+      "channel": 119,
+      "domain": 119,
+      "detType": 1,
+      "serial": "32",
+      "TimeOffset": -31,
+      "theta": 0,
+      "phi": 0,
+      "threshold": 20,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         -0.0,
+         1.0
+      ]
+   },
+   {
+      "channel": 121,
+      "domain": 121,
+      "detType": 2,
+      "serial": "32",
+      "TimeOffset": -52,
+      "theta": 0,
+      "phi": 0,
+      "threshold": 16,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         0.1736,
+         1.274536
+      ]
+   },
+   {
+      "channel": 122,
+      "domain": 122,
+      "detType": 2,
+      "serial": "32",
+      "TimeOffset": -52,
+      "theta": 0,
+      "phi": 0,
+      "threshold": 19,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         1.5855,
+         1.3147
+      ]
+   },
+   {
+      "channel": 123,
+      "domain": 123,
+      "detType": 2,
+      "serial": "32",
+      "TimeOffset": -52,
+      "theta": 0,
+      "phi": 0,
+      "threshold": 14,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         1.4186,
+         1.316198
+      ]
+   },
+   {
+      "channel": 124,
+      "domain": 124,
+      "detType": 2,
+      "serial": "32",
+      "TimeOffset": -52,
+      "theta": 0,
+      "phi": 0,
+      "threshold": 15,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         1.6686,
+         1.303189
+      ]
+   },
+   {
+      "channel": 125,
+      "domain": 125,
+      "detType": 2,
+      "serial": "32",
+      "TimeOffset": -52,
+      "theta": 0,
+      "phi": 0,
+      "threshold": 15,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         -0.0514,
+         1.276447
+      ]
+   },
+   {
+      "channel": 126,
+      "domain": 126,
+      "detType": 2,
+      "serial": "32",
+      "TimeOffset": -52,
+      "theta": 0,
+      "phi": 0,
+      "threshold": 15,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         -1.3974,
+         1.268388
+      ]
+   },
+   {
+      "channel": 127,
+      "domain": 127,
+      "detType": 2,
+      "serial": "32",
+      "TimeOffset": -52,
+      "theta": 0,
+      "phi": 0,
+      "threshold": 15,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         -0.2717,
+         1.301531
+      ]
+   },
+   {
+      "channel": 128,
+      "domain": 128,
+      "detType": 2,
+      "serial": "32",
+      "TimeOffset": -52,
+      "theta": 0,
+      "phi": 0,
+      "threshold": 15,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         -7.5893,
+         1.339233
+      ]
+   },
+   {
+      "channel": 129,
+      "domain": 129,
+      "detType": 1,
+      "serial": "32",
+      "TimeOffset": -52,
+      "theta": 0,
+      "phi": 0,
+      "threshold": 11,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         -0.639,
+         1.228404
+      ]
+   },
+   {
+      "channel": 131,
+      "domain": 131,
+      "detType": 2,
+      "serial": "32",
+      "TimeOffset": -72,
+      "theta": 0,
+      "phi": 0,
+      "threshold": 15,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         0.1109,
+         1.293269
+      ]
+   },
+   {
+      "channel": 132,
+      "domain": 132,
+      "detType": 2,
+      "serial": "32",
+      "TimeOffset": -72,
+      "theta": 0,
+      "phi": 0,
+      "threshold": 15,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         2.0873,
+         1.363783
+      ]
+   },
+   {
+      "channel": 133,
+      "domain": 133,
+      "detType": 2,
+      "serial": "32",
+      "TimeOffset": -72,
+      "theta": 0,
+      "phi": 0,
+      "threshold": 15,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         3.2813,
+         1.315472
+      ]
+   },
+   {
+      "channel": 134,
+      "domain": 134,
+      "detType": 2,
+      "serial": "32",
+      "TimeOffset": -72,
+      "theta": 0,
+      "phi": 0,
+      "threshold": 15,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         -3.6724,
+         1.348399
+      ]
+   },
+   {
+      "channel": 135,
+      "domain": 135,
+      "detType": 2,
+      "serial": "32",
+      "TimeOffset": -72,
+      "theta": 0,
+      "phi": 0,
+      "threshold": 15,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         0.045,
+         1.27196
+      ]
+   },
+   {
+      "channel": 136,
+      "domain": 136,
+      "detType": 2,
+      "serial": "32",
+      "TimeOffset": -72,
+      "theta": 0,
+      "phi": 0,
+      "threshold": 15,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         7.9812,
+         1.301242
+      ]
+   },
+   {
+      "channel": 137,
+      "domain": 137,
+      "detType": 2,
+      "serial": "32",
+      "TimeOffset": -72,
+      "theta": 0,
+      "phi": 0,
+      "threshold": 15,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         0.287,
+         1.26771
+      ]
+   },
+   {
+      "channel": 138,
+      "domain": 138,
+      "detType": 2,
+      "serial": "32",
+      "TimeOffset": -72,
+      "theta": 0,
+      "phi": 0,
+      "threshold": 15,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         2.8627,
+         1.257464
+      ]
+   },
+   {
+      "channel": 139,
+      "domain": 139,
+      "detType": 1,
+      "serial": "32",
+      "TimeOffset": -72,
+      "theta": 0,
+      "phi": 0,
+      "threshold": 15,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         99999.0,
+         888888.0
+      ]
+   }
+]
