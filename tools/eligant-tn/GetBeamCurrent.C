@@ -10,16 +10,24 @@
 #include <map>
 #include <TSystem.h>
 
-void GetBeamCurrent(int runnbr, int ver_start = 0, int ver_stop = 0)
+void GetBeamCurrent(int run_start, int run_stop, int ver_start = 0, int ver_stop = 0)
 {
 
   std::cout << "Welcome to the automatic GetBeamCurrent macro \n"
-	    << "I will calculate beam current in the raw root file provided  \n"
+	    << "I will calculate beam current and run duration in the raw root file provided  \n"
 	    << std::endl;
 
-        TFile *fin;
-        
- Long64_t beam = 0;
+ TFile *fin;        
+ Long64_t 	beam = 0;
+ Double_t    	TS = 0;
+ UChar_t     	mod = 0;
+ UChar_t     	ch = 0;
+ UShort_t    	fEnergy = 0;//ChargeLong
+
+
+ for (int runnbr = run_start; runnbr<= run_stop; runnbr++){
+ 
+ 
  for (int ver = ver_start; ver<= ver_stop; ver++){
      
      if(gSystem->AccessPathName(Form("../root_files/run%i_%i_adqws.root", runnbr, ver))){
@@ -29,12 +37,7 @@ void GetBeamCurrent(int runnbr, int ver_start = 0, int ver_stop = 0)
     
     fin = new TFile (Form("../root_files/run%i_%i_adqws.root", runnbr, ver),"read"); 
     TTree *t1 = (TTree*)fin->Get("ELIADE_Tree");
-    
-    Double_t    TS = 0;
-    UChar_t     mod = 0;
-    UChar_t     ch = 0;
-    UShort_t	fEnergy = 0;//ChargeLong
-    
+
     Int_t nentries = (Int_t)t1->GetEntries();
     t1->SetBranchAddress("FineTS",&TS);
     t1->SetBranchAddress("Mod",&mod);
@@ -43,6 +46,7 @@ void GetBeamCurrent(int runnbr, int ver_start = 0, int ver_stop = 0)
 //     t1->GetEntry(nentries);
     
     
+    beam = 0;
     for (Int_t i = 0; i<=nentries;i++){
      
       t1->GetEntry(i);
@@ -51,8 +55,10 @@ void GetBeamCurrent(int runnbr, int ver_start = 0, int ver_stop = 0)
 //        std::cout<<" run "<< run<<" last TS " << TS <<"\n";
 	}
 	
-//     std::cout<<" run "<< runnbr<<" last TS " << TS*1e-12 <<" s; Beam Integral "<<beam  <<" average Beam/TS: "<< beam/(TS*1e-12) <<" \n";
     fin->Close();
+    std::cout<<" run "<< runnbr<< " version "<<ver <<" last TS " << TS*1e-12 <<" s; Beam Integral "<<beam  <<" average Beam/TS: "<< beam/(TS*1e-12) <<" \n";
     }
-    std::cout<<" run "<< runnbr<<" Beam Integral "<< beam  << " \n";
+   }
+//    std::cout<<" run "<< runnbr<<" Beam Integral "<< beam  << " \n";
+
 }
