@@ -28,6 +28,20 @@ echo "file: ../mDelila_raw_py_$domnb.spe"
 
 echo "Will run the calib for domains $FIRSTdomain upto $LASTdomain "
 
+
+##################################   
+#check awk version
+##################################   
+echo "Checking awk version"
+mawk=0
+awk -W version > awkversion.tmp
+if grep 'mawk' awkversion.tmp
+then
+  mawk=1
+  echo "awk version is MAWK, mawk parameter for calculation is enabled $mawk"
+fi 	
+rm awkversion.tmp
+
 ##################################   
  if test -f "eliade.calib" 
    then 
@@ -139,7 +153,7 @@ echo "settings for xx-id $id : limits: $lim1 $lim2 fwhm: $fwhm $ampl"
       if [[ "$activityEu152" -gt "0" ]];
       then
        awk 'NR > 20 { print }' fulldata.calib >  temp.calib
-      fi	  
+      fi      
 
       echo -n "domain $domnb " >> eliade.calib      
       if grep 'Cal1' temp.calib
@@ -148,6 +162,14 @@ echo "settings for xx-id $id : limits: $lim1 $lim2 fwhm: $fwhm $ampl"
  	   echo "Found Cal1"
  	else echo " ">> eliade.calib #if domain is emtry add a new line
 	fi 	
+	
+ 	if [[ "$mawk" -eq "1" ]]
+        then      
+	   rm tempmawk.calib
+	   sed 's/\./,/g' temp.calib > tempmawk.calib
+	   mv tempmawk.calib temp.calib
+	 fi
+	
 	####################22Na####################
  	if grep '511.006' temp.calib
 	then
@@ -170,7 +192,6 @@ echo "settings for xx-id $id : limits: $lim1 $lim2 fwhm: $fwhm $ampl"
 	if grep '661.661' temp.calib
 	then
            #echo -n "domain $domnb " >> Co60.calib    
- 	  #grep '661.661'  temp.calib >> Co60.calib
  	   grep '661.661'  temp.calib >> res.temp
  	   grep '661.661'  temp.calib >> Cs137.temp
  	   sed -i "s/#2/$domnb/" Cs137.temp     
@@ -180,13 +201,12 @@ echo "settings for xx-id $id : limits: $lim1 $lim2 fwhm: $fwhm $ampl"
 	if grep '1173.238' temp.calib
 	then
            #echo -n "domain $domnb " >> Co60.calib    
- 	  #grep '1173.238'  temp.calib >> Co60.calib
  	   grep '1173.238'  temp.calib >> res.temp
  	   grep '1173.238'  temp.calib >> Co60.temp
 	   sed -i "s/#2/$domnb/" Co60.temp
  	   echo "Found 1173.238"
 	fi
-	if grep '1332.513' temp.calib	    
+	if grep '1332.513' temp.calib    
 	then
  	   grep '1332.513'  temp.calib >> res.temp
  	   grep '1332.513'  temp.calib >> Co60.temp
@@ -309,16 +329,16 @@ echo "settings for xx-id $id : limits: $lim1 $lim2 fwhm: $fwhm $ampl"
 
 
  rm res.temp
- rm temp.calib	
+ rm newtemp.calib	
  domnb=$(($domnb + 1))
 done 
  
 cat eliade.calib | sed 's/|/ /' | awk '{print $2, $9, $10}' >  eliade.coeff
 
 if [[ "$activityCs137" -gt "0" ]];
- then 
+ then
  rm resolution_661.txt
- awk -F " " '{ print $1 " " $5 " " $9 " " $6 " " $7 " " $7/$6*$9 " [keV]; eff [%]: " $5/'$activityCs137'*100*0.851}' Cs137.temp > temp1.txt
+ awk -F " " '{ print $1 " " $5 " " $9 " " $6 " " $7 " " $7/$6*$9 " [keV]; eff [%]: " $5/'$activityCs137'*100*0,851}' Cs137.temp > temp1.txt
  grep '661.661' temp1.txt >> resolution_661.txt
  grep '661.661' temp1.txt > resolution137Cs.txt
  gnuplot -e "ENER=661" gnuplot/res_eliade_ener.p
@@ -326,7 +346,8 @@ if [[ "$activityCs137" -gt "0" ]];
 fi
  
 if [[ "$activityCo60" -gt "0" ]];
- then
+ then 
+
   rm resolution_1332.txt
   rm resolution_1173.txt  
   awk -F " " '{ print $1 " " $5 " " $9 " " $6 " " $7 " " $7/$6*$9 " [keV]; eff [%]: " $5/'$activityCo60'*100*0.99}' Co60.temp > temp1.txt
@@ -334,6 +355,24 @@ if [[ "$activityCo60" -gt "0" ]];
   grep '1173.238' temp1.txt >> resolution_1173.txt
   grep '1332.513' temp1.txt > resolutionCo60.txt
   grep '1173.238' temp1.txt >> resolutionCo60.txt
+  
+  
+  #gnuplot does not like ","
+  if [[ "$mawk" -eq "1" ]]
+  then
+ 	  if test -f "newres.txt" 
+	   then 
+   		rm "newres.txt"   
+	  fi  
+	  sed 's/,/\./g' resolution_1332.txt > newres.txt
+	  mv newres.txt resolution_1332.txt
+	  sed 's/,/\./g' resolution_1173.txt > newres.txt
+	  mv newres.txt resolution_1173.txt
+	  sed 's/,/\./g' resolutionCo60.txt > newres.txt
+	  mv newres.txt resolutionCo60.txt
+  fi
+  
+  
     gnuplot -e "ENER=1332" gnuplot/res_eliade_ener.p
     gnuplot -e "ENER=1173" gnuplot/res_eliade_ener.p
   rm temp1.txt
