@@ -4,7 +4,8 @@ import json
 import sys
 from os.path import exists
 
-file_lut = 'LUT_CL31_20220725_run93_DT.dat'
+# file_lut = 'LUT_CL31_20220725_run93_DT.dat'
+file_lut = 'LUT_ELIADE_S9_run20_raluca.dat'
 file_calib = 'eliade.coeff'
 file_calib_json = 'eliade.json'
 file_json = 'LUT_ELIADE_CL29.json'
@@ -79,11 +80,14 @@ def GetLUTFromTxt(file_name):
                         par_list[par].append(lut_line[i])
                 elif par == 'serial':
                     par_list[par] = lut_line[index]
+                elif par == 'TimeOffset':
+                    par_list[par] = float(lut_line[index])
                 else:
                     par_list[par] = int(lut_line[index])
                 index+=1    
             # print(par_list)
             par_list['TimeOffset'] = time_offset_pulser[ par_list['channel']//100 ]
+            par_list['on'] = 1
             lut_dic.append(par_list)
     lut_json = json.dumps(lut_dic, indent=3)
     print(lut_json)

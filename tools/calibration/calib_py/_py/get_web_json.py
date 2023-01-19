@@ -7,15 +7,22 @@ import requests
 from pathlib import Path
 import datetime
 time_format = "%Y-%m-%d %H:%M:%S"
-ip_delila_log = 'http://172.18.4.56:8080/ELIADE/GetAllRunList/ES'
+# ip_delila_log = 'http://172.18.4.156:8081/ELIADE/GetAllRunList/ES'
+ip_delila_log = 'http://172.18.4.156:8081/ELIADE/GetAllRunList/'
 data_folder = '{}/onlineEliade/tools/calibration/calib_py/data'.format(Path.home())
 # data_folder = '/data/live/IT/Py/calib_py/data'
 
 server_logs = {1, 2, 3, 4, 5, 6, 7, 8, 9}
 
 for server in server_logs:
-    print('Requesting ES {}'.format(server))
-    tmp_log = requests.get('{}{}'.format(ip_delila_log, server)).json()
+    if (server == 9):
+        print('Requesting ES {}'.format(server))
+        tmp_log = requests.get('{}{}'.format(ip_delila_log,'ELIADE_Gate')).json()
+        print('validated {}{}'.format(ip_delila_log, 'ELIADE_Gate' ))
+    else:
+        print('Requesting ES {}'.format(server))
+        tmp_log = requests.get('{}{}{}'.format(ip_delila_log, 'ES', server)).json()
+        print('validated {}{}{}'.format(ip_delila_log, 'ES', server))
 
     for item in tmp_log:
         item['start'] = datetime.datetime.fromtimestamp(item['start'])
