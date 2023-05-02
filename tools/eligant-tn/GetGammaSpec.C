@@ -28,7 +28,7 @@ void GetGammaSpec(int run_start = 44, int run_stop = 44, TString mName="mDelila_
 
  for (int runnb = run_start; runnb<=run_stop; runnb++){
      if(gSystem->AccessPathName(Form("selected_run_%i_%i_eliadeS2.root", runnb, vernb))){
-        std::cout << "File run "<< runnb <<" does not exist" << std::endl;
+        std::cout << "File run "<< Form("selected_run_%i_%i_eliadeS2.root", runnb, vernb) <<" does not exist" << std::endl;
         continue;
     };
 
