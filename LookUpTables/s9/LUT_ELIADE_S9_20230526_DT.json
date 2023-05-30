@@ -5634,7 +5634,7 @@
       "on": 1
    },
    {
-      "channel": 3305,
+      "channel": 2905,
       "domain": 909,
       "detType": 4,
       "serial": "CSIB",
@@ -5652,7 +5652,7 @@
       "on": 1
    },
    {
-      "channel": 3307,
+      "channel": 2907,
       "domain": 911,
       "detType": 4,
       "serial": "CSIB",
