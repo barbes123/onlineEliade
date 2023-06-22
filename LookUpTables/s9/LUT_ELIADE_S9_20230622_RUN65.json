@@ -1,0 +1,5597 @@
+[
+   {
+      "channel": 9001,
+      "domain": 1,
+      "detType": 1,
+      "serial": "sumCore1",
+      "TimeOffset": 0.0,
+      "theta": 0,
+      "phi": 0,
+      "threshold": 25,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         0.3994,
+         3.999411
+      ],
+      "on": 1
+   },
+   {
+      "channel": 9002,
+      "domain": 2,
+      "detType": 2,
+      "serial": "sumSEG",
+      "TimeOffset": 0.0,
+      "theta": 0,
+      "phi": 0,
+      "threshold": 25,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         -1.8855,
+         4.01097
+      ],
+      "on": 1
+   },
+   {
+      "channel": 9003,
+      "domain": 3,
+      "detType": 3,
+      "serial": "sumLaBr",
+      "TimeOffset": 0.0,
+      "theta": 0,
+      "phi": 0,
+      "threshold": 25,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         -13.9845,
+         4.467454
+      ],
+      "on": 1
+   },
+   {
+      "channel": 9001,
+      "domain": 1,
+      "detType": 1,
+      "serial": "sumCore1",
+      "TimeOffset": 0.0,
+      "theta": 0,
+      "phi": 0,
+      "threshold": 25,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         0.3994,
+         3.999411
+      ],
+      "on": 1
+   },
+   {
+      "channel": 2,
+      "domain": 101,
+      "detType": 2,
+      "serial": "CL29B",
+      "TimeOffset": 0.0,
+      "theta": 90,
+      "phi": 0,
+      "threshold": 25,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         3.7613,
+         1.308452
+      ],
+      "on": 1
+   },
+   {
+      "channel": 3,
+      "domain": 102,
+      "detType": 2,
+      "serial": "CL29B",
+      "TimeOffset": 0.0,
+      "theta": 90,
+      "phi": 0,
+      "threshold": 10,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         1.2116,
+         1.314151
+      ],
+      "on": 1
+   },
+   {
+      "channel": 4,
+      "domain": 103,
+      "detType": 2,
+      "serial": "CL29B",
+      "TimeOffset": 0.0,
+      "theta": 90,
+      "phi": 0,
+      "threshold": 10,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         2.4384,
+         1.316689
+      ],
+      "on": 1
+   },
+   {
+      "channel": 5,
+      "domain": 104,
+      "detType": 2,
+      "serial": "CL29B",
+      "TimeOffset": 0.0,
+      "theta": 90,
+      "phi": 0,
+      "threshold": 22,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         -1.37,
+         1.277851
+      ],
+      "on": 1
+   },
+   {
+      "channel": 6,
+      "domain": 105,
+      "detType": 2,
+      "serial": "CL29B",
+      "TimeOffset": 0.0,
+      "theta": 90,
+      "phi": 0,
+      "threshold": 15,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         0.2246,
+         1.310334
+      ],
+      "on": 1
+   },
+   {
+      "channel": 7,
+      "domain": 106,
+      "detType": 2,
+      "serial": "CL29B",
+      "TimeOffset": 0.0,
+      "theta": 90,
+      "phi": 0,
+      "threshold": 15,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         3.2602,
+         1.37631
+      ],
+      "on": 1
+   },
+   {
+      "channel": 8,
+      "domain": 107,
+      "detType": 2,
+      "serial": "CL29B",
+      "TimeOffset": 0.0,
+      "theta": 90,
+      "phi": 0,
+      "threshold": 15,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         0.2537,
+         1.310479
+      ],
+      "on": 1
+   },
+   {
+      "channel": 9,
+      "domain": 108,
+      "detType": 2,
+      "serial": "CL29B",
+      "TimeOffset": 0.0,
+      "theta": 90,
+      "phi": 0,
+      "threshold": 18,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         5.1957,
+         1.31139
+      ],
+      "on": 1
+   },
+   {
+      "channel": 0,
+      "domain": 109,
+      "detType": 1,
+      "serial": "CL29B",
+      "TimeOffset": 0.0,
+      "theta": 90,
+      "phi": 0,
+      "threshold": 10,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         -2.6985,
+         1.30625
+      ],
+      "on": 1
+   },
+   {
+      "channel": 1,
+      "domain": 110,
+      "detType": 10,
+      "serial": "CL29B",
+      "TimeOffset": 0.0,
+      "theta": 90,
+      "phi": 0,
+      "threshold": 10,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [],
+      "on": 1
+   },
+   {
+      "channel": 102,
+      "domain": 111,
+      "detType": 2,
+      "serial": "CL29G",
+      "TimeOffset": 0.0,
+      "theta": 90,
+      "phi": 0,
+      "threshold": 12,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         -0.5047,
+         1.256942
+      ],
+      "on": 1
+   },
+   {
+      "channel": 103,
+      "domain": 112,
+      "detType": 2,
+      "serial": "CL29G",
+      "TimeOffset": 0.0,
+      "theta": 90,
+      "phi": 0,
+      "threshold": 14,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         -1.3143,
+         1.279304
+      ],
+      "on": 1
+   },
+   {
+      "channel": 104,
+      "domain": 113,
+      "detType": 2,
+      "serial": "CL29G",
+      "TimeOffset": 0.0,
+      "theta": 90,
+      "phi": 0,
+      "threshold": 17,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         2.6529,
+         1.270373
+      ],
+      "on": 1
+   },
+   {
+      "channel": 105,
+      "domain": 114,
+      "detType": 2,
+      "serial": "CL29G",
+      "TimeOffset": 0.0,
+      "theta": 90,
+      "phi": 0,
+      "threshold": 16,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         2.8189,
+         1.291966
+      ],
+      "on": 1
+   },
+   {
+      "channel": 106,
+      "domain": 115,
+      "detType": 2,
+      "serial": "CL29G",
+      "TimeOffset": 0.0,
+      "theta": 90,
+      "phi": 0,
+      "threshold": 20,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         0.0317,
+         1.308731
+      ],
+      "on": 1
+   },
+   {
+      "channel": 107,
+      "domain": 116,
+      "detType": 2,
+      "serial": "CL29G",
+      "TimeOffset": 0.0,
+      "theta": 90,
+      "phi": 0,
+      "threshold": 15,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         5.5589,
+         1.277524
+      ],
+      "on": 1
+   },
+   {
+      "channel": 108,
+      "domain": 117,
+      "detType": 2,
+      "serial": "CL29G",
+      "TimeOffset": 0.0,
+      "theta": 90,
+      "phi": 0,
+      "threshold": 14,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         2.6228,
+         1.258546
+      ],
+      "on": 1
+   },
+   {
+      "channel": 109,
+      "domain": 118,
+      "detType": 2,
+      "serial": "CL29G",
+      "TimeOffset": 0.0,
+      "theta": 90,
+      "phi": 0,
+      "threshold": 12,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         0.2192,
+         1.301343
+      ],
+      "on": 1
+   },
+   {
+      "channel": 100,
+      "domain": 119,
+      "detType": 1,
+      "serial": "CL29G",
+      "TimeOffset": 0.0,
+      "theta": 90,
+      "phi": 0,
+      "threshold": 20,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         1.474,
+         1.262512
+      ],
+      "on": 1
+   },
+   {
+      "channel": 101,
+      "domain": 120,
+      "detType": 10,
+      "serial": "CL29G",
+      "TimeOffset": 0.0,
+      "theta": 90,
+      "phi": 0,
+      "threshold": 20,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [],
+      "on": 1
+   },
+   {
+      "channel": 202,
+      "domain": 121,
+      "detType": 2,
+      "serial": "CL29R",
+      "TimeOffset": 0.0,
+      "theta": 90,
+      "phi": 0,
+      "threshold": 16,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         1.1606,
+         1.277818
+      ],
+      "on": 1
+   },
+   {
+      "channel": 203,
+      "domain": 122,
+      "detType": 2,
+      "serial": "CL29R",
+      "TimeOffset": 0.0,
+      "theta": 90,
+      "phi": 0,
+      "threshold": 19,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         -2.0118,
+         1.280853
+      ],
+      "on": 1
+   },
+   {
+      "channel": 204,
+      "domain": 123,
+      "detType": 2,
+      "serial": "CL29R",
+      "TimeOffset": 0.0,
+      "theta": 90,
+      "phi": 0,
+      "threshold": 14,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         -0.7996,
+         1.334156
+      ],
+      "on": 1
+   },
+   {
+      "channel": 205,
+      "domain": 124,
+      "detType": 2,
+      "serial": "CL29R",
+      "TimeOffset": 0.0,
+      "theta": 90,
+      "phi": 0,
+      "threshold": 15,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         -1.9907,
+         1.315476
+      ],
+      "on": 1
+   },
+   {
+      "channel": 206,
+      "domain": 125,
+      "detType": 2,
+      "serial": "CL29R",
+      "TimeOffset": 0.0,
+      "theta": 90,
+      "phi": 0,
+      "threshold": 15,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         -0.7125,
+         1.295227
+      ],
+      "on": 1
+   },
+   {
+      "channel": 207,
+      "domain": 126,
+      "detType": 2,
+      "serial": "CL29R",
+      "TimeOffset": 0.0,
+      "theta": 90,
+      "phi": 0,
+      "threshold": 15,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         2.8776,
+         1.364187
+      ],
+      "on": 1
+   },
+   {
+      "channel": 208,
+      "domain": 127,
+      "detType": 2,
+      "serial": "CL29R",
+      "TimeOffset": 0.0,
+      "theta": 90,
+      "phi": 0,
+      "threshold": 15,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         0.4837,
+         1.325643
+      ],
+      "on": 1
+   },
+   {
+      "channel": 209,
+      "domain": 128,
+      "detType": 2,
+      "serial": "CL29R",
+      "TimeOffset": 0.0,
+      "theta": 90,
+      "phi": 0,
+      "threshold": 15,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         4.8235,
+         1.301054
+      ],
+      "on": 1
+   },
+   {
+      "channel": 200,
+      "domain": 129,
+      "detType": 1,
+      "serial": "CL29R",
+      "TimeOffset": 0.0,
+      "theta": 90,
+      "phi": 0,
+      "threshold": 11,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         2.0412,
+         1.272667
+      ],
+      "on": 1
+   },
+   {
+      "channel": 201,
+      "domain": 130,
+      "detType": 10,
+      "serial": "CL29R",
+      "TimeOffset": 0.0,
+      "theta": 90,
+      "phi": 0,
+      "threshold": 10,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [],
+      "on": 1
+   },
+   {
+      "channel": 302,
+      "domain": 131,
+      "detType": 2,
+      "serial": "CL29W",
+      "TimeOffset": 0.0,
+      "theta": 90,
+      "phi": 0,
+      "threshold": 15,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         -0.5042,
+         1.315412
+      ],
+      "on": 1
+   },
+   {
+      "channel": 303,
+      "domain": 132,
+      "detType": 2,
+      "serial": "CL29W",
+      "TimeOffset": 0.0,
+      "theta": 90,
+      "phi": 0,
+      "threshold": 15,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         0.9986,
+         1.301724
+      ],
+      "on": 1
+   },
+   {
+      "channel": 304,
+      "domain": 133,
+      "detType": 2,
+      "serial": "CL29W",
+      "TimeOffset": 0.0,
+      "theta": 90,
+      "phi": 0,
+      "threshold": 15,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         2.5543,
+         1.290599
+      ],
+      "on": 1
+   },
+   {
+      "channel": 305,
+      "domain": 134,
+      "detType": 2,
+      "serial": "CL29W",
+      "TimeOffset": 0.0,
+      "theta": 90,
+      "phi": 0,
+      "threshold": 15,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         -4.3132,
+         1.326095
+      ],
+      "on": 1
+   },
+   {
+      "channel": 306,
+      "domain": 135,
+      "detType": 2,
+      "serial": "CL29W",
+      "TimeOffset": 0.0,
+      "theta": 90,
+      "phi": 0,
+      "threshold": 15,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         0.8849,
+         1.293522
+      ],
+      "on": 1
+   },
+   {
+      "channel": 307,
+      "domain": 136,
+      "detType": 2,
+      "serial": "CL29W",
+      "TimeOffset": 0.0,
+      "theta": 90,
+      "phi": 0,
+      "threshold": 15,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         10.6335,
+         1.323369
+      ],
+      "on": 1
+   },
+   {
+      "channel": 308,
+      "domain": 137,
+      "detType": 2,
+      "serial": "CL29W",
+      "TimeOffset": 0.0,
+      "theta": 90,
+      "phi": 0,
+      "threshold": 15,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         0.6793,
+         1.289148
+      ],
+      "on": 1
+   },
+   {
+      "channel": 309,
+      "domain": 138,
+      "detType": 2,
+      "serial": "CL29W",
+      "TimeOffset": 0.0,
+      "theta": 90,
+      "phi": 0,
+      "threshold": 15,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         5.8857,
+         1.259125
+      ],
+      "on": 1
+   },
+   {
+      "channel": 300,
+      "domain": 139,
+      "detType": 1,
+      "serial": "CL29W",
+      "TimeOffset": 0.0,
+      "theta": 90,
+      "phi": 0,
+      "threshold": 15,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         0.6872,
+         1.237339
+      ],
+      "on": 1
+   },
+   {
+      "channel": 301,
+      "domain": 140,
+      "detType": 10,
+      "serial": "CL29W",
+      "TimeOffset": 0.0,
+      "theta": 90,
+      "phi": 0,
+      "threshold": 10,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [],
+      "on": 1
+   },
+   {
+      "channel": 402,
+      "domain": 201,
+      "detType": 2,
+      "serial": "CL30B",
+      "TimeOffset": 0.0,
+      "theta": 90,
+      "phi": 0,
+      "threshold": 25,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         -0.6088,
+         1.324933
+      ],
+      "on": 1
+   },
+   {
+      "channel": 403,
+      "domain": 202,
+      "detType": 2,
+      "serial": "CL30B",
+      "TimeOffset": 0.0,
+      "theta": 90,
+      "phi": 0,
+      "threshold": 10,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         7.0962,
+         1.37196
+      ],
+      "on": 1
+   },
+   {
+      "channel": 404,
+      "domain": 203,
+      "detType": 2,
+      "serial": "CL30B",
+      "TimeOffset": 0.0,
+      "theta": 90,
+      "phi": 0,
+      "threshold": 10,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         3.7272,
+         1.347628
+      ],
+      "on": 1
+   },
+   {
+      "channel": 405,
+      "domain": 204,
+      "detType": 2,
+      "serial": "CL30B",
+      "TimeOffset": 0.0,
+      "theta": 90,
+      "phi": 0,
+      "threshold": 22,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         -3.8926,
+         1.369426
+      ],
+      "on": 1
+   },
+   {
+      "channel": 406,
+      "domain": 205,
+      "detType": 2,
+      "serial": "CL30B",
+      "TimeOffset": 0.0,
+      "theta": 90,
+      "phi": 0,
+      "threshold": 15,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         1.1902,
+         1.375922
+      ],
+      "on": 1
+   },
+   {
+      "channel": 407,
+      "domain": 206,
+      "detType": 2,
+      "serial": "CL30B",
+      "TimeOffset": 0.0,
+      "theta": 90,
+      "phi": 0,
+      "threshold": 15,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         -3.8531,
+         1.365752
+      ],
+      "on": 1
+   },
+   {
+      "channel": 408,
+      "domain": 207,
+      "detType": 2,
+      "serial": "CL30B",
+      "TimeOffset": 0.0,
+      "theta": 90,
+      "phi": 0,
+      "threshold": 15,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         -15.2833,
+         1.371758
+      ],
+      "on": 1
+   },
+   {
+      "channel": 409,
+      "domain": 208,
+      "detType": 2,
+      "serial": "CL30B",
+      "TimeOffset": 0.0,
+      "theta": 90,
+      "phi": 0,
+      "threshold": 18,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         -14.0892,
+         1.269648
+      ],
+      "on": 1
+   },
+   {
+      "channel": 400,
+      "domain": 209,
+      "detType": 1,
+      "serial": "CL30B",
+      "TimeOffset": 0.0,
+      "theta": 90,
+      "phi": 0,
+      "threshold": 10,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         0.4169,
+         1.315463
+      ],
+      "on": 1
+   },
+   {
+      "channel": 401,
+      "domain": 210,
+      "detType": 10,
+      "serial": "CL30B",
+      "TimeOffset": 0.0,
+      "theta": 90,
+      "phi": 0,
+      "threshold": 10,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [],
+      "on": 1
+   },
+   {
+      "channel": 502,
+      "domain": 211,
+      "detType": 2,
+      "serial": "CL30G",
+      "TimeOffset": 0.0,
+      "theta": 90,
+      "phi": 0,
+      "threshold": 12,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         0.9267,
+         1.364989
+      ],
+      "on": 1
+   },
+   {
+      "channel": 503,
+      "domain": 212,
+      "detType": 2,
+      "serial": "CL30G",
+      "TimeOffset": 0.0,
+      "theta": 90,
+      "phi": 0,
+      "threshold": 14,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         0.3994,
+         1.374188
+      ],
+      "on": 1
+   },
+   {
+      "channel": 504,
+      "domain": 213,
+      "detType": 2,
+      "serial": "CL30G",
+      "TimeOffset": 0.0,
+      "theta": 90,
+      "phi": 0,
+      "threshold": 17,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         2.0987,
+         1.331124
+      ],
+      "on": 1
+   },
+   {
+      "channel": 505,
+      "domain": 214,
+      "detType": 2,
+      "serial": "CL30G",
+      "TimeOffset": 0.0,
+      "theta": 90,
+      "phi": 0,
+      "threshold": 16,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         -4.6789,
+         1.376685
+      ],
+      "on": 1
+   },
+   {
+      "channel": 506,
+      "domain": 215,
+      "detType": 2,
+      "serial": "CL30G",
+      "TimeOffset": 0.0,
+      "theta": 90,
+      "phi": 0,
+      "threshold": 20,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         -2.7203,
+         1.314534
+      ],
+      "on": 1
+   },
+   {
+      "channel": 507,
+      "domain": 216,
+      "detType": 2,
+      "serial": "CL30G",
+      "TimeOffset": 0.0,
+      "theta": 90,
+      "phi": 0,
+      "threshold": 15,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         2.1273,
+         1.34854
+      ],
+      "on": 1
+   },
+   {
+      "channel": 508,
+      "domain": 217,
+      "detType": 2,
+      "serial": "CL30G",
+      "TimeOffset": 0.0,
+      "theta": 90,
+      "phi": 0,
+      "threshold": 14,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         0.7467,
+         1.357966
+      ],
+      "on": 1
+   },
+   {
+      "channel": 509,
+      "domain": 218,
+      "detType": 2,
+      "serial": "CL30G",
+      "TimeOffset": 0.0,
+      "theta": 90,
+      "phi": 0,
+      "threshold": 12,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         -0.1792,
+         1.282469
+      ],
+      "on": 1
+   },
+   {
+      "channel": 500,
+      "domain": 219,
+      "detType": 1,
+      "serial": "CL30G",
+      "TimeOffset": 0.0,
+      "theta": 90,
+      "phi": 0,
+      "threshold": 20,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         -1.3323,
+         1.315339
+      ],
+      "on": 1
+   },
+   {
+      "channel": 501,
+      "domain": 220,
+      "detType": 10,
+      "serial": "CL30G",
+      "TimeOffset": 0.0,
+      "theta": 90,
+      "phi": 0,
+      "threshold": 20,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         0.0,
+         1.0
+      ],
+      "on": 1
+   },
+   {
+      "channel": 602,
+      "domain": 221,
+      "detType": 2,
+      "serial": "CL30R",
+      "TimeOffset": 0.0,
+      "theta": 90,
+      "phi": 0,
+      "threshold": 16,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         -0.5648,
+         1.285753
+      ],
+      "on": 1
+   },
+   {
+      "channel": 603,
+      "domain": 222,
+      "detType": 2,
+      "serial": "CL30R",
+      "TimeOffset": 0.0,
+      "theta": 90,
+      "phi": 0,
+      "threshold": 19,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         1.6333,
+         1.338415
+      ],
+      "on": 1
+   },
+   {
+      "channel": 604,
+      "domain": 223,
+      "detType": 2,
+      "serial": "CL30R",
+      "TimeOffset": 0.0,
+      "theta": 90,
+      "phi": 0,
+      "threshold": 14,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         -0.0554,
+         1.302224
+      ],
+      "on": 1
+   },
+   {
+      "channel": 605,
+      "domain": 224,
+      "detType": 2,
+      "serial": "CL30R",
+      "TimeOffset": 0.0,
+      "theta": 90,
+      "phi": 0,
+      "threshold": 15,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         -1.3086,
+         1.296064
+      ],
+      "on": 1
+   },
+   {
+      "channel": 606,
+      "domain": 225,
+      "detType": 2,
+      "serial": "CL30R",
+      "TimeOffset": 0.0,
+      "theta": 90,
+      "phi": 0,
+      "threshold": 15,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         0.0006,
+         1.274128
+      ],
+      "on": 1
+   },
+   {
+      "channel": 607,
+      "domain": 226,
+      "detType": 2,
+      "serial": "CL30R",
+      "TimeOffset": 0.0,
+      "theta": 90,
+      "phi": 0,
+      "threshold": 15,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         -3.6723,
+         1.308439
+      ],
+      "on": 1
+   },
+   {
+      "channel": 608,
+      "domain": 227,
+      "detType": 2,
+      "serial": "CL30R",
+      "TimeOffset": 0.0,
+      "theta": 90,
+      "phi": 0,
+      "threshold": 15,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         -1.7208,
+         1.33602
+      ],
+      "on": 1
+   },
+   {
+      "channel": 609,
+      "domain": 228,
+      "detType": 2,
+      "serial": "CL30R",
+      "TimeOffset": 0.0,
+      "theta": 90,
+      "phi": 0,
+      "threshold": 15,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         -2.729,
+         1.284693
+      ],
+      "on": 1
+   },
+   {
+      "channel": 600,
+      "domain": 229,
+      "detType": 1,
+      "serial": "CL30R",
+      "TimeOffset": 0.0,
+      "theta": 90,
+      "phi": 0,
+      "threshold": 11,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         -1.2802,
+         1.295242
+      ],
+      "on": 1
+   },
+   {
+      "channel": 601,
+      "domain": 230,
+      "detType": 10,
+      "serial": "CL30R",
+      "TimeOffset": 0.0,
+      "theta": 90,
+      "phi": 0,
+      "threshold": 10,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [],
+      "on": 1
+   },
+   {
+      "channel": 702,
+      "domain": 231,
+      "detType": 2,
+      "serial": "CL30W",
+      "TimeOffset": 0.0,
+      "theta": 90,
+      "phi": 0,
+      "threshold": 15,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         0.5559,
+         1.359423
+      ],
+      "on": 1
+   },
+   {
+      "channel": 703,
+      "domain": 232,
+      "detType": 2,
+      "serial": "CL30W",
+      "TimeOffset": 0.0,
+      "theta": 90,
+      "phi": 0,
+      "threshold": 15,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         -0.2882,
+         1.345523
+      ],
+      "on": 1
+   },
+   {
+      "channel": 704,
+      "domain": 233,
+      "detType": 2,
+      "serial": "CL30W",
+      "TimeOffset": 0.0,
+      "theta": 90,
+      "phi": 0,
+      "threshold": 15,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         1.5938,
+         1.353225
+      ],
+      "on": 1
+   },
+   {
+      "channel": 705,
+      "domain": 234,
+      "detType": 2,
+      "serial": "CL30W",
+      "TimeOffset": 0.0,
+      "theta": 90,
+      "phi": 0,
+      "threshold": 15,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         2.6799,
+         1.362267
+      ],
+      "on": 1
+   },
+   {
+      "channel": 706,
+      "domain": 235,
+      "detType": 2,
+      "serial": "CL30W",
+      "TimeOffset": 0.0,
+      "theta": 90,
+      "phi": 0,
+      "threshold": 15,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         2.6867,
+         1.364361
+      ],
+      "on": 1
+   },
+   {
+      "channel": 707,
+      "domain": 236,
+      "detType": 2,
+      "serial": "CL30W",
+      "TimeOffset": 0.0,
+      "theta": 90,
+      "phi": 0,
+      "threshold": 15,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         -1.3854,
+         1.343683
+      ],
+      "on": 1
+   },
+   {
+      "channel": 708,
+      "domain": 237,
+      "detType": 2,
+      "serial": "CL30W",
+      "TimeOffset": 0.0,
+      "theta": 90,
+      "phi": 0,
+      "threshold": 15,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         4.7084,
+         1.3324
+      ],
+      "on": 1
+   },
+   {
+      "channel": 709,
+      "domain": 238,
+      "detType": 2,
+      "serial": "CL30W",
+      "TimeOffset": 0.0,
+      "theta": 90,
+      "phi": 0,
+      "threshold": 15,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         -3.3667,
+         1.28969
+      ],
+      "on": 1
+   },
+   {
+      "channel": 700,
+      "domain": 239,
+      "detType": 1,
+      "serial": "CL30W",
+      "TimeOffset": 0.0,
+      "theta": 90,
+      "phi": 0,
+      "threshold": 15,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         0.6956,
+         1.337863
+      ],
+      "on": 1
+   },
+   {
+      "channel": 701,
+      "domain": 240,
+      "detType": 10,
+      "serial": "CL30W",
+      "TimeOffset": 0.0,
+      "theta": 90,
+      "phi": 0,
+      "threshold": 10,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [],
+      "on": 1
+   },
+   {
+      "channel": 802,
+      "domain": 301,
+      "detType": 2,
+      "serial": "CL32B",
+      "TimeOffset": 0.0,
+      "theta": 90,
+      "phi": 0,
+      "threshold": 25,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         -7.5742,
+         1.321937
+      ],
+      "on": 1
+   },
+   {
+      "channel": 803,
+      "domain": 302,
+      "detType": 2,
+      "serial": "CL32B",
+      "TimeOffset": 0.0,
+      "theta": 90,
+      "phi": 0,
+      "threshold": 20,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         -1.5274,
+         1.276602
+      ],
+      "on": 1
+   },
+   {
+      "channel": 804,
+      "domain": 303,
+      "detType": 2,
+      "serial": "CL32B",
+      "TimeOffset": 0.0,
+      "theta": 90,
+      "phi": 0,
+      "threshold": 10,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         6.2122,
+         1.282422
+      ],
+      "on": 1
+   },
+   {
+      "channel": 805,
+      "domain": 304,
+      "detType": 2,
+      "serial": "CL32B",
+      "TimeOffset": 0.0,
+      "theta": 90,
+      "phi": 0,
+      "threshold": 22,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         -0.0218,
+         1.281812
+      ],
+      "on": 1
+   },
+   {
+      "channel": 806,
+      "domain": 305,
+      "detType": 2,
+      "serial": "CL32B",
+      "TimeOffset": 0.0,
+      "theta": 90,
+      "phi": 0,
+      "threshold": 15,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         3.6442,
+         1.285974
+      ],
+      "on": 1
+   },
+   {
+      "channel": 807,
+      "domain": 306,
+      "detType": 2,
+      "serial": "CL32B",
+      "TimeOffset": 0.0,
+      "theta": 90,
+      "phi": 0,
+      "threshold": 15,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         1.122,
+         1.342136
+      ],
+      "on": 1
+   },
+   {
+      "channel": 808,
+      "domain": 307,
+      "detType": 2,
+      "serial": "CL32B",
+      "TimeOffset": 0.0,
+      "theta": 90,
+      "phi": 0,
+      "threshold": 15,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         -2.0022,
+         1.281099
+      ],
+      "on": 1
+   },
+   {
+      "channel": 809,
+      "domain": 308,
+      "detType": 2,
+      "serial": "CL32B",
+      "TimeOffset": 0.0,
+      "theta": 90,
+      "phi": 0,
+      "threshold": 18,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         3.1096,
+         1.304968
+      ],
+      "on": 1
+   },
+   {
+      "channel": 800,
+      "domain": 309,
+      "detType": 1,
+      "serial": "CL32B",
+      "TimeOffset": 0.0,
+      "theta": 90,
+      "phi": 0,
+      "threshold": 10,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         2.8605,
+         1.353576
+      ],
+      "on": 1
+   },
+   {
+      "channel": 801,
+      "domain": 310,
+      "detType": 10,
+      "serial": "CL32B",
+      "TimeOffset": 0.0,
+      "theta": 90,
+      "phi": 0,
+      "threshold": 10,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [],
+      "on": 1
+   },
+   {
+      "channel": 902,
+      "domain": 311,
+      "detType": 2,
+      "serial": "CL32G",
+      "TimeOffset": 0.0,
+      "theta": 90,
+      "phi": 0,
+      "threshold": 12,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         -1.5798,
+         1.285782
+      ],
+      "on": 1
+   },
+   {
+      "channel": 903,
+      "domain": 312,
+      "detType": 2,
+      "serial": "CL32G",
+      "TimeOffset": 0.0,
+      "theta": 90,
+      "phi": 0,
+      "threshold": 14,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         -1.3915,
+         1.302408
+      ],
+      "on": 1
+   },
+   {
+      "channel": 904,
+      "domain": 313,
+      "detType": 2,
+      "serial": "CL32G",
+      "TimeOffset": 0.0,
+      "theta": 90,
+      "phi": 0,
+      "threshold": 17,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         -1.728,
+         1.274665
+      ],
+      "on": 1
+   },
+   {
+      "channel": 905,
+      "domain": 314,
+      "detType": 2,
+      "serial": "CL32G",
+      "TimeOffset": 0.0,
+      "theta": 90,
+      "phi": 0,
+      "threshold": 16,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         0.5443,
+         1.337209
+      ],
+      "on": 1
+   },
+   {
+      "channel": 906,
+      "domain": 315,
+      "detType": 2,
+      "serial": "CL32G",
+      "TimeOffset": 0.0,
+      "theta": 90,
+      "phi": 0,
+      "threshold": 20,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         -0.1937,
+         1.347245
+      ],
+      "on": 1
+   },
+   {
+      "channel": 907,
+      "domain": 316,
+      "detType": 2,
+      "serial": "CL32G",
+      "TimeOffset": 0.0,
+      "theta": 90,
+      "phi": 0,
+      "threshold": 15,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         5.5537,
+         1.349426
+      ],
+      "on": 1
+   },
+   {
+      "channel": 908,
+      "domain": 317,
+      "detType": 2,
+      "serial": "CL32G",
+      "TimeOffset": 0.0,
+      "theta": 90,
+      "phi": 0,
+      "threshold": 14,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         -2.1872,
+         1.353552
+      ],
+      "on": 1
+   },
+   {
+      "channel": 909,
+      "domain": 318,
+      "detType": 2,
+      "serial": "CL32G",
+      "TimeOffset": 0.0,
+      "theta": 90,
+      "phi": 0,
+      "threshold": 12,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         0.8256,
+         1.304328
+      ],
+      "on": 1
+   },
+   {
+      "channel": 900,
+      "domain": 319,
+      "detType": 1,
+      "serial": "CL32G",
+      "TimeOffset": 0.0,
+      "theta": 90,
+      "phi": 0,
+      "threshold": 20,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         -2.9808,
+         1.331591
+      ],
+      "on": 1
+   },
+   {
+      "channel": 901,
+      "domain": 320,
+      "detType": 10,
+      "serial": "CL32G",
+      "TimeOffset": 0.0,
+      "theta": 90,
+      "phi": 0,
+      "threshold": 20,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [],
+      "on": 1
+   },
+   {
+      "channel": 1002,
+      "domain": 321,
+      "detType": 2,
+      "serial": "CL32R",
+      "TimeOffset": 0.0,
+      "theta": 90,
+      "phi": 0,
+      "threshold": 16,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         5.4777,
+         1.280873
+      ],
+      "on": 1
+   },
+   {
+      "channel": 1003,
+      "domain": 322,
+      "detType": 2,
+      "serial": "CL32R",
+      "TimeOffset": 0.0,
+      "theta": 90,
+      "phi": 0,
+      "threshold": 19,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         2.2229,
+         1.241576
+      ],
+      "on": 1
+   },
+   {
+      "channel": 1004,
+      "domain": 323,
+      "detType": 2,
+      "serial": "CL32R",
+      "TimeOffset": 0.0,
+      "theta": 90,
+      "phi": 0,
+      "threshold": 14,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         1.4206,
+         1.279252
+      ],
+      "on": 1
+   },
+   {
+      "channel": 1005,
+      "domain": 324,
+      "detType": 2,
+      "serial": "CL32R",
+      "TimeOffset": 0.0,
+      "theta": 90,
+      "phi": 0,
+      "threshold": 15,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         1.3725,
+         1.260496
+      ],
+      "on": 1
+   },
+   {
+      "channel": 1006,
+      "domain": 325,
+      "detType": 2,
+      "serial": "CL32R",
+      "TimeOffset": 0.0,
+      "theta": 90,
+      "phi": 0,
+      "threshold": 15,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         0.7817,
+         1.281852
+      ],
+      "on": 1
+   },
+   {
+      "channel": 1007,
+      "domain": 326,
+      "detType": 2,
+      "serial": "CL32R",
+      "TimeOffset": 0.0,
+      "theta": 90,
+      "phi": 0,
+      "threshold": 15,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         -5.6261,
+         1.328106
+      ],
+      "on": 1
+   },
+   {
+      "channel": 1008,
+      "domain": 327,
+      "detType": 2,
+      "serial": "CL32R",
+      "TimeOffset": 0.0,
+      "theta": 90,
+      "phi": 0,
+      "threshold": 15,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         0.7681,
+         1.284333
+      ],
+      "on": 1
+   },
+   {
+      "channel": 1009,
+      "domain": 328,
+      "detType": 2,
+      "serial": "CL32R",
+      "TimeOffset": 0.0,
+      "theta": 90,
+      "phi": 0,
+      "threshold": 15,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         -0.082,
+         1.277596
+      ],
+      "on": 1
+   },
+   {
+      "channel": 1000,
+      "domain": 329,
+      "detType": 1,
+      "serial": "CL32R",
+      "TimeOffset": 0.0,
+      "theta": 90,
+      "phi": 0,
+      "threshold": 11,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         1.7114,
+         1.23847
+      ],
+      "on": 1
+   },
+   {
+      "channel": 1001,
+      "domain": 330,
+      "detType": 10,
+      "serial": "CL32R",
+      "TimeOffset": 0.0,
+      "theta": 90,
+      "phi": 0,
+      "threshold": 10,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [],
+      "on": 1
+   },
+   {
+      "channel": 1102,
+      "domain": 331,
+      "detType": 2,
+      "serial": "CL32W",
+      "TimeOffset": 0.0,
+      "theta": 90,
+      "phi": 0,
+      "threshold": 15,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         1.3046,
+         1.287328
+      ],
+      "on": 1
+   },
+   {
+      "channel": 1103,
+      "domain": 332,
+      "detType": 2,
+      "serial": "CL32W",
+      "TimeOffset": 0.0,
+      "theta": 90,
+      "phi": 0,
+      "threshold": 15,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         1.6899,
+         1.268557
+      ],
+      "on": 1
+   },
+   {
+      "channel": 1104,
+      "domain": 333,
+      "detType": 2,
+      "serial": "CL32W",
+      "TimeOffset": 0.0,
+      "theta": 90,
+      "phi": 0,
+      "threshold": 15,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         2.8486,
+         1.234042
+      ],
+      "on": 1
+   },
+   {
+      "channel": 1105,
+      "domain": 334,
+      "detType": 2,
+      "serial": "CL32W",
+      "TimeOffset": 0.0,
+      "theta": 90,
+      "phi": 0,
+      "threshold": 15,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         4.7703,
+         1.352684
+      ],
+      "on": 1
+   },
+   {
+      "channel": 1106,
+      "domain": 335,
+      "detType": 2,
+      "serial": "CL32W",
+      "TimeOffset": 0.0,
+      "theta": 90,
+      "phi": 0,
+      "threshold": 15,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         2.1801,
+         1.307979
+      ],
+      "on": 1
+   },
+   {
+      "channel": 1107,
+      "domain": 336,
+      "detType": 2,
+      "serial": "CL32W",
+      "TimeOffset": 0.0,
+      "theta": 90,
+      "phi": 0,
+      "threshold": 15,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         2.3922,
+         1.341185
+      ],
+      "on": 1
+   },
+   {
+      "channel": 1108,
+      "domain": 337,
+      "detType": 2,
+      "serial": "CL32W",
+      "TimeOffset": 0.0,
+      "theta": 90,
+      "phi": 0,
+      "threshold": 15,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         -3.1513,
+         1.286781
+      ],
+      "on": 1
+   },
+   {
+      "channel": 1109,
+      "domain": 338,
+      "detType": 2,
+      "serial": "CL32W",
+      "TimeOffset": 0.0,
+      "theta": 90,
+      "phi": 0,
+      "threshold": 15,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         4.0183,
+         1.287947
+      ],
+      "on": 1
+   },
+   {
+      "channel": 1100,
+      "domain": 339,
+      "detType": 1,
+      "serial": "CL32W",
+      "TimeOffset": 0.0,
+      "theta": 90,
+      "phi": 0,
+      "threshold": 15,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         -0.5667,
+         1.332584
+      ],
+      "on": 1
+   },
+   {
+      "channel": 1101,
+      "domain": 340,
+      "detType": 10,
+      "serial": "CL32W",
+      "TimeOffset": 0.0,
+      "theta": 90,
+      "phi": 0,
+      "threshold": 10,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [],
+      "on": 1
+   },
+   {
+      "channel": 1202,
+      "domain": 401,
+      "detType": 2,
+      "serial": "CL35B",
+      "TimeOffset": 0.0,
+      "theta": 90,
+      "phi": 0,
+      "threshold": 25,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         2.2005,
+         1.324781
+      ],
+      "on": 1
+   },
+   {
+      "channel": 1203,
+      "domain": 402,
+      "detType": 2,
+      "serial": "CL35B",
+      "TimeOffset": 0.0,
+      "theta": 90,
+      "phi": 0,
+      "threshold": 10,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         -0.4483,
+         1.326743
+      ],
+      "on": 1
+   },
+   {
+      "channel": 1204,
+      "domain": 403,
+      "detType": 2,
+      "serial": "CL35B",
+      "TimeOffset": 0.0,
+      "theta": 90,
+      "phi": 0,
+      "threshold": 10,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         -1.3394,
+         1.371348
+      ],
+      "on": 1
+   },
+   {
+      "channel": 1205,
+      "domain": 404,
+      "detType": 2,
+      "serial": "CL35B",
+      "TimeOffset": 0.0,
+      "theta": 90,
+      "phi": 0,
+      "threshold": 22,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         0.4486,
+         1.383831
+      ],
+      "on": 1
+   },
+   {
+      "channel": 1206,
+      "domain": 405,
+      "detType": 2,
+      "serial": "CL35B",
+      "TimeOffset": 0.0,
+      "theta": 90,
+      "phi": 0,
+      "threshold": 15,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         -0.3762,
+         1.347158
+      ],
+      "on": 1
+   },
+   {
+      "channel": 1207,
+      "domain": 406,
+      "detType": 2,
+      "serial": "CL35B",
+      "TimeOffset": 0.0,
+      "theta": 90,
+      "phi": 0,
+      "threshold": 15,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         -0.1836,
+         1.375734
+      ],
+      "on": 1
+   },
+   {
+      "channel": 1208,
+      "domain": 407,
+      "detType": 2,
+      "serial": "CL35B",
+      "TimeOffset": 0.0,
+      "theta": 90,
+      "phi": 0,
+      "threshold": 15,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         -1.8863,
+         1.378107
+      ],
+      "on": 1
+   },
+   {
+      "channel": 1209,
+      "domain": 408,
+      "detType": 2,
+      "serial": "CL35B",
+      "TimeOffset": 0.0,
+      "theta": 90,
+      "phi": 0,
+      "threshold": 18,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         2.4566,
+         1.31884
+      ],
+      "on": 1
+   },
+   {
+      "channel": 1200,
+      "domain": 409,
+      "detType": 1,
+      "serial": "CL35B",
+      "TimeOffset": 0.0,
+      "theta": 90,
+      "phi": 0,
+      "threshold": 10,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         -0.8041,
+         1.332556
+      ],
+      "on": 1
+   },
+   {
+      "channel": 1201,
+      "domain": 410,
+      "detType": 10,
+      "serial": "CL35B",
+      "TimeOffset": 0.0,
+      "theta": 90,
+      "phi": 0,
+      "threshold": 10,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [],
+      "on": 1
+   },
+   {
+      "channel": 1302,
+      "domain": 411,
+      "detType": 2,
+      "serial": "CL35G",
+      "TimeOffset": 0.0,
+      "theta": 90,
+      "phi": 0,
+      "threshold": 12,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         3.2267,
+         1.342057
+      ],
+      "on": 1
+   },
+   {
+      "channel": 1303,
+      "domain": 412,
+      "detType": 2,
+      "serial": "CL35G",
+      "TimeOffset": 0.0,
+      "theta": 90,
+      "phi": 0,
+      "threshold": 14,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         -1.8681,
+         1.385953
+      ],
+      "on": 1
+   },
+   {
+      "channel": 1304,
+      "domain": 413,
+      "detType": 2,
+      "serial": "CL35G",
+      "TimeOffset": 0.0,
+      "theta": 90,
+      "phi": 0,
+      "threshold": 17,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         4.046,
+         1.253232
+      ],
+      "on": 1
+   },
+   {
+      "channel": 1305,
+      "domain": 414,
+      "detType": 2,
+      "serial": "CL35G",
+      "TimeOffset": 0.0,
+      "theta": 90,
+      "phi": 0,
+      "threshold": 16,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         -0.3436,
+         1.374773
+      ],
+      "on": 1
+   },
+   {
+      "channel": 1306,
+      "domain": 415,
+      "detType": 2,
+      "serial": "CL35G",
+      "TimeOffset": 0.0,
+      "theta": 90,
+      "phi": 0,
+      "threshold": 20,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         1.2074,
+         1.361676
+      ],
+      "on": 1
+   },
+   {
+      "channel": 1307,
+      "domain": 416,
+      "detType": 2,
+      "serial": "CL35G",
+      "TimeOffset": 0.0,
+      "theta": 90,
+      "phi": 0,
+      "threshold": 15,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         2.2646,
+         1.355498
+      ],
+      "on": 1
+   },
+   {
+      "channel": 1308,
+      "domain": 417,
+      "detType": 2,
+      "serial": "CL35G",
+      "TimeOffset": 0.0,
+      "theta": 90,
+      "phi": 0,
+      "threshold": 14,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         2.0973,
+         1.31446
+      ],
+      "on": 1
+   },
+   {
+      "channel": 1309,
+      "domain": 418,
+      "detType": 2,
+      "serial": "CL35G",
+      "TimeOffset": 0.0,
+      "theta": 90,
+      "phi": 0,
+      "threshold": 12,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         0.1527,
+         1.407721
+      ],
+      "on": 1
+   },
+   {
+      "channel": 1300,
+      "domain": 419,
+      "detType": 1,
+      "serial": "CL35G",
+      "TimeOffset": 0.0,
+      "theta": 90,
+      "phi": 0,
+      "threshold": 20,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         -5.2061,
+         1.342761
+      ],
+      "on": 1
+   },
+   {
+      "channel": 1301,
+      "domain": 420,
+      "detType": 10,
+      "serial": "CL35G",
+      "TimeOffset": 0.0,
+      "theta": 90,
+      "phi": 0,
+      "threshold": 20,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [],
+      "on": 1
+   },
+   {
+      "channel": 1402,
+      "domain": 421,
+      "detType": 2,
+      "serial": "CL35R",
+      "TimeOffset": 0.0,
+      "theta": 90,
+      "phi": 0,
+      "threshold": 16,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         -0.1643,
+         1.340533
+      ],
+      "on": 1
+   },
+   {
+      "channel": 1403,
+      "domain": 422,
+      "detType": 2,
+      "serial": "CL35R",
+      "TimeOffset": 0.0,
+      "theta": 90,
+      "phi": 0,
+      "threshold": 19,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         1.2414,
+         1.336867
+      ],
+      "on": 1
+   },
+   {
+      "channel": 1404,
+      "domain": 423,
+      "detType": 2,
+      "serial": "CL35R",
+      "TimeOffset": 0.0,
+      "theta": 90,
+      "phi": 0,
+      "threshold": 14,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         0.5917,
+         1.315864
+      ],
+      "on": 1
+   },
+   {
+      "channel": 1405,
+      "domain": 424,
+      "detType": 2,
+      "serial": "CL35R",
+      "TimeOffset": 0.0,
+      "theta": 90,
+      "phi": 0,
+      "threshold": 15,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         1.8283,
+         1.351686
+      ],
+      "on": 1
+   },
+   {
+      "channel": 1406,
+      "domain": 425,
+      "detType": 2,
+      "serial": "CL35R",
+      "TimeOffset": 0.0,
+      "theta": 90,
+      "phi": 0,
+      "threshold": 15,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         1.3935,
+         1.326166
+      ],
+      "on": 1
+   },
+   {
+      "channel": 1407,
+      "domain": 426,
+      "detType": 2,
+      "serial": "CL35R",
+      "TimeOffset": 0.0,
+      "theta": 90,
+      "phi": 0,
+      "threshold": 15,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         -4.2868,
+         1.393052
+      ],
+      "on": 1
+   },
+   {
+      "channel": 1408,
+      "domain": 427,
+      "detType": 2,
+      "serial": "CL35R",
+      "TimeOffset": 0.0,
+      "theta": 90,
+      "phi": 0,
+      "threshold": 15,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         1.7775,
+         1.344281
+      ],
+      "on": 1
+   },
+   {
+      "channel": 1409,
+      "domain": 428,
+      "detType": 2,
+      "serial": "CL35R",
+      "TimeOffset": 0.0,
+      "theta": 90,
+      "phi": 0,
+      "threshold": 15,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         -1.3565,
+         1.346287
+      ],
+      "on": 1
+   },
+   {
+      "channel": 1400,
+      "domain": 429,
+      "detType": 1,
+      "serial": "CL35R",
+      "TimeOffset": 0.0,
+      "theta": 90,
+      "phi": 0,
+      "threshold": 11,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         1.4397,
+         1.327071
+      ],
+      "on": 1
+   },
+   {
+      "channel": 1401,
+      "domain": 430,
+      "detType": 10,
+      "serial": "CL35R",
+      "TimeOffset": 0.0,
+      "theta": 90,
+      "phi": 0,
+      "threshold": 10,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [],
+      "on": 1
+   },
+   {
+      "channel": 1502,
+      "domain": 431,
+      "detType": 2,
+      "serial": "CL35W",
+      "TimeOffset": 0.0,
+      "theta": 90,
+      "phi": 0,
+      "threshold": 15,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         1.8745,
+         1.34265
+      ],
+      "on": 1
+   },
+   {
+      "channel": 1503,
+      "domain": 432,
+      "detType": 2,
+      "serial": "CL35W",
+      "TimeOffset": 0.0,
+      "theta": 90,
+      "phi": 0,
+      "threshold": 15,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         1.5418,
+         1.352795
+      ],
+      "on": 1
+   },
+   {
+      "channel": 1504,
+      "domain": 433,
+      "detType": 2,
+      "serial": "CL35W",
+      "TimeOffset": 0.0,
+      "theta": 90,
+      "phi": 0,
+      "threshold": 15,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         1.1166,
+         1.369114
+      ],
+      "on": 1
+   },
+   {
+      "channel": 1505,
+      "domain": 434,
+      "detType": 2,
+      "serial": "CL35W",
+      "TimeOffset": 0.0,
+      "theta": 90,
+      "phi": 0,
+      "threshold": 15,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         0.4995,
+         1.347696
+      ],
+      "on": 1
+   },
+   {
+      "channel": 1506,
+      "domain": 435,
+      "detType": 2,
+      "serial": "CL35W",
+      "TimeOffset": 0.0,
+      "theta": 90,
+      "phi": 0,
+      "threshold": 15,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         1.3689,
+         1.372171
+      ],
+      "on": 1
+   },
+   {
+      "channel": 1507,
+      "domain": 436,
+      "detType": 2,
+      "serial": "CL35W",
+      "TimeOffset": 0.0,
+      "theta": 90,
+      "phi": 0,
+      "threshold": 15,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         1.2149,
+         1.370665
+      ],
+      "on": 1
+   },
+   {
+      "channel": 1508,
+      "domain": 437,
+      "detType": 2,
+      "serial": "CL35W",
+      "TimeOffset": 0.0,
+      "theta": 90,
+      "phi": 0,
+      "threshold": 15,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         0.6469,
+         1.31339
+      ],
+      "on": 1
+   },
+   {
+      "channel": 1509,
+      "domain": 438,
+      "detType": 2,
+      "serial": "CL35W",
+      "TimeOffset": 0.0,
+      "theta": 90,
+      "phi": 0,
+      "threshold": 15,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         1.3625,
+         1.318252
+      ],
+      "on": 1
+   },
+   {
+      "channel": 1500,
+      "domain": 439,
+      "detType": 1,
+      "serial": "CL35W",
+      "TimeOffset": 0.0,
+      "theta": 90,
+      "phi": 0,
+      "threshold": 15,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         -0.0781,
+         1.383548
+      ],
+      "on": 1
+   },
+   {
+      "channel": 1501,
+      "domain": 440,
+      "detType": 10,
+      "serial": "CL35W",
+      "TimeOffset": 0.0,
+      "theta": 90,
+      "phi": 0,
+      "threshold": 10,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [],
+      "on": 1
+   },
+   {
+      "channel": 1602,
+      "domain": 501,
+      "detType": 2,
+      "serial": "CL34B",
+      "TimeOffset": 0.0,
+      "theta": 0,
+      "phi": 0,
+      "threshold": 25,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         4.1641,
+         1.334219
+      ],
+      "on": 1
+   },
+   {
+      "channel": 1603,
+      "domain": 502,
+      "detType": 2,
+      "serial": "CL34B",
+      "TimeOffset": 0.0,
+      "theta": 0,
+      "phi": 0,
+      "threshold": 10,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         1.1,
+         1.320583
+      ],
+      "on": 1
+   },
+   {
+      "channel": 1604,
+      "domain": 503,
+      "detType": 2,
+      "serial": "CL34B",
+      "TimeOffset": 0.0,
+      "theta": 0,
+      "phi": 0,
+      "threshold": 10,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         -0.0942,
+         1.352487
+      ],
+      "on": 1
+   },
+   {
+      "channel": 1605,
+      "domain": 504,
+      "detType": 2,
+      "serial": "CL34B",
+      "TimeOffset": 0.0,
+      "theta": 0,
+      "phi": 0,
+      "threshold": 22,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         -2.3516,
+         1.335516
+      ],
+      "on": 1
+   },
+   {
+      "channel": 1606,
+      "domain": 505,
+      "detType": 2,
+      "serial": "CL34B",
+      "TimeOffset": 0.0,
+      "theta": 0,
+      "phi": 0,
+      "threshold": 15,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         -1.1182,
+         1.296079
+      ],
+      "on": 1
+   },
+   {
+      "channel": 1607,
+      "domain": 506,
+      "detType": 2,
+      "serial": "CL34B",
+      "TimeOffset": 0.0,
+      "theta": 0,
+      "phi": 0,
+      "threshold": 15,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         -0.2274,
+         1.332622
+      ],
+      "on": 1
+   },
+   {
+      "channel": 1608,
+      "domain": 507,
+      "detType": 2,
+      "serial": "CL34B",
+      "TimeOffset": 0.0,
+      "theta": 0,
+      "phi": 0,
+      "threshold": 15,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         0.6901,
+         1.318384
+      ],
+      "on": 1
+   },
+   {
+      "channel": 1609,
+      "domain": 508,
+      "detType": 2,
+      "serial": "CL34B",
+      "TimeOffset": 0.0,
+      "theta": 0,
+      "phi": 0,
+      "threshold": 18,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         1.1293,
+         1.305323
+      ],
+      "on": 1
+   },
+   {
+      "channel": 1600,
+      "domain": 509,
+      "detType": 1,
+      "serial": "CL34B",
+      "TimeOffset": 0.0,
+      "theta": 0,
+      "phi": 0,
+      "threshold": 10,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         0.7872,
+         1.339751
+      ],
+      "on": 1
+   },
+   {
+      "channel": 1601,
+      "domain": 510,
+      "detType": 10,
+      "serial": "CL34B",
+      "TimeOffset": 0.0,
+      "theta": 0,
+      "phi": 0,
+      "threshold": 10,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [],
+      "on": 1
+   },
+   {
+      "channel": 1702,
+      "domain": 511,
+      "detType": 2,
+      "serial": "CL34G",
+      "TimeOffset": 0.0,
+      "theta": 0,
+      "phi": 0,
+      "threshold": 12,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         -2.6952,
+         1.348505
+      ],
+      "on": 1
+   },
+   {
+      "channel": 1703,
+      "domain": 512,
+      "detType": 2,
+      "serial": "CL34G",
+      "TimeOffset": 0.0,
+      "theta": 0,
+      "phi": 0,
+      "threshold": 14,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         0.2691,
+         1.346409
+      ],
+      "on": 1
+   },
+   {
+      "channel": 1704,
+      "domain": 513,
+      "detType": 2,
+      "serial": "CL34G",
+      "TimeOffset": 0.0,
+      "theta": 0,
+      "phi": 0,
+      "threshold": 17,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         -0.421,
+         1.303084
+      ],
+      "on": 1
+   },
+   {
+      "channel": 1705,
+      "domain": 514,
+      "detType": 2,
+      "serial": "CL34G",
+      "TimeOffset": 0.0,
+      "theta": 0,
+      "phi": 0,
+      "threshold": 16,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         -0.4296,
+         1.286021
+      ],
+      "on": 1
+   },
+   {
+      "channel": 1706,
+      "domain": 515,
+      "detType": 2,
+      "serial": "CL34G",
+      "TimeOffset": 0.0,
+      "theta": 0,
+      "phi": 0,
+      "threshold": 20,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         1.2103,
+         1.378249
+      ],
+      "on": 1
+   },
+   {
+      "channel": 1707,
+      "domain": 516,
+      "detType": 2,
+      "serial": "CL34G",
+      "TimeOffset": 0.0,
+      "theta": 0,
+      "phi": 0,
+      "threshold": 15,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         -5.9592,
+         1.399226
+      ],
+      "on": 1
+   },
+   {
+      "channel": 1708,
+      "domain": 517,
+      "detType": 2,
+      "serial": "CL34G",
+      "TimeOffset": 0.0,
+      "theta": 0,
+      "phi": 0,
+      "threshold": 14,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         -3.3652,
+         1.349845
+      ],
+      "on": 1
+   },
+   {
+      "channel": 1709,
+      "domain": 518,
+      "detType": 2,
+      "serial": "CL34G",
+      "TimeOffset": 0.0,
+      "theta": 0,
+      "phi": 0,
+      "threshold": 12,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         -0.9853,
+         1.290978
+      ],
+      "on": 1
+   },
+   {
+      "channel": 1700,
+      "domain": 519,
+      "detType": 1,
+      "serial": "CL34G",
+      "TimeOffset": 0.0,
+      "theta": 0,
+      "phi": 0,
+      "threshold": 20,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         1.4112,
+         1.247109
+      ],
+      "on": 1
+   },
+   {
+      "channel": 1701,
+      "domain": 520,
+      "detType": 10,
+      "serial": "CL34G",
+      "TimeOffset": 0.0,
+      "theta": 0,
+      "phi": 0,
+      "threshold": 20,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [],
+      "on": 1
+   },
+   {
+      "channel": 1802,
+      "domain": 521,
+      "detType": 2,
+      "serial": "CL34R",
+      "TimeOffset": 0.0,
+      "theta": 0,
+      "phi": 0,
+      "threshold": 16,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         -1.588,
+         1.329462
+      ],
+      "on": 1
+   },
+   {
+      "channel": 1803,
+      "domain": 522,
+      "detType": 2,
+      "serial": "CL34R",
+      "TimeOffset": 0.0,
+      "theta": 0,
+      "phi": 0,
+      "threshold": 19,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         -2.4982,
+         1.359532
+      ],
+      "on": 1
+   },
+   {
+      "channel": 1804,
+      "domain": 523,
+      "detType": 2,
+      "serial": "CL34R",
+      "TimeOffset": 0.0,
+      "theta": 0,
+      "phi": 0,
+      "threshold": 14,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         0.8032,
+         1.370814
+      ],
+      "on": 1
+   },
+   {
+      "channel": 1805,
+      "domain": 524,
+      "detType": 2,
+      "serial": "CL34R",
+      "TimeOffset": 0.0,
+      "theta": 0,
+      "phi": 0,
+      "threshold": 15,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         2.8874,
+         1.374892
+      ],
+      "on": 1
+   },
+   {
+      "channel": 1806,
+      "domain": 525,
+      "detType": 2,
+      "serial": "CL34R",
+      "TimeOffset": 0.0,
+      "theta": 0,
+      "phi": 0,
+      "threshold": 15,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         6.3326,
+         1.33991
+      ],
+      "on": 1
+   },
+   {
+      "channel": 1807,
+      "domain": 526,
+      "detType": 2,
+      "serial": "CL34R",
+      "TimeOffset": 0.0,
+      "theta": 0,
+      "phi": 0,
+      "threshold": 15,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         3.9992,
+         1.306971
+      ],
+      "on": 1
+   },
+   {
+      "channel": 1808,
+      "domain": 527,
+      "detType": 2,
+      "serial": "CL34R",
+      "TimeOffset": 0.0,
+      "theta": 0,
+      "phi": 0,
+      "threshold": 15,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         -1.8735,
+         1.365138
+      ],
+      "on": 1
+   },
+   {
+      "channel": 1809,
+      "domain": 528,
+      "detType": 2,
+      "serial": "CL34R",
+      "TimeOffset": 0.0,
+      "theta": 0,
+      "phi": 0,
+      "threshold": 15,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         -0.1253,
+         1.296778
+      ],
+      "on": 1
+   },
+   {
+      "channel": 1800,
+      "domain": 529,
+      "detType": 1,
+      "serial": "CL34R",
+      "TimeOffset": 0.0,
+      "theta": 0,
+      "phi": 0,
+      "threshold": 11,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         1.7279,
+         1.333643
+      ],
+      "on": 1
+   },
+   {
+      "channel": 1801,
+      "domain": 530,
+      "detType": 10,
+      "serial": "CL34R",
+      "TimeOffset": 0.0,
+      "theta": 0,
+      "phi": 0,
+      "threshold": 10,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [],
+      "on": 1
+   },
+   {
+      "channel": 1902,
+      "domain": 531,
+      "detType": 2,
+      "serial": "CL34W",
+      "TimeOffset": 0.0,
+      "theta": 0,
+      "phi": 0,
+      "threshold": 15,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         5.3205,
+         1.315767
+      ],
+      "on": 1
+   },
+   {
+      "channel": 1903,
+      "domain": 532,
+      "detType": 2,
+      "serial": "CL34W",
+      "TimeOffset": 0.0,
+      "theta": 0,
+      "phi": 0,
+      "threshold": 15,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         0.6115,
+         1.290957
+      ],
+      "on": 1
+   },
+   {
+      "channel": 1904,
+      "domain": 533,
+      "detType": 2,
+      "serial": "CL34W",
+      "TimeOffset": 0.0,
+      "theta": 0,
+      "phi": 0,
+      "threshold": 15,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         0.6902,
+         1.252816
+      ],
+      "on": 1
+   },
+   {
+      "channel": 1905,
+      "domain": 534,
+      "detType": 2,
+      "serial": "CL34W",
+      "TimeOffset": 0.0,
+      "theta": 0,
+      "phi": 0,
+      "threshold": 15,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         2.0026,
+         1.30803
+      ],
+      "on": 1
+   },
+   {
+      "channel": 1906,
+      "domain": 535,
+      "detType": 2,
+      "serial": "CL34W",
+      "TimeOffset": 0.0,
+      "theta": 0,
+      "phi": 0,
+      "threshold": 15,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         0.7856,
+         1.347146
+      ],
+      "on": 1
+   },
+   {
+      "channel": 1907,
+      "domain": 536,
+      "detType": 2,
+      "serial": "CL34W",
+      "TimeOffset": 0.0,
+      "theta": 0,
+      "phi": 0,
+      "threshold": 15,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         0.9762,
+         1.299104
+      ],
+      "on": 1
+   },
+   {
+      "channel": 1908,
+      "domain": 537,
+      "detType": 2,
+      "serial": "CL34W",
+      "TimeOffset": 0.0,
+      "theta": 0,
+      "phi": 0,
+      "threshold": 15,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         0.6602,
+         1.354405
+      ],
+      "on": 1
+   },
+   {
+      "channel": 1909,
+      "domain": 538,
+      "detType": 2,
+      "serial": "CL34W",
+      "TimeOffset": 0.0,
+      "theta": 0,
+      "phi": 0,
+      "threshold": 15,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         2.2927,
+         1.301492
+      ],
+      "on": 1
+   },
+   {
+      "channel": 1900,
+      "domain": 539,
+      "detType": 1,
+      "serial": "CL34W",
+      "TimeOffset": 0.0,
+      "theta": 0,
+      "phi": 0,
+      "threshold": 15,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         1.5641,
+         1.305792
+      ],
+      "on": 1
+   },
+   {
+      "channel": 1901,
+      "domain": 540,
+      "detType": 10,
+      "serial": "CL34W",
+      "TimeOffset": 0.0,
+      "theta": 0,
+      "phi": 0,
+      "threshold": 10,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [],
+      "on": 1
+   },
+   {
+      "channel": 2002,
+      "domain": 601,
+      "detType": 2,
+      "serial": "CL36B",
+      "TimeOffset": 0.0,
+      "theta": 0,
+      "phi": 0,
+      "threshold": 25,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         -0.5223,
+         1.325039
+      ],
+      "on": 1
+   },
+   {
+      "channel": 2003,
+      "domain": 602,
+      "detType": 2,
+      "serial": "CL36B",
+      "TimeOffset": 0.0,
+      "theta": 0,
+      "phi": 0,
+      "threshold": 10,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [],
+      "on": 1
+   },
+   {
+      "channel": 2004,
+      "domain": 603,
+      "detType": 2,
+      "serial": "CL36B",
+      "TimeOffset": 0.0,
+      "theta": 0,
+      "phi": 0,
+      "threshold": 10,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         -2.587,
+         1.355525
+      ],
+      "on": 1
+   },
+   {
+      "channel": 2005,
+      "domain": 604,
+      "detType": 2,
+      "serial": "CL36B",
+      "TimeOffset": 0.0,
+      "theta": 0,
+      "phi": 0,
+      "threshold": 22,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         -0.3978,
+         1.340839
+      ],
+      "on": 1
+   },
+   {
+      "channel": 2006,
+      "domain": 605,
+      "detType": 2,
+      "serial": "CL36B",
+      "TimeOffset": 0.0,
+      "theta": 0,
+      "phi": 0,
+      "threshold": 15,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         1.9097,
+         1.359181
+      ],
+      "on": 1
+   },
+   {
+      "channel": 2007,
+      "domain": 606,
+      "detType": 2,
+      "serial": "CL36B",
+      "TimeOffset": 0.0,
+      "theta": 0,
+      "phi": 0,
+      "threshold": 15,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         -1.4279,
+         1.42446
+      ],
+      "on": 1
+   },
+   {
+      "channel": 2008,
+      "domain": 607,
+      "detType": 2,
+      "serial": "CL36B",
+      "TimeOffset": 0.0,
+      "theta": 0,
+      "phi": 0,
+      "threshold": 15,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         -0.2054,
+         1.353184
+      ],
+      "on": 1
+   },
+   {
+      "channel": 2009,
+      "domain": 608,
+      "detType": 2,
+      "serial": "CL36B",
+      "TimeOffset": 0.0,
+      "theta": 0,
+      "phi": 0,
+      "threshold": 18,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         -1.8623,
+         1.338743
+      ],
+      "on": 1
+   },
+   {
+      "channel": 2000,
+      "domain": 609,
+      "detType": 1,
+      "serial": "CL36B",
+      "TimeOffset": 0.0,
+      "theta": 0,
+      "phi": 0,
+      "threshold": 10,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         0.7672,
+         1.335072
+      ],
+      "on": 1
+   },
+   {
+      "channel": 2001,
+      "domain": 610,
+      "detType": 10,
+      "serial": "CL36B",
+      "TimeOffset": 0.0,
+      "theta": 0,
+      "phi": 0,
+      "threshold": 10,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [],
+      "on": 1
+   },
+   {
+      "channel": 2102,
+      "domain": 611,
+      "detType": 2,
+      "serial": "CL36G",
+      "TimeOffset": 0.0,
+      "theta": 0,
+      "phi": 0,
+      "threshold": 12,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         -0.9553,
+         1.308341
+      ],
+      "on": 1
+   },
+   {
+      "channel": 2103,
+      "domain": 612,
+      "detType": 2,
+      "serial": "CL36G",
+      "TimeOffset": 0.0,
+      "theta": 0,
+      "phi": 0,
+      "threshold": 14,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         0.5504,
+         1.363297
+      ],
+      "on": 1
+   },
+   {
+      "channel": 2104,
+      "domain": 613,
+      "detType": 2,
+      "serial": "CL36G",
+      "TimeOffset": 0.0,
+      "theta": 0,
+      "phi": 0,
+      "threshold": 17,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         2.8986,
+         1.32975
+      ],
+      "on": 1
+   },
+   {
+      "channel": 2105,
+      "domain": 614,
+      "detType": 2,
+      "serial": "CL36G",
+      "TimeOffset": 0.0,
+      "theta": 0,
+      "phi": 0,
+      "threshold": 16,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         -5.2786,
+         1.354919
+      ],
+      "on": 1
+   },
+   {
+      "channel": 2106,
+      "domain": 615,
+      "detType": 2,
+      "serial": "CL36G",
+      "TimeOffset": 0.0,
+      "theta": 0,
+      "phi": 0,
+      "threshold": 20,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [],
+      "on": 1
+   },
+   {
+      "channel": 2107,
+      "domain": 616,
+      "detType": 2,
+      "serial": "CL36G",
+      "TimeOffset": 0.0,
+      "theta": 0,
+      "phi": 0,
+      "threshold": 15,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         -0.0329,
+         1.396521
+      ],
+      "on": 1
+   },
+   {
+      "channel": 2108,
+      "domain": 617,
+      "detType": 2,
+      "serial": "CL36G",
+      "TimeOffset": 0.0,
+      "theta": 0,
+      "phi": 0,
+      "threshold": 14,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         -1.8063,
+         1.326064
+      ],
+      "on": 1
+   },
+   {
+      "channel": 2109,
+      "domain": 618,
+      "detType": 2,
+      "serial": "CL36G",
+      "TimeOffset": 0.0,
+      "theta": 0,
+      "phi": 0,
+      "threshold": 12,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         3.1064,
+         1.329105
+      ],
+      "on": 1
+   },
+   {
+      "channel": 2100,
+      "domain": 619,
+      "detType": 1,
+      "serial": "CL36G",
+      "TimeOffset": 0.0,
+      "theta": 0,
+      "phi": 0,
+      "threshold": 20,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         0.8408,
+         1.332221
+      ],
+      "on": 1
+   },
+   {
+      "channel": 2101,
+      "domain": 620,
+      "detType": 10,
+      "serial": "CL36G",
+      "TimeOffset": 0.0,
+      "theta": 0,
+      "phi": 0,
+      "threshold": 20,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [],
+      "on": 1
+   },
+   {
+      "channel": 2202,
+      "domain": 621,
+      "detType": 2,
+      "serial": "CL36R",
+      "TimeOffset": 0.0,
+      "theta": 0,
+      "phi": 0,
+      "threshold": 16,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         -0.8698,
+         1.375787
+      ],
+      "on": 1
+   },
+   {
+      "channel": 2203,
+      "domain": 622,
+      "detType": 2,
+      "serial": "CL36R",
+      "TimeOffset": 0.0,
+      "theta": 0,
+      "phi": 0,
+      "threshold": 19,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         1.2858,
+         1.350021
+      ],
+      "on": 1
+   },
+   {
+      "channel": 2204,
+      "domain": 623,
+      "detType": 2,
+      "serial": "CL36R",
+      "TimeOffset": 0.0,
+      "theta": 0,
+      "phi": 0,
+      "threshold": 14,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         -1.631,
+         1.38637
+      ],
+      "on": 1
+   },
+   {
+      "channel": 2205,
+      "domain": 624,
+      "detType": 2,
+      "serial": "CL36R",
+      "TimeOffset": 0.0,
+      "theta": 0,
+      "phi": 0,
+      "threshold": 15,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         -0.8156,
+         1.418087
+      ],
+      "on": 1
+   },
+   {
+      "channel": 2206,
+      "domain": 625,
+      "detType": 2,
+      "serial": "CL36R",
+      "TimeOffset": 0.0,
+      "theta": 0,
+      "phi": 0,
+      "threshold": 15,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         1.054,
+         1.358824
+      ],
+      "on": 1
+   },
+   {
+      "channel": 2207,
+      "domain": 626,
+      "detType": 2,
+      "serial": "CL36R",
+      "TimeOffset": 0.0,
+      "theta": 0,
+      "phi": 0,
+      "threshold": 15,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         -2.7967,
+         1.378987
+      ],
+      "on": 1
+   },
+   {
+      "channel": 2208,
+      "domain": 627,
+      "detType": 2,
+      "serial": "CL36R",
+      "TimeOffset": 0.0,
+      "theta": 0,
+      "phi": 0,
+      "threshold": 15,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         -2.9928,
+         1.406733
+      ],
+      "on": 1
+   },
+   {
+      "channel": 2209,
+      "domain": 628,
+      "detType": 2,
+      "serial": "CL36R",
+      "TimeOffset": 0.0,
+      "theta": 0,
+      "phi": 0,
+      "threshold": 15,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         0.5522,
+         1.429283
+      ],
+      "on": 1
+   },
+   {
+      "channel": 2200,
+      "domain": 629,
+      "detType": 1,
+      "serial": "CL36R",
+      "TimeOffset": 0.0,
+      "theta": 0,
+      "phi": 0,
+      "threshold": 11,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         -0.9178,
+         1.303185
+      ],
+      "on": 1
+   },
+   {
+      "channel": 2201,
+      "domain": 630,
+      "detType": 10,
+      "serial": "CL36R",
+      "TimeOffset": 0.0,
+      "theta": 0,
+      "phi": 0,
+      "threshold": 10,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [],
+      "on": 1
+   },
+   {
+      "channel": 2302,
+      "domain": 631,
+      "detType": 2,
+      "serial": "CL36W",
+      "TimeOffset": 0.0,
+      "theta": 0,
+      "phi": 0,
+      "threshold": 15,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         1.7181,
+         1.372141
+      ],
+      "on": 1
+   },
+   {
+      "channel": 2303,
+      "domain": 632,
+      "detType": 2,
+      "serial": "CL36W",
+      "TimeOffset": 0.0,
+      "theta": 0,
+      "phi": 0,
+      "threshold": 15,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         -1.1715,
+         1.34273
+      ],
+      "on": 1
+   },
+   {
+      "channel": 2304,
+      "domain": 633,
+      "detType": 2,
+      "serial": "CL36W",
+      "TimeOffset": 0.0,
+      "theta": 0,
+      "phi": 0,
+      "threshold": 15,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         -0.1353,
+         1.270597
+      ],
+      "on": 1
+   },
+   {
+      "channel": 2305,
+      "domain": 634,
+      "detType": 2,
+      "serial": "CL36W",
+      "TimeOffset": 0.0,
+      "theta": 0,
+      "phi": 0,
+      "threshold": 15,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         0.3396,
+         1.325799
+      ],
+      "on": 1
+   },
+   {
+      "channel": 2306,
+      "domain": 635,
+      "detType": 2,
+      "serial": "CL36W",
+      "TimeOffset": 0.0,
+      "theta": 0,
+      "phi": 0,
+      "threshold": 15,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         7.6474,
+         1.342059
+      ],
+      "on": 1
+   },
+   {
+      "channel": 2307,
+      "domain": 636,
+      "detType": 2,
+      "serial": "CL36W",
+      "TimeOffset": 0.0,
+      "theta": 0,
+      "phi": 0,
+      "threshold": 15,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         -5.1386,
+         1.305049
+      ],
+      "on": 1
+   },
+   {
+      "channel": 2308,
+      "domain": 637,
+      "detType": 2,
+      "serial": "CL36W",
+      "TimeOffset": 0.0,
+      "theta": 0,
+      "phi": 0,
+      "threshold": 15,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         0.8198,
+         1.320455
+      ],
+      "on": 1
+   },
+   {
+      "channel": 2309,
+      "domain": 638,
+      "detType": 2,
+      "serial": "CL36W",
+      "TimeOffset": 0.0,
+      "theta": 0,
+      "phi": 0,
+      "threshold": 15,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         0.8838,
+         1.347066
+      ],
+      "on": 1
+   },
+   {
+      "channel": 2300,
+      "domain": 639,
+      "detType": 1,
+      "serial": "CL36W",
+      "TimeOffset": 0.0,
+      "theta": 0,
+      "phi": 0,
+      "threshold": 15,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         -0.9193,
+         1.332034
+      ],
+      "on": 1
+   },
+   {
+      "channel": 2301,
+      "domain": 640,
+      "detType": 10,
+      "serial": "CL36W",
+      "TimeOffset": 0.0,
+      "theta": 0,
+      "phi": 0,
+      "threshold": 10,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [],
+      "on": 1
+   },
+   {
+      "channel": 2402,
+      "domain": 701,
+      "detType": 2,
+      "serial": "CL33B",
+      "TimeOffset": 0.0,
+      "theta": 0,
+      "phi": 0,
+      "threshold": 25,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         -0.3304,
+         1.219273
+      ],
+      "on": 1
+   },
+   {
+      "channel": 2403,
+      "domain": 702,
+      "detType": 2,
+      "serial": "CL33B",
+      "TimeOffset": 0.0,
+      "theta": 0,
+      "phi": 0,
+      "threshold": 10,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         -3.8337,
+         1.255129
+      ],
+      "on": 1
+   },
+   {
+      "channel": 2404,
+      "domain": 703,
+      "detType": 2,
+      "serial": "CL33B",
+      "TimeOffset": 0.0,
+      "theta": 0,
+      "phi": 0,
+      "threshold": 10,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         2.1031,
+         1.244893
+      ],
+      "on": 1
+   },
+   {
+      "channel": 2405,
+      "domain": 704,
+      "detType": 2,
+      "serial": "CL33B",
+      "TimeOffset": 0.0,
+      "theta": 0,
+      "phi": 0,
+      "threshold": 22,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         3.2818,
+         1.275582
+      ],
+      "on": 1
+   },
+   {
+      "channel": 2406,
+      "domain": 705,
+      "detType": 2,
+      "serial": "CL33B",
+      "TimeOffset": 0.0,
+      "theta": 0,
+      "phi": 0,
+      "threshold": 15,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         0.7033,
+         1.271432
+      ],
+      "on": 1
+   },
+   {
+      "channel": 2407,
+      "domain": 706,
+      "detType": 2,
+      "serial": "CL33B",
+      "TimeOffset": 0.0,
+      "theta": 0,
+      "phi": 0,
+      "threshold": 15,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         5.1395,
+         1.293682
+      ],
+      "on": 1
+   },
+   {
+      "channel": 2408,
+      "domain": 707,
+      "detType": 2,
+      "serial": "CL33B",
+      "TimeOffset": 0.0,
+      "theta": 0,
+      "phi": 0,
+      "threshold": 15,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [],
+      "on": 1
+   },
+   {
+      "channel": 2409,
+      "domain": 708,
+      "detType": 2,
+      "serial": "CL33B",
+      "TimeOffset": 0.0,
+      "theta": 0,
+      "phi": 0,
+      "threshold": 18,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [],
+      "on": 1
+   },
+   {
+      "channel": 2400,
+      "domain": 709,
+      "detType": 1,
+      "serial": "CL33B",
+      "TimeOffset": 0.0,
+      "theta": 0,
+      "phi": 0,
+      "threshold": 10,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         -1.454,
+         1.231625
+      ],
+      "on": 1
+   },
+   {
+      "channel": 2401,
+      "domain": 710,
+      "detType": 10,
+      "serial": "CL33B",
+      "TimeOffset": 0.0,
+      "theta": 0,
+      "phi": 0,
+      "threshold": 10,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [],
+      "on": 1
+   },
+   {
+      "channel": 2602,
+      "domain": 721,
+      "detType": 2,
+      "serial": "CL33R",
+      "TimeOffset": 0.0,
+      "theta": 0,
+      "phi": 0,
+      "threshold": 16,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         -2.581,
+         1.275005
+      ],
+      "on": 1
+   },
+   {
+      "channel": 2603,
+      "domain": 722,
+      "detType": 2,
+      "serial": "CL33R",
+      "TimeOffset": 0.0,
+      "theta": 0,
+      "phi": 0,
+      "threshold": 19,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         1.4556,
+         1.269857
+      ],
+      "on": 1
+   },
+   {
+      "channel": 2604,
+      "domain": 723,
+      "detType": 2,
+      "serial": "CL33R",
+      "TimeOffset": 0.0,
+      "theta": 0,
+      "phi": 0,
+      "threshold": 14,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         2.8086,
+         1.29497
+      ],
+      "on": 1
+   },
+   {
+      "channel": 2605,
+      "domain": 724,
+      "detType": 2,
+      "serial": "CL33R",
+      "TimeOffset": 0.0,
+      "theta": 0,
+      "phi": 0,
+      "threshold": 15,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         -6.8265,
+         1.279571
+      ],
+      "on": 1
+   },
+   {
+      "channel": 2606,
+      "domain": 725,
+      "detType": 2,
+      "serial": "CL33R",
+      "TimeOffset": 0.0,
+      "theta": 0,
+      "phi": 0,
+      "threshold": 15,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         -3.1675,
+         1.251055
+      ],
+      "on": 1
+   },
+   {
+      "channel": 2607,
+      "domain": 726,
+      "detType": 2,
+      "serial": "CL33R",
+      "TimeOffset": 0.0,
+      "theta": 0,
+      "phi": 0,
+      "threshold": 15,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         4.5337,
+         1.250249
+      ],
+      "on": 1
+   },
+   {
+      "channel": 2608,
+      "domain": 727,
+      "detType": 2,
+      "serial": "CL33R",
+      "TimeOffset": 0.0,
+      "theta": 0,
+      "phi": 0,
+      "threshold": 15,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         0.5874,
+         1.279803
+      ],
+      "on": 1
+   },
+   {
+      "channel": 2609,
+      "domain": 728,
+      "detType": 2,
+      "serial": "CL33R",
+      "TimeOffset": 0.0,
+      "theta": 0,
+      "phi": 0,
+      "threshold": 15,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         0.1559,
+         1.310171
+      ],
+      "on": 1
+   },
+   {
+      "channel": 2600,
+      "domain": 729,
+      "detType": 1,
+      "serial": "CL33R",
+      "TimeOffset": 0.0,
+      "theta": 0,
+      "phi": 0,
+      "threshold": 11,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         -1.8715,
+         1.211858
+      ],
+      "on": 1
+   },
+   {
+      "channel": 2601,
+      "domain": 730,
+      "detType": 10,
+      "serial": "CL33R",
+      "TimeOffset": 0.0,
+      "theta": 0,
+      "phi": 0,
+      "threshold": 10,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [],
+      "on": 1
+   },
+   {
+      "channel": 2702,
+      "domain": 731,
+      "detType": 2,
+      "serial": "CL33W",
+      "TimeOffset": 0.0,
+      "theta": 0,
+      "phi": 0,
+      "threshold": 15,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         1.7754,
+         1.291933
+      ],
+      "on": 1
+   },
+   {
+      "channel": 2703,
+      "domain": 732,
+      "detType": 2,
+      "serial": "CL33W",
+      "TimeOffset": 0.0,
+      "theta": 0,
+      "phi": 0,
+      "threshold": 15,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         -1.8649,
+         1.365356
+      ],
+      "on": 1
+   },
+   {
+      "channel": 2704,
+      "domain": 733,
+      "detType": 2,
+      "serial": "CL33W",
+      "TimeOffset": 0.0,
+      "theta": 0,
+      "phi": 0,
+      "threshold": 15,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         4.1812,
+         1.295835
+      ],
+      "on": 1
+   },
+   {
+      "channel": 2705,
+      "domain": 734,
+      "detType": 2,
+      "serial": "CL33W",
+      "TimeOffset": 0.0,
+      "theta": 0,
+      "phi": 0,
+      "threshold": 15,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         2.9552,
+         1.358229
+      ],
+      "on": 1
+   },
+   {
+      "channel": 2706,
+      "domain": 735,
+      "detType": 2,
+      "serial": "CL33W",
+      "TimeOffset": 0.0,
+      "theta": 0,
+      "phi": 0,
+      "threshold": 15,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [],
+      "on": 1
+   },
+   {
+      "channel": 2707,
+      "domain": 736,
+      "detType": 2,
+      "serial": "CL33W",
+      "TimeOffset": 0.0,
+      "theta": 0,
+      "phi": 0,
+      "threshold": 15,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [],
+      "on": 1
+   },
+   {
+      "channel": 2708,
+      "domain": 737,
+      "detType": 2,
+      "serial": "CL33W",
+      "TimeOffset": 0.0,
+      "theta": 0,
+      "phi": 0,
+      "threshold": 15,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         -1.4516,
+         1.256503
+      ],
+      "on": 1
+   },
+   {
+      "channel": 2709,
+      "domain": 738,
+      "detType": 2,
+      "serial": "CL33W",
+      "TimeOffset": 0.0,
+      "theta": 0,
+      "phi": 0,
+      "threshold": 15,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         1.2447,
+         1.242061
+      ],
+      "on": 1
+   },
+   {
+      "channel": 2700,
+      "domain": 739,
+      "detType": 1,
+      "serial": "CL33W",
+      "TimeOffset": 0.0,
+      "theta": 0,
+      "phi": 0,
+      "threshold": 15,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         1.7479,
+         1.275163
+      ],
+      "on": 1
+   },
+   {
+      "channel": 2701,
+      "domain": 740,
+      "detType": 10,
+      "serial": "CL33W",
+      "TimeOffset": 0.0,
+      "theta": 0,
+      "phi": 0,
+      "threshold": 10,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [],
+      "on": 1
+   },
+   {
+      "channel": 3102,
+      "domain": 811,
+      "detType": 2,
+      "serial": "CL31G",
+      "TimeOffset": 0.0,
+      "theta": 0,
+      "phi": 0,
+      "threshold": 12,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         -1.3437,
+         1.356989
+      ],
+      "on": 1
+   },
+   {
+      "channel": 3103,
+      "domain": 812,
+      "detType": 2,
+      "serial": "CL31G",
+      "TimeOffset": 0.0,
+      "theta": 0,
+      "phi": 0,
+      "threshold": 14,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         -1.8005,
+         1.394246
+      ],
+      "on": 1
+   },
+   {
+      "channel": 3104,
+      "domain": 813,
+      "detType": 2,
+      "serial": "CL31G",
+      "TimeOffset": 0.0,
+      "theta": 0,
+      "phi": 0,
+      "threshold": 17,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         -1.1022,
+         1.377419
+      ],
+      "on": 1
+   },
+   {
+      "channel": 3105,
+      "domain": 814,
+      "detType": 2,
+      "serial": "CL31G",
+      "TimeOffset": 0.0,
+      "theta": 0,
+      "phi": 0,
+      "threshold": 16,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         0.8568,
+         1.36049
+      ],
+      "on": 1
+   },
+   {
+      "channel": 3106,
+      "domain": 815,
+      "detType": 2,
+      "serial": "CL31G",
+      "TimeOffset": 0.0,
+      "theta": 0,
+      "phi": 0,
+      "threshold": 20,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         1.7769,
+         1.33554
+      ],
+      "on": 1
+   },
+   {
+      "channel": 3107,
+      "domain": 816,
+      "detType": 2,
+      "serial": "CL31G",
+      "TimeOffset": 0.0,
+      "theta": 0,
+      "phi": 0,
+      "threshold": 15,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         -0.365,
+         1.355889
+      ],
+      "on": 1
+   },
+   {
+      "channel": 3108,
+      "domain": 817,
+      "detType": 2,
+      "serial": "CL31G",
+      "TimeOffset": 0.0,
+      "theta": 0,
+      "phi": 0,
+      "threshold": 14,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         1.2543,
+         1.372946
+      ],
+      "on": 1
+   },
+   {
+      "channel": 3109,
+      "domain": 818,
+      "detType": 2,
+      "serial": "CL31G",
+      "TimeOffset": 0.0,
+      "theta": 0,
+      "phi": 0,
+      "threshold": 12,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         0.3293,
+         1.352526
+      ],
+      "on": 1
+   },
+   {
+      "channel": 3100,
+      "domain": 819,
+      "detType": 1,
+      "serial": "CL31G",
+      "TimeOffset": 0.0,
+      "theta": 0,
+      "phi": 0,
+      "threshold": 20,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         0.9048,
+         1.326835
+      ],
+      "on": 1
+   },
+   {
+      "channel": 3101,
+      "domain": 820,
+      "detType": 10,
+      "serial": "CL31G",
+      "TimeOffset": 0.0,
+      "theta": 0,
+      "phi": 0,
+      "threshold": 20,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [],
+      "on": 1
+   },
+   {
+      "channel": 3202,
+      "domain": 821,
+      "detType": 2,
+      "serial": "CL31R",
+      "TimeOffset": 0.0,
+      "theta": 0,
+      "phi": 0,
+      "threshold": 16,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         -4.3608,
+         1.385589
+      ],
+      "on": 1
+   },
+   {
+      "channel": 3203,
+      "domain": 822,
+      "detType": 2,
+      "serial": "CL31R",
+      "TimeOffset": 0.0,
+      "theta": 0,
+      "phi": 0,
+      "threshold": 19,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         -1.2165,
+         1.354052
+      ],
+      "on": 1
+   },
+   {
+      "channel": 3204,
+      "domain": 823,
+      "detType": 2,
+      "serial": "CL31R",
+      "TimeOffset": 0.0,
+      "theta": 0,
+      "phi": 0,
+      "threshold": 14,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         -3.006,
+         1.337972
+      ],
+      "on": 1
+   },
+   {
+      "channel": 3205,
+      "domain": 824,
+      "detType": 2,
+      "serial": "CL31R",
+      "TimeOffset": 0.0,
+      "theta": 0,
+      "phi": 0,
+      "threshold": 15,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         -1.0955,
+         1.357262
+      ],
+      "on": 1
+   },
+   {
+      "channel": 3206,
+      "domain": 825,
+      "detType": 2,
+      "serial": "CL31R",
+      "TimeOffset": 0.0,
+      "theta": 0,
+      "phi": 0,
+      "threshold": 15,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         -5.925,
+         1.394722
+      ],
+      "on": 1
+   },
+   {
+      "channel": 3207,
+      "domain": 826,
+      "detType": 2,
+      "serial": "CL31R",
+      "TimeOffset": 0.0,
+      "theta": 0,
+      "phi": 0,
+      "threshold": 15,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         3.7192,
+         1.323066
+      ],
+      "on": 1
+   },
+   {
+      "channel": 3208,
+      "domain": 827,
+      "detType": 2,
+      "serial": "CL31R",
+      "TimeOffset": 0.0,
+      "theta": 0,
+      "phi": 0,
+      "threshold": 15,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         1.0015,
+         1.369016
+      ],
+      "on": 1
+   },
+   {
+      "channel": 3209,
+      "domain": 828,
+      "detType": 2,
+      "serial": "CL31R",
+      "TimeOffset": 0.0,
+      "theta": 0,
+      "phi": 0,
+      "threshold": 15,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         0.7033,
+         1.324271
+      ],
+      "on": 1
+   },
+   {
+      "channel": 3200,
+      "domain": 829,
+      "detType": 1,
+      "serial": "CL31R",
+      "TimeOffset": 0.0,
+      "theta": 0,
+      "phi": 0,
+      "threshold": 11,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         -0.3364,
+         1.349675
+      ],
+      "on": 1
+   },
+   {
+      "channel": 3201,
+      "domain": 830,
+      "detType": 10,
+      "serial": "CL31R",
+      "TimeOffset": 0.0,
+      "theta": 0,
+      "phi": 0,
+      "threshold": 10,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [],
+      "on": 1
+   },
+   {
+      "channel": 3302,
+      "domain": 831,
+      "detType": 2,
+      "serial": "CL31W",
+      "TimeOffset": 0.0,
+      "theta": 0,
+      "phi": 0,
+      "threshold": 15,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         -0.1728,
+         1.33917
+      ],
+      "on": 1
+   },
+   {
+      "channel": 3303,
+      "domain": 832,
+      "detType": 2,
+      "serial": "CL31W",
+      "TimeOffset": 0.0,
+      "theta": 0,
+      "phi": 0,
+      "threshold": 15,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         -0.3447,
+         1.336286
+      ],
+      "on": 1
+   },
+   {
+      "channel": 3304,
+      "domain": 833,
+      "detType": 2,
+      "serial": "CL31W",
+      "TimeOffset": 0.0,
+      "theta": 0,
+      "phi": 0,
+      "threshold": 15,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         0.4659,
+         1.353253
+      ],
+      "on": 1
+   },
+   {
+      "channel": 3305,
+      "domain": 834,
+      "detType": 2,
+      "serial": "CL31W",
+      "TimeOffset": 0.0,
+      "theta": 0,
+      "phi": 0,
+      "threshold": 15,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         1.7298,
+         1.319502
+      ],
+      "on": 1
+   },
+   {
+      "channel": 3306,
+      "domain": 835,
+      "detType": 2,
+      "serial": "CL31W",
+      "TimeOffset": 0.0,
+      "theta": 0,
+      "phi": 0,
+      "threshold": 15,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         2.1959,
+         1.302559
+      ],
+      "on": 1
+   },
+   {
+      "channel": 3307,
+      "domain": 836,
+      "detType": 2,
+      "serial": "CL31W",
+      "TimeOffset": 0.0,
+      "theta": 0,
+      "phi": 0,
+      "threshold": 15,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         2.2368,
+         1.357285
+      ],
+      "on": 1
+   },
+   {
+      "channel": 3308,
+      "domain": 837,
+      "detType": 2,
+      "serial": "CL31W",
+      "TimeOffset": 0.0,
+      "theta": 0,
+      "phi": 0,
+      "threshold": 15,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         1.1121,
+         1.38355
+      ],
+      "on": 1
+   },
+   {
+      "channel": 3309,
+      "domain": 838,
+      "detType": 2,
+      "serial": "CL31W",
+      "TimeOffset": 0.0,
+      "theta": 0,
+      "phi": 0,
+      "threshold": 15,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         0.9478,
+         1.325527
+      ],
+      "on": 1
+   },
+   {
+      "channel": 3300,
+      "domain": 839,
+      "detType": 1,
+      "serial": "CL31W",
+      "TimeOffset": 0.0,
+      "theta": 0,
+      "phi": 0,
+      "threshold": 15,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         2.6775,
+         1.359494
+      ],
+      "on": 1
+   },
+   {
+      "channel": 3301,
+      "domain": 840,
+      "detType": 10,
+      "serial": "CL31W",
+      "TimeOffset": 0.0,
+      "theta": 0,
+      "phi": 0,
+      "threshold": 10,
+      "cs_dom": 0,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [],
+      "on": 1
+   },
+   {
+      "channel": 2800,
+      "domain": 900,
+      "detType": 5,
+      "serial": "BGOF",
+      "TimeOffset": 0.0,
+      "theta": 0,
+      "phi": 0,
+      "threshold": 200,
+      "cs_dom": 1,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [],
+      "on": 1
+   },
+   {
+      "channel": 2801,
+      "domain": 901,
+      "detType": 5,
+      "serial": "BGOF",
+      "TimeOffset": 0.0,
+      "theta": 0,
+      "phi": 0,
+      "threshold": 200,
+      "cs_dom": 1,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [],
+      "on": 1
+   },
+   {
+      "channel": 2802,
+      "domain": 902,
+      "detType": 5,
+      "serial": "BGOF",
+      "TimeOffset": 0.0,
+      "theta": 0,
+      "phi": 0,
+      "threshold": 200,
+      "cs_dom": 1,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [],
+      "on": 1
+   },
+   {
+      "channel": 2803,
+      "domain": 903,
+      "detType": 5,
+      "serial": "BGOF",
+      "TimeOffset": 0.0,
+      "theta": 0,
+      "phi": 0,
+      "threshold": 200,
+      "cs_dom": 1,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [],
+      "on": 1
+   },
+   {
+      "channel": 2804,
+      "domain": 991,
+      "detType": 3,
+      "serial": "LABR1",
+      "TimeOffset": 0.0,
+      "theta": 0,
+      "phi": 0,
+      "threshold": 200,
+      "cs_dom": 1,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [],
+      "on": 1
+   },
+   {
+      "channel": 2805,
+      "domain": 992,
+      "detType": 3,
+      "serial": "LABR2",
+      "TimeOffset": 0.0,
+      "theta": 0,
+      "phi": 0,
+      "threshold": 200,
+      "cs_dom": 1,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [],
+      "on": 1
+   },
+   {
+      "channel": 2806,
+      "domain": 993,
+      "detType": 3,
+      "serial": "LABR3",
+      "TimeOffset": 0.0,
+      "theta": 0,
+      "phi": 0,
+      "threshold": 200,
+      "cs_dom": 1,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [],
+      "on": 1
+   },
+   {
+      "channel": 2807,
+      "domain": 994,
+      "detType": 3,
+      "serial": "LABR4",
+      "TimeOffset": 0.0,
+      "theta": 0,
+      "phi": 0,
+      "threshold": 200,
+      "cs_dom": 1,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [],
+      "on": 1
+   },
+   {
+      "channel": 2900,
+      "domain": 904,
+      "detType": 6,
+      "serial": "BGOS",
+      "TimeOffset": 0.0,
+      "theta": 0,
+      "phi": 0,
+      "threshold": 200,
+      "cs_dom": 1,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [],
+      "on": 1
+   },
+   {
+      "channel": 2901,
+      "domain": 905,
+      "detType": 6,
+      "serial": "BGOS",
+      "TimeOffset": 0.0,
+      "theta": 0,
+      "phi": 0,
+      "threshold": 200,
+      "cs_dom": 1,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [],
+      "on": 1
+   },
+   {
+      "channel": 2902,
+      "domain": 906,
+      "detType": 6,
+      "serial": "BGOS",
+      "TimeOffset": 0.0,
+      "theta": 0,
+      "phi": 0,
+      "threshold": 200,
+      "cs_dom": 1,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [],
+      "on": 1
+   },
+   {
+      "channel": 2903,
+      "domain": 907,
+      "detType": 6,
+      "serial": "BGOS",
+      "TimeOffset": 0.0,
+      "theta": 0,
+      "phi": 0,
+      "threshold": 200,
+      "cs_dom": 1,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [],
+      "on": 1
+   },
+   {
+      "channel": 2904,
+      "domain": 908,
+      "detType": 4,
+      "serial": "CSIB",
+      "TimeOffset": 0.0,
+      "theta": 0,
+      "phi": 0,
+      "threshold": 200,
+      "cs_dom": 1,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [],
+      "on": 1
+   },
+   {
+      "channel": 2905,
+      "domain": 909,
+      "detType": 4,
+      "serial": "CSIB",
+      "TimeOffset": 0.0,
+      "theta": 0,
+      "phi": 0,
+      "threshold": 200,
+      "cs_dom": 1,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [],
+      "on": 1
+   },
+   {
+      "channel": 2907,
+      "domain": 911,
+      "detType": 4,
+      "serial": "CSIB",
+      "TimeOffset": 0.0,
+      "theta": 0,
+      "phi": 0,
+      "threshold": 200,
+      "cs_dom": 1,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         1.1585,
+         1.356885
+      ],
+      "on": 1
+   }
+]
