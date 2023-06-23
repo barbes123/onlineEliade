@@ -11,14 +11,15 @@ hpge_seg 	12 	100000
 #------------------------------------
 #builder_parameters index value_ps
 #------------------------------------
-trg_det_type	9998	1
-trg_domain 	9999 	109
-window_length 	1000 	1e5
+trg_det_type	9998	2
+trg_domain 	9999 	102
+window_length 	1000 	5e5
 pre_window	1002	0
+reference_dom   9996    111
 #------------------------------------
 #reaction param
 #------------------------------------
 #beta      	1111 	0
 #------------------------------------
-det_present 9997 12
+det_present 9997 1 2
 #------------------------------------
