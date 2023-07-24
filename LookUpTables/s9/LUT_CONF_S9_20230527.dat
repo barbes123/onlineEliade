@@ -13,7 +13,7 @@ time_alignement 00	1
 #builder_parameters index value_ps
 #------------------------------------
 trg_det_type	9998	0
-trg_domain 	9999 	4 109 119 129 139
+trg_domain 	9999 	1 109
 window_length 	1000 	5e5
 pre_window	1002	0
 #------------------------------------
