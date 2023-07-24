@@ -24,8 +24,8 @@ void GetRingRatioApril(int run_start = 44, int run_stop = 44)
  int vernb = 999; //version id for summed runs
 
  for (int runnb = run_start; runnb<=run_stop; runnb++){
-     if(gSystem->AccessPathName(Form("selected_run_%i_%i_eliadeS2.root", run_start, vernb))){
-        std::cout << "File run "<< run_start <<" does not exist" << std::endl;
+     if(gSystem->AccessPathName(Form("selected_run_%i_%i_eliadeS2.root", runnb, vernb))){
+//std::cout << "File run "<< run_start <<" does not exist" << std::endl;
         continue;
      };
     
@@ -42,8 +42,32 @@ void GetRingRatioApril(int run_start = 44, int run_stop = 44)
     // std::cout<< i <<" "<<nnring[i]<<"\n";
     };
 
-    std::cout<<"run "<<runnb<<" R1/R2 " << nnring[1]*1.0/nnring[2]<<" R1/R3 " <<nnring[1]*1.0/nnring[3]<<" R2/R3 " <<nnring[2]*1.0/nnring[3] <<" TOT   " << nn_tot <<"\n";
-    //std::cout<<" R1 " << nnring[1]<<" R2 " <<nnring[2]<<" R3 " <<nnring[3] <<" TOT   " << nn_tot <<"\n";
+std::cout<<"run "<<runnb
+	 <<" R1/R2 " << nnring[1]*1.0/nnring[2]
+	 <<" R1/R3 " <<nnring[1]*1.0/nnring[3]
+	 <<" R2/R3 " <<nnring[2]*1.0/nnring[3] <<" TOT   " << nn_tot <<" "
+	 
+	 <<" R1/R2 " << std::sqrt(1/(nnring[1]*1.0) + 1/(nnring[2]*1.0))
+	 <<" R1/R3 " << std::sqrt(1/(nnring[1]*1.0) + 1/(nnring[3]*1.0))
+	 <<" R2/R3 " << std::sqrt(1/(nnring[2]*1.0) + 1/(nnring[3]*1.0))
+ <<"\n";
+ //<<" TOT   " << nn_tot <<"\n";
+
+
+
+//   std::cout<<"run "<<runnb<<" R1 " << nnring[1]*1.0<<" R2 " <<nnring[2]*1.0<<" R3 " <<nnring[3] <<"\n";
+//   std::cout<<"run "<<runnb<<" R1/R2 " << (1/std::sqrt(nnring[1]*1.0) + 1/std::sqrt(nnring[2]*1.0))*(nnring[1]*1.0/nnring[2]*1.0)
+//			   <<" R1/R3 " << (1/std::sqrt(nnring[1]*1.0) + 1/std::sqrt(nnring[3]*1.0))*(nnring[1]*1.0/nnring[3]*1.0)
+//			   <<" R2/R3 " << (1/std::sqrt(nnring[2]*1.0) + 1/std::sqrt(nnring[3]*1.0))*(nnring[2]*1.0/nnring[3]*1.0)
+// <<"\n";
+
+  // std::cout<<"run "<<runnb<<" err [%] R1/R2 " << (1/std::sqrt(nnring[1]*1.0) + 1/std::sqrt(nnring[2]*1.0))*100
+//			   <<" err [%] R1/R3 " << (1/std::sqrt(nnring[1]*1.0) + 1/std::sqrt(nnring[3]*1.0))*100
+//			   <<" err [%] R2/R3 " << (1/std::sqrt(nnring[2]*1.0) + 1/std::sqrt(nnring[3]*1.0))*100
+// <<"\n";
+
+
+//   	std::cout<< "run " <<runnb<< " R1 " << nnring[1]<<" R2 " <<nnring[2]<<" R3 " <<nnring[3] <<" TOT   " << nn_tot <<"\n";
 
 
  };

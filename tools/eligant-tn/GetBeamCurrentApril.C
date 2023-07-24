@@ -52,7 +52,8 @@ void GetBeamCurrentApril(int run_start, int run_stop, int ver_start = 0, int ver
      
       t1->GetEntry(i);
       
-      if ((mod == 2) && (ch == 14)) beam++;//beam+=fEnergy;
+//      if ((mod == 2) && (ch == 14)) beam++;//beam+=fEnergy//for April 2023;
+      if ((mod == 2) && (ch == 10)) beam++;//beam+=fEnergy;for Jult 2023
 //        std::cout<<" run "<< run<<" last TS " << TS <<"\n";
 	}
 	
