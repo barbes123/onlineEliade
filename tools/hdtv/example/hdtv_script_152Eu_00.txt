@@ -1,0 +1,189 @@
+calibration position read preliminary_cal
+
+fit parameter background 3
+fit parameter tl free
+fit parameter tr free
+fit parameter status
+
+fit delete 0
+fit delete 1
+
+fit marker background set 220
+fit marker background set 235
+fit marker background set 255
+fit marker background set 265
+fit execute -b
+
+fit marker region set 240
+fit marker region set 247
+fit marker peak set 243
+
+fit execute
+window view region 200 270
+%sleep 1
+fit store
+fit clear
+
+fit marker background set 328
+fit marker background set 335
+fit marker background set 354
+fit marker background set 362
+fit execute -b
+
+fit marker region set 340
+fit marker region set 346
+fit marker peak set 343
+
+fit execute
+window view region 320 370
+%sleep 1
+fit store
+fit clear
+
+fit marker background set 430
+fit marker background set 435
+fit marker background set 450
+fit marker background set 456
+fit execute -b
+
+fit marker region set 439
+fit marker region set 446
+fit marker peak set 442
+
+fit execute
+window view region 430 470
+%sleep 1
+fit store
+fit clear
+
+fit marker background set 768
+fit marker background set 771
+fit marker background set 785
+fit marker background set 790
+fit execute -b
+
+fit marker region set 772
+fit marker region set 780
+fit marker peak set 776
+
+fit execute
+window view region 760 800
+%sleep 1
+fit store
+fit clear
+
+fit marker background set 850
+fit marker background set 858
+fit marker background set 875
+fit marker background set 885
+fit execute -b
+
+fit marker region set 861
+fit marker region set 869
+fit marker peak set 866
+
+fit execute
+window view region 840 900
+%sleep 1
+fit store
+fit clear
+
+fit marker background set 940
+fit marker background set 950
+fit marker background set 970
+fit marker background set 985
+fit execute -b
+
+fit marker region set 956
+fit marker region set 965
+fit marker peak set 962
+
+fit execute
+window view region 930 990
+%sleep 1
+fit store
+fit clear
+
+fit marker background set 1060
+fit marker background set 1070
+fit marker background set 1092
+fit marker background set 1100
+fit execute -b
+
+fit marker region set 1078
+fit marker region set 1090
+fit marker peak set 1083
+fit marker peak set 1086
+
+fit execute
+window view region 1055 1110
+%sleep 1
+fit store
+fit clear
+
+fit marker background set 1092
+fit marker background set 1100
+fit marker background set 1124
+fit marker background set 1130
+fit execute -b
+
+fit marker region set 1104
+fit marker region set 1113
+fit marker peak set 1109
+
+fit execute
+window view region 1090 1135
+%sleep 1
+fit store
+fit clear
+
+fit marker background set 1190
+fit marker background set 1200
+fit marker background set 1220
+fit marker background set 1230
+fit execute -b
+
+fit marker region set 1205
+fit marker region set 1212
+fit marker peak set 1209
+
+fit execute
+window view region 1180 1240
+%sleep 1
+fit store
+fit clear
+
+fit marker background set 1275
+fit marker background set 1285
+fit marker background set 1305
+fit marker background set 1315
+fit execute -b
+
+fit marker region set 1291
+fit marker region set 1300
+fit marker peak set 1297
+
+fit execute
+window view region 1200 1350
+%sleep 1
+fit store
+fit clear
+
+fit marker background set 1380
+fit marker background set 1390
+fit marker background set 1415
+fit marker background set 1425
+fit execute -b
+
+fit marker region set 1400
+fit marker region set 1409
+fit marker peak set 1404
+
+fit execute
+window view region 1380 1430
+%sleep 1
+fit store
+fit clear
+
+fit list
+fit write
