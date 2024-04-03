@@ -164,7 +164,7 @@
    {
       "channel": 1,
       "domain": 110,
-      "detType": 1,
+      "detType": 10,
       "serial": "CL31B",
       "TimeOffset": 0.0,
       "theta": 0,
@@ -344,7 +344,7 @@
    {
       "channel": 101,
       "domain": 120,
-      "detType": 1,
+      "detType": 10,
       "serial": "CL31G",
       "TimeOffset": -31.0,
       "theta": 0,
@@ -524,7 +524,7 @@
    {
       "channel": 201,
       "domain": 130,
-      "detType": 1,
+      "detType": 10,
       "serial": "CL31R",
       "TimeOffset": -52.0,
       "theta": 0,
@@ -704,7 +704,7 @@
    {
       "channel": 301,
       "domain": 140,
-      "detType": 1,
+      "detType": 10,
       "serial": "CL31W",
       "TimeOffset": -72.0,
       "theta": 0,
