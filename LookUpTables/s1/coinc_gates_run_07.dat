@@ -1,8 +1,8 @@
 #------------------------------------
 #coinc_name coinc_id gate_ps
 #------------------------------------
-hpge_hpge 	11 	100000
-hpge_seg 	12 	100000
+hpge_hpge 	11 	600000
+hpge_seg 	12 	600000
 #hpge_bgo  	15 	20000
 #labr_labr 	33 	40000
 #labr_bgo  	35 	2000
@@ -13,9 +13,14 @@ hpge_seg 	12 	100000
 #------------------------------------
 trg_det_type	9998	2
 trg_domain 	9999 	102
-window_length 	1000 	5e5
+window_length 	1000 	3e5
 pre_window	1002	0
-reference_dom   9996    111
+reference_dom   9996    109
+#------------------------------------
+#addback_parameters index value
+#------------------------------------
+AB_distance	2000	10000
+addback_tree	2001	0
 #------------------------------------
 #reaction param
 #------------------------------------
