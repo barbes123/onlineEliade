@@ -14,8 +14,10 @@ void TimeAlignementTrigger(TH2 *matrix, float alignment_pos=0.)
 	    << "I will calculate by default the offset to put in the LookUpTable\n"
 	    << "to put the coincidence peak in "<<alignment_pos <<" , except if you give a second parameter"
 	    << std::endl;
-  fstream outputFile;
-  outputFile.open("TimeCalib.dat", ios_base::out);		    
+  fstream outputFile1;
+ fstream outputFile2;
+  outputFile1.open("TimeCalibGaussian.dat", ios_base::out);		    
+  outputFile2.open("TimeCalibMaxBin.dat", ios_base::out);		    
 
   TString mat_name = matrix->GetName();
   Int_t nb_bin_mat  = matrix->GetYaxis()->GetNbins();
@@ -54,10 +56,12 @@ void TimeAlignementTrigger(TH2 *matrix, float alignment_pos=0.)
    
     std::cout<<" dom "<<jj-1<<" max_bin "<<max_bin<<" max bin "<< " max_bin_pos "<< max_bin_pos <<" gaus1 "<<gaus->GetParameter(1)<<" gaus2 "<< gaus2->GetParameter(1) <<"\n";
     std::cout << " domain " << jj-1<<" offset " << proj_y-> GetBinCenter(max_bin) - alignment_pos << " maxbin_pos " << proj_y-> GetBinCenter(max_bin) << std::endl;;
-    outputFile << jj-1 << "  " << gaus->GetParameter(1) - alignment_pos <<"\n";;
+    outputFile1 << jj-1 << "  " << gaus->GetParameter(1) - alignment_pos <<"\n";;
+    outputFile2 << jj-1 << "  " <<  max_bin_pos - alignment_pos <<"\n";;
     
     c1->WaitPrimitive();
     proj_y->Reset();
    }
-    outputFile.close();
+    outputFile1.close();
+    outputFile2.close();
 }
