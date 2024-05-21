@@ -7,7 +7,7 @@
       "fwhm": 3,
       "fitLimits": [
          800,
-         1200
+         1600
       ],
       "PTLimits": [
          0,
@@ -24,7 +24,7 @@
       "fwhm": 3,
       "fitLimits": [
          800,
-         1200
+         1600
       ],
       "PTLimits": [
          0,
