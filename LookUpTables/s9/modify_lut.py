@@ -4,7 +4,7 @@ import json
 import sys
 from os.path import exists
 
-file_lut = 'LUT_ELIADE_S9_pulser.json'
+file_lut = 'LUT_ELIADE_S9_20230623_RUN68_152Eu.json'
 
 def file_exists(myfile):
     if not exists(myfile):
@@ -20,32 +20,31 @@ def GetJSON_FILE(file_json):
 
 def UpdateFileds(js):
     for el in js:
-        if el['serial'] == 'pulser':
-            el['on'] = 1
-            el['detType'] = 9
-        else:
+        if el['serial'] != 'pulser':
             el['on'] = 0
+#            el['detType'] = 9
+#        else:
+#            el['on'] = 0
     return js
 
 def PrintFileds(js):
+    print('channel','domain','threshold', 'on', 'serial', 'TimeOffset')
     i = 1
     for el in js:
-        if el['serial'] == 'pulser':
-            print(i,' ' ,el['channel'], ' ',el['domain'], ' ',el['threshold'])
-            i+=1
-    return js
+       if (el['serial'][:-1]) == 'CL30':
+        # if el['on'] == 1:
+        print(i,' ' ,el['channel'], ' ',el['domain'], ' ', el['serial'], el['threshold'], ' ', el['on'], el['TimeOffset'])
+            # i+=1
 
 original_js = GetJSON_FILE(file_lut)
 PrintFileds(original_js)
 
-updated_js = json.dumps(UpdateFileds(original_js), indent=3)
-# PrintFileds(updated_js)
-with open('{}_new.json'.format(file_lut.split('.')[0]), 'w') as fout:
-    fout.write(updated_js)
-
-js = GetJSON_FILE('{}_new.json'.format(file_lut.split('.')[0]))
-
-PrintFileds(js)
+#updated_js = json.dumps(UpdateFileds(original_js), indent=3)
+#PrintFileds(updated_js)
+#with open('{}_new.json'.format(file_lut.split('.')[0]), 'w') as fout:
+#    fout.write(updated_js)
+#js = GetJSON_FILE('{}_new.json'.format(file_lut.split('.')[0]))
+#PrintFileds(js)
 
 
 
