@@ -15,14 +15,14 @@ ELIADE 3 0
 #------------------------------------
 trg_det_type	9998	1 2
 trg_domain 	9999 	102
-window_length 	1000 	3e5
+window_length 	1000 	4e5
 pre_window	1002	0
-reference_dom   9996   109
+#reference_dom   9996   109
 #------------------------------------
 #Extra procedures: 1-yes; 0-no
 #------------------------------------
 Time_Alignement 00     1
-reference_dom  9996    101
+reference_dom  9996    109
 UseFineTS       01     1
 Fold            02     0  
 #------------------------------------
@@ -35,6 +35,6 @@ Fold            02     0
 #AB_distance	2000	10000
 #addback_tree	2001	0
 #------------------------------------
-det_present 9997 1 2 3
+det_present 9997 1 2 3 9
 #------------------------------------
 
