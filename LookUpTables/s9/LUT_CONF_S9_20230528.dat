@@ -1,5 +1,5 @@
 #------------------------------------
-ELIADE 3 0
+IsEliade 1 1
 #------------------------------------
 #coinc_name coinc_id gate_ps
 #------------------------------------
@@ -25,6 +25,10 @@ Time_Alignement 00     1
 reference_dom  9996    109
 UseFineTS       01     1
 Fold            02     0  
+DeeSector       04     0
+DeeRing      	05     0
+ParticleCutGate 06     0
+DeeEx		07     0
 #------------------------------------
 #reaction param
 #------------------------------------
