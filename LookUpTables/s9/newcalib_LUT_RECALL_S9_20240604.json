@@ -1,0 +1,6042 @@
+[
+   {
+      "domain": 1,
+      "detType": 1,
+      "serial": "sumCore1",
+      "ampl": 10000,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ]
+   },
+   {
+      "domain": 2,
+      "detType": 2,
+      "serial": "sumSEG",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ]
+   },
+   {
+      "domain": 3,
+      "detType": 3,
+      "serial": "sumLaBr",
+      "ampl": 10,
+      "fwhm": 15,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ]
+   },
+   {
+      "domain": 101,
+      "detType": 2,
+      "serial": "CL29B",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ],
+      "pol_list": [
+         3.0466,
+         1.305807
+      ]
+   },
+   {
+      "domain": 102,
+      "detType": 2,
+      "serial": "CL29B",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ],
+      "pol_list": [
+         1.4209,
+         1.306388
+      ]
+   },
+   {
+      "domain": 103,
+      "detType": 2,
+      "serial": "CL29B",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ],
+      "pol_list": [
+         1.8914,
+         1.309827
+      ]
+   },
+   {
+      "domain": 104,
+      "detType": 2,
+      "serial": "CL29B",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ],
+      "pol_list": [
+         -0.1903,
+         1.261664
+      ]
+   },
+   {
+      "domain": 105,
+      "detType": 2,
+      "serial": "CL29B",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ],
+      "pol_list": [
+         0.9303,
+         1.295024
+      ]
+   },
+   {
+      "domain": 106,
+      "detType": 2,
+      "serial": "CL29B",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ],
+      "pol_list": [
+         4.6232,
+         1.35372
+      ]
+   },
+   {
+      "domain": 107,
+      "detType": 2,
+      "serial": "CL29B",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ],
+      "pol_list": [
+         -0.2446,
+         1.299463
+      ]
+   },
+   {
+      "domain": 108,
+      "detType": 2,
+      "serial": "CL29B",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ],
+      "pol_list": [
+         4.7958,
+         1.302193
+      ]
+   },
+   {
+      "domain": 109,
+      "detType": 1,
+      "serial": "CL29B",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ],
+      "pol_list": [
+         -1.9535,
+         1.306271
+      ]
+   },
+   {
+      "domain": 110,
+      "detType": 10,
+      "serial": "CL29B",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ]
+   },
+   {
+      "domain": 111,
+      "detType": 2,
+      "serial": "CL29G",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ],
+      "pol_list": [
+         -0.4508,
+         1.254141
+      ]
+   },
+   {
+      "domain": 112,
+      "detType": 2,
+      "serial": "CL29G",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ],
+      "pol_list": [
+         -0.4745,
+         1.271537
+      ]
+   },
+   {
+      "domain": 113,
+      "detType": 2,
+      "serial": "CL29G",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ],
+      "pol_list": [
+         1.5075,
+         1.263609
+      ]
+   },
+   {
+      "domain": 114,
+      "detType": 2,
+      "serial": "CL29G",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ],
+      "pol_list": [
+         1.3528,
+         1.278811
+      ]
+   },
+   {
+      "domain": 115,
+      "detType": 2,
+      "serial": "CL29G",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ],
+      "pol_list": [
+         -0.9005,
+         1.299578
+      ]
+   },
+   {
+      "domain": 116,
+      "detType": 2,
+      "serial": "CL29G",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ],
+      "pol_list": [
+         4.3215,
+         1.263139
+      ]
+   },
+   {
+      "domain": 117,
+      "detType": 2,
+      "serial": "CL29G",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ],
+      "pol_list": [
+         2.1218,
+         1.248317
+      ]
+   },
+   {
+      "domain": 118,
+      "detType": 2,
+      "serial": "CL29G",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ],
+      "pol_list": [
+         1.8556,
+         1.292032
+      ]
+   },
+   {
+      "domain": 119,
+      "detType": 1,
+      "serial": "CL29G",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ],
+      "pol_list": [
+         1.7167,
+         1.262979
+      ]
+   },
+   {
+      "domain": 120,
+      "detType": 10,
+      "serial": "CL29G",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ]
+   },
+   {
+      "domain": 121,
+      "detType": 2,
+      "serial": "CL29R",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ],
+      "pol_list": [
+         1.3092,
+         1.272703
+      ]
+   },
+   {
+      "domain": 122,
+      "detType": 2,
+      "serial": "CL29R",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ],
+      "pol_list": [
+         -2.5002,
+         1.271976
+      ]
+   },
+   {
+      "domain": 123,
+      "detType": 2,
+      "serial": "CL29R",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ],
+      "pol_list": [
+         0.0329,
+         1.32364
+      ]
+   },
+   {
+      "domain": 124,
+      "detType": 2,
+      "serial": "CL29R",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ],
+      "pol_list": [
+         -1.0025,
+         1.296558
+      ]
+   },
+   {
+      "domain": 125,
+      "detType": 2,
+      "serial": "CL29R",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ],
+      "pol_list": [
+         0.9357,
+         1.283097
+      ]
+   },
+   {
+      "domain": 126,
+      "detType": 2,
+      "serial": "CL29R",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ],
+      "pol_list": [
+         -0.3624,
+         1.344747
+      ]
+   },
+   {
+      "domain": 127,
+      "detType": 2,
+      "serial": "CL29R",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ],
+      "pol_list": [
+         -0.5868,
+         1.312105
+      ]
+   },
+   {
+      "domain": 128,
+      "detType": 2,
+      "serial": "CL29R",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ],
+      "pol_list": [
+         5.8244,
+         1.28848
+      ]
+   },
+   {
+      "domain": 129,
+      "detType": 1,
+      "serial": "CL29R",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ],
+      "pol_list": [
+         2.2633,
+         1.273361
+      ]
+   },
+   {
+      "domain": 130,
+      "detType": 10,
+      "serial": "CL29R",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ]
+   },
+   {
+      "domain": 131,
+      "detType": 2,
+      "serial": "CL29W",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ],
+      "pol_list": [
+         0.4025,
+         1.312691
+      ]
+   },
+   {
+      "domain": 132,
+      "detType": 2,
+      "serial": "CL29W",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ],
+      "pol_list": [
+         4.3249,
+         1.291916
+      ]
+   },
+   {
+      "domain": 133,
+      "detType": 2,
+      "serial": "CL29W",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ],
+      "pol_list": [
+         2.7077,
+         1.282156
+      ]
+   },
+   {
+      "domain": 134,
+      "detType": 2,
+      "serial": "CL29W",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ],
+      "pol_list": [
+         -3.888,
+         1.308552
+      ]
+   },
+   {
+      "domain": 135,
+      "detType": 2,
+      "serial": "CL29W",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ],
+      "pol_list": [
+         -0.4913,
+         1.285781
+      ]
+   },
+   {
+      "domain": 136,
+      "detType": 2,
+      "serial": "CL29W",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ],
+      "pol_list": [
+         5.3942,
+         1.306016
+      ]
+   },
+   {
+      "domain": 137,
+      "detType": 2,
+      "serial": "CL29W",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ],
+      "pol_list": [
+         0.92,
+         1.276932
+      ]
+   },
+   {
+      "domain": 138,
+      "detType": 2,
+      "serial": "CL29W",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ],
+      "pol_list": [
+         5.058,
+         1.251725
+      ]
+   },
+   {
+      "domain": 139,
+      "detType": 1,
+      "serial": "CL29W",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ],
+      "pol_list": [
+         1.1724,
+         1.239015
+      ]
+   },
+   {
+      "domain": 140,
+      "detType": 10,
+      "serial": "CL29W",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ]
+   },
+   {
+      "domain": 201,
+      "detType": 2,
+      "serial": "CL30B",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ],
+      "pol_list": [
+         4.4341,
+         1.323995
+      ]
+   },
+   {
+      "domain": 202,
+      "detType": 2,
+      "serial": "CL30B",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ],
+      "pol_list": [
+         3.7557,
+         1.32735
+      ]
+   },
+   {
+      "domain": 203,
+      "detType": 2,
+      "serial": "CL30B",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ],
+      "pol_list": [
+         4.4967,
+         1.312366
+      ]
+   },
+   {
+      "domain": 204,
+      "detType": 2,
+      "serial": "CL30B",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ],
+      "pol_list": [
+         3.4471,
+         1.322267
+      ]
+   },
+   {
+      "domain": 205,
+      "detType": 2,
+      "serial": "CL30B",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ],
+      "pol_list": [
+         3.9699,
+         1.331205
+      ]
+   },
+   {
+      "domain": 206,
+      "detType": 2,
+      "serial": "CL30B",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ],
+      "pol_list": [
+         2.5553,
+         1.289462
+      ]
+   },
+   {
+      "domain": 207,
+      "detType": 2,
+      "serial": "CL30B",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ],
+      "pol_list": [
+         5.2569,
+         1.358491
+      ]
+   },
+   {
+      "domain": 208,
+      "detType": 2,
+      "serial": "CL30B",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ],
+      "pol_list": [
+         5.1882,
+         1.283454
+      ]
+   },
+   {
+      "domain": 209,
+      "detType": 1,
+      "serial": "CL30B",
+      "ampl": 10000,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ],
+      "pol_list": [
+         5.553,
+         1.292234
+      ]
+   },
+   {
+      "domain": 210,
+      "detType": 10,
+      "serial": "CL30B",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ]
+   },
+   {
+      "domain": 211,
+      "detType": 2,
+      "serial": "CL30G",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ],
+      "pol_list": [
+         0.1561,
+         1.355048
+      ]
+   },
+   {
+      "domain": 212,
+      "detType": 2,
+      "serial": "CL30G",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ],
+      "pol_list": [
+         6.8419,
+         1.375922
+      ]
+   },
+   {
+      "domain": 213,
+      "detType": 2,
+      "serial": "CL30G",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ],
+      "pol_list": [
+         -2.6966,
+         1.364839
+      ]
+   },
+   {
+      "domain": 214,
+      "detType": 2,
+      "serial": "CL30G",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ],
+      "pol_list": [
+         -1.8851,
+         1.343599
+      ]
+   },
+   {
+      "domain": 215,
+      "detType": 2,
+      "serial": "CL30G",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ],
+      "pol_list": [
+         0.6677,
+         1.293938
+      ]
+   },
+   {
+      "domain": 216,
+      "detType": 2,
+      "serial": "CL30G",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ],
+      "pol_list": [
+         -5.8682,
+         1.357247
+      ]
+   },
+   {
+      "domain": 217,
+      "detType": 2,
+      "serial": "CL30G",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ],
+      "pol_list": [
+         5.205,
+         1.359911
+      ]
+   },
+   {
+      "domain": 218,
+      "detType": 2,
+      "serial": "CL30G",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ],
+      "pol_list": [
+         -3.8274,
+         1.290441
+      ]
+   },
+   {
+      "domain": 219,
+      "detType": 1,
+      "serial": "CL30G",
+      "ampl": 10000,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ],
+      "pol_list": [
+         -3.366,
+         1.335544
+      ]
+   },
+   {
+      "domain": 220,
+      "detType": 10,
+      "serial": "CL30G",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ]
+   },
+   {
+      "domain": 221,
+      "detType": 2,
+      "serial": "CL30R",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ],
+      "pol_list": [
+         -2.3912,
+         1.401067
+      ]
+   },
+   {
+      "domain": 222,
+      "detType": 2,
+      "serial": "CL30R",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ],
+      "pol_list": [
+         4.9477,
+         1.316796
+      ]
+   },
+   {
+      "domain": 223,
+      "detType": 2,
+      "serial": "CL30R",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ],
+      "pol_list": [
+         1.9756,
+         1.348934
+      ]
+   },
+   {
+      "domain": 224,
+      "detType": 2,
+      "serial": "CL30R",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ],
+      "pol_list": [
+         -2.9017,
+         1.356253
+      ]
+   },
+   {
+      "domain": 225,
+      "detType": 2,
+      "serial": "CL30R",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ],
+      "pol_list": [
+         -3.076,
+         1.273582
+      ]
+   },
+   {
+      "domain": 226,
+      "detType": 2,
+      "serial": "CL30R",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ],
+      "pol_list": [
+         3.0642,
+         1.313336
+      ]
+   },
+   {
+      "domain": 227,
+      "detType": 2,
+      "serial": "CL30R",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ],
+      "pol_list": [
+         0.9494,
+         1.344354
+      ]
+   },
+   {
+      "domain": 228,
+      "detType": 2,
+      "serial": "CL30R",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ],
+      "pol_list": [
+         1.8717,
+         1.290597
+      ]
+   },
+   {
+      "domain": 229,
+      "detType": 1,
+      "serial": "CL30R",
+      "ampl": 10000,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ],
+      "pol_list": [
+         -2.9957,
+         1.338925
+      ]
+   },
+   {
+      "domain": 230,
+      "detType": 10,
+      "serial": "CL30R",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ]
+   },
+   {
+      "domain": 231,
+      "detType": 2,
+      "serial": "CL30W",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ],
+      "pol_list": [
+         0.6087,
+         1.351734
+      ]
+   },
+   {
+      "domain": 232,
+      "detType": 2,
+      "serial": "CL30W",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ],
+      "pol_list": [
+         -1.6495,
+         1.340134
+      ]
+   },
+   {
+      "domain": 233,
+      "detType": 2,
+      "serial": "CL30W",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ],
+      "pol_list": [
+         -0.1018,
+         1.351988
+      ]
+   },
+   {
+      "domain": 234,
+      "detType": 2,
+      "serial": "CL30W",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ],
+      "pol_list": [
+         1.6722,
+         1.346101
+      ]
+   },
+   {
+      "domain": 235,
+      "detType": 2,
+      "serial": "CL30W",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ],
+      "pol_list": [
+         -3.5228,
+         1.359459
+      ]
+   },
+   {
+      "domain": 236,
+      "detType": 2,
+      "serial": "CL30W",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ],
+      "pol_list": [
+         -0.0826,
+         1.341148
+      ]
+   },
+   {
+      "domain": 237,
+      "detType": 2,
+      "serial": "CL30W",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ],
+      "pol_list": [
+         -3.9617,
+         1.326882
+      ]
+   },
+   {
+      "domain": 238,
+      "detType": 2,
+      "serial": "CL30W",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ],
+      "pol_list": [
+         -1.6046,
+         1.28827
+      ]
+   },
+   {
+      "domain": 239,
+      "detType": 1,
+      "serial": "CL30W",
+      "ampl": 10000,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ],
+      "pol_list": [
+         2.7732,
+         1.308546
+      ]
+   },
+   {
+      "domain": 240,
+      "detType": 10,
+      "serial": "CL30W",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ]
+   },
+   {
+      "domain": 301,
+      "detType": 2,
+      "serial": "CL32B",
+      "ampl": 10000,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1600
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ],
+      "pol_list": [
+         -4.2353,
+         1.317469
+      ]
+   },
+   {
+      "domain": 302,
+      "detType": 2,
+      "serial": "CL32B",
+      "ampl": 10000,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1600
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ],
+      "pol_list": [
+         -2.0505,
+         1.275797
+      ]
+   },
+   {
+      "domain": 303,
+      "detType": 2,
+      "serial": "CL32B",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1600
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ],
+      "pol_list": [
+         6.5986,
+         1.281169
+      ]
+   },
+   {
+      "domain": 304,
+      "detType": 2,
+      "serial": "CL32B",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1600
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ],
+      "pol_list": [
+         -0.089,
+         1.278763
+      ]
+   },
+   {
+      "domain": 305,
+      "detType": 2,
+      "serial": "CL32B",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1600
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ],
+      "pol_list": [
+         4.0362,
+         1.283777
+      ]
+   },
+   {
+      "domain": 306,
+      "detType": 2,
+      "serial": "CL32B",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1600
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ],
+      "pol_list": [
+         -1.6306,
+         1.342055
+      ]
+   },
+   {
+      "domain": 307,
+      "detType": 2,
+      "serial": "CL32B",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1600
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ],
+      "pol_list": [
+         -1.9067,
+         1.27991
+      ]
+   },
+   {
+      "domain": 308,
+      "detType": 2,
+      "serial": "CL32B",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1600
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ],
+      "pol_list": [
+         3.5883,
+         1.303755
+      ]
+   },
+   {
+      "domain": 309,
+      "detType": 1,
+      "serial": "CL32B",
+      "ampl": 10000,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1600
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ],
+      "pol_list": [
+         1.3686,
+         1.356012
+      ]
+   },
+   {
+      "domain": 310,
+      "detType": 10,
+      "serial": "CL32B",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ]
+   },
+   {
+      "domain": 311,
+      "detType": 2,
+      "serial": "CL32G",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ],
+      "pol_list": [
+         -1.2315,
+         1.284505
+      ]
+   },
+   {
+      "domain": 312,
+      "detType": 2,
+      "serial": "CL32G",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ],
+      "pol_list": [
+         -0.8248,
+         1.30063
+      ]
+   },
+   {
+      "domain": 313,
+      "detType": 2,
+      "serial": "CL32G",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ],
+      "pol_list": [
+         -0.8432,
+         1.272328
+      ]
+   },
+   {
+      "domain": 314,
+      "detType": 2,
+      "serial": "CL32G",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ],
+      "pol_list": [
+         -0.3117,
+         1.334955
+      ]
+   },
+   {
+      "domain": 315,
+      "detType": 2,
+      "serial": "CL32G",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ],
+      "pol_list": [
+         2.2951,
+         1.343773
+      ]
+   },
+   {
+      "domain": 316,
+      "detType": 2,
+      "serial": "CL32G",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ],
+      "pol_list": [
+         7.4795,
+         1.345622
+      ]
+   },
+   {
+      "domain": 317,
+      "detType": 2,
+      "serial": "CL32G",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ],
+      "pol_list": [
+         -4.1389,
+         1.354543
+      ]
+   },
+   {
+      "domain": 318,
+      "detType": 2,
+      "serial": "CL32G",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ],
+      "pol_list": [
+         4.439,
+         1.300199
+      ]
+   },
+   {
+      "domain": 319,
+      "detType": 1,
+      "serial": "CL32G",
+      "ampl": 10000,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ],
+      "pol_list": [
+         -3.7677,
+         1.333734
+      ]
+   },
+   {
+      "domain": 320,
+      "detType": 10,
+      "serial": "CL32G",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ]
+   },
+   {
+      "domain": 321,
+      "detType": 2,
+      "serial": "CL32R",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ],
+      "pol_list": [
+         3.5057,
+         1.28214
+      ]
+   },
+   {
+      "domain": 322,
+      "detType": 2,
+      "serial": "CL32R",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ],
+      "pol_list": [
+         1.3212,
+         1.241459
+      ]
+   },
+   {
+      "domain": 323,
+      "detType": 2,
+      "serial": "CL32R",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ],
+      "pol_list": [
+         2.4033,
+         1.277644
+      ]
+   },
+   {
+      "domain": 324,
+      "detType": 2,
+      "serial": "CL32R",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ],
+      "pol_list": [
+         0.9387,
+         1.25799
+      ]
+   },
+   {
+      "domain": 325,
+      "detType": 2,
+      "serial": "CL32R",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ],
+      "pol_list": [
+         0.9494,
+         1.280626
+      ]
+   },
+   {
+      "domain": 326,
+      "detType": 2,
+      "serial": "CL32R",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ],
+      "pol_list": [
+         -5.3393,
+         1.326504
+      ]
+   },
+   {
+      "domain": 327,
+      "detType": 2,
+      "serial": "CL32R",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ],
+      "pol_list": [
+         0.7355,
+         1.283673
+      ]
+   },
+   {
+      "domain": 328,
+      "detType": 2,
+      "serial": "CL32R",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ],
+      "pol_list": [
+         0.8259,
+         1.27649
+      ]
+   },
+   {
+      "domain": 329,
+      "detType": 1,
+      "serial": "CL32R",
+      "ampl": 10000,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ],
+      "pol_list": [
+         8.7303,
+         1.232727
+      ]
+   },
+   {
+      "domain": 330,
+      "detType": 10,
+      "serial": "CL32R",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ]
+   },
+   {
+      "domain": 331,
+      "detType": 2,
+      "serial": "CL32W",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ],
+      "pol_list": [
+         2.2831,
+         1.285183
+      ]
+   },
+   {
+      "domain": 332,
+      "detType": 2,
+      "serial": "CL32W",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ],
+      "pol_list": [
+         1.3906,
+         1.268866
+      ]
+   },
+   {
+      "domain": 333,
+      "detType": 2,
+      "serial": "CL32W",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ],
+      "pol_list": [
+         2.4455,
+         1.233755
+      ]
+   },
+   {
+      "domain": 334,
+      "detType": 2,
+      "serial": "CL32W",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ],
+      "pol_list": [
+         3.2979,
+         1.351118
+      ]
+   },
+   {
+      "domain": 335,
+      "detType": 2,
+      "serial": "CL32W",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ],
+      "pol_list": [
+         2.4449,
+         1.307008
+      ]
+   },
+   {
+      "domain": 336,
+      "detType": 2,
+      "serial": "CL32W",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ],
+      "pol_list": [
+         2.288,
+         1.339674
+      ]
+   },
+   {
+      "domain": 337,
+      "detType": 2,
+      "serial": "CL32W",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ],
+      "pol_list": [
+         -3.55,
+         1.286992
+      ]
+   },
+   {
+      "domain": 338,
+      "detType": 2,
+      "serial": "CL32W",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ],
+      "pol_list": [
+         2.5289,
+         1.288995
+      ]
+   },
+   {
+      "domain": 339,
+      "detType": 1,
+      "serial": "CL32W",
+      "ampl": 10000,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ],
+      "pol_list": [
+         0.619,
+         1.332146
+      ]
+   },
+   {
+      "domain": 340,
+      "detType": 10,
+      "serial": "CL32W",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ]
+   },
+   {
+      "domain": 401,
+      "detType": 2,
+      "serial": "CL35B",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ],
+      "pol_list": [
+         1.5231,
+         1.325596
+      ]
+   },
+   {
+      "domain": 402,
+      "detType": 2,
+      "serial": "CL35B",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ],
+      "pol_list": [
+         -0.1087,
+         1.326691
+      ]
+   },
+   {
+      "domain": 403,
+      "detType": 2,
+      "serial": "CL35B",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ],
+      "pol_list": [
+         -0.5397,
+         1.370214
+      ]
+   },
+   {
+      "domain": 404,
+      "detType": 2,
+      "serial": "CL35B",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ],
+      "pol_list": [
+         3.7916,
+         1.378186
+      ]
+   },
+   {
+      "domain": 405,
+      "detType": 2,
+      "serial": "CL35B",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ],
+      "pol_list": [
+         -1.4497,
+         1.348083
+      ]
+   },
+   {
+      "domain": 406,
+      "detType": 2,
+      "serial": "CL35B",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ],
+      "pol_list": [
+         0.1903,
+         1.374438
+      ]
+   },
+   {
+      "domain": 407,
+      "detType": 2,
+      "serial": "CL35B",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ],
+      "pol_list": [
+         -2.6511,
+         1.378131
+      ]
+   },
+   {
+      "domain": 408,
+      "detType": 2,
+      "serial": "CL35B",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ],
+      "pol_list": [
+         1.7426,
+         1.318667
+      ]
+   },
+   {
+      "domain": 409,
+      "detType": 1,
+      "serial": "CL35B",
+      "ampl": 10000,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ],
+      "pol_list": [
+         -0.2884,
+         1.332768
+      ]
+   },
+   {
+      "domain": 410,
+      "detType": 10,
+      "serial": "CL35B",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ]
+   },
+   {
+      "domain": 411,
+      "detType": 2,
+      "serial": "CL35G",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ],
+      "pol_list": [
+         2.8504,
+         1.341867
+      ]
+   },
+   {
+      "domain": 412,
+      "detType": 2,
+      "serial": "CL35G",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ],
+      "pol_list": [
+         -2.6358,
+         1.385803
+      ]
+   },
+   {
+      "domain": 413,
+      "detType": 2,
+      "serial": "CL35G",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ],
+      "pol_list": [
+         3.4299,
+         1.253028
+      ]
+   },
+   {
+      "domain": 414,
+      "detType": 2,
+      "serial": "CL35G",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ],
+      "pol_list": [
+         -1.0181,
+         1.372142
+      ]
+   },
+   {
+      "domain": 415,
+      "detType": 2,
+      "serial": "CL35G",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ],
+      "pol_list": [
+         2.2487,
+         1.359904
+      ]
+   },
+   {
+      "domain": 416,
+      "detType": 2,
+      "serial": "CL35G",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ],
+      "pol_list": [
+         1.7273,
+         1.354511
+      ]
+   },
+   {
+      "domain": 417,
+      "detType": 2,
+      "serial": "CL35G",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ],
+      "pol_list": [
+         1.2605,
+         1.315114
+      ]
+   },
+   {
+      "domain": 418,
+      "detType": 2,
+      "serial": "CL35G",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ],
+      "pol_list": [
+         -0.6576,
+         1.407661
+      ]
+   },
+   {
+      "domain": 419,
+      "detType": 1,
+      "serial": "CL35G",
+      "ampl": 10000,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ],
+      "pol_list": [
+         -4.9403,
+         1.342647
+      ]
+   },
+   {
+      "domain": 420,
+      "detType": 10,
+      "serial": "CL35G",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ]
+   },
+   {
+      "domain": 421,
+      "detType": 2,
+      "serial": "CL35R",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ],
+      "pol_list": [
+         0.503,
+         1.339288
+      ]
+   },
+   {
+      "domain": 422,
+      "detType": 2,
+      "serial": "CL35R",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ],
+      "pol_list": [
+         1.5593,
+         1.335152
+      ]
+   },
+   {
+      "domain": 423,
+      "detType": 2,
+      "serial": "CL35R",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ],
+      "pol_list": [
+         0.9036,
+         1.314093
+      ]
+   },
+   {
+      "domain": 424,
+      "detType": 2,
+      "serial": "CL35R",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ],
+      "pol_list": [
+         0.7798,
+         1.350125
+      ]
+   },
+   {
+      "domain": 425,
+      "detType": 2,
+      "serial": "CL35R",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ],
+      "pol_list": [
+         1.5217,
+         1.325204
+      ]
+   },
+   {
+      "domain": 426,
+      "detType": 2,
+      "serial": "CL35R",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ],
+      "pol_list": [
+         -3.3877,
+         1.390462
+      ]
+   },
+   {
+      "domain": 427,
+      "detType": 2,
+      "serial": "CL35R",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ],
+      "pol_list": [
+         1.0037,
+         1.344039
+      ]
+   },
+   {
+      "domain": 428,
+      "detType": 2,
+      "serial": "CL35R",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ],
+      "pol_list": [
+         -1.1598,
+         1.344831
+      ]
+   },
+   {
+      "domain": 429,
+      "detType": 1,
+      "serial": "CL35R",
+      "ampl": 10000,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ],
+      "pol_list": [
+         2.7637,
+         1.325692
+      ]
+   },
+   {
+      "domain": 430,
+      "detType": 10,
+      "serial": "CL35R",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ]
+   },
+   {
+      "domain": 431,
+      "detType": 2,
+      "serial": "CL35W",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ],
+      "pol_list": [
+         1.1035,
+         1.342235
+      ]
+   },
+   {
+      "domain": 432,
+      "detType": 2,
+      "serial": "CL35W",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ],
+      "pol_list": [
+         1.2445,
+         1.352566
+      ]
+   },
+   {
+      "domain": 433,
+      "detType": 2,
+      "serial": "CL35W",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ],
+      "pol_list": [
+         2.6659,
+         1.367298
+      ]
+   },
+   {
+      "domain": 434,
+      "detType": 2,
+      "serial": "CL35W",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ],
+      "pol_list": [
+         1.2403,
+         1.344603
+      ]
+   },
+   {
+      "domain": 435,
+      "detType": 2,
+      "serial": "CL35W",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ],
+      "pol_list": [
+         1.1741,
+         1.371334
+      ]
+   },
+   {
+      "domain": 436,
+      "detType": 2,
+      "serial": "CL35W",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ],
+      "pol_list": [
+         -1.4419,
+         1.371481
+      ]
+   },
+   {
+      "domain": 437,
+      "detType": 2,
+      "serial": "CL35W",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ],
+      "pol_list": [
+         2.6038,
+         1.311405
+      ]
+   },
+   {
+      "domain": 438,
+      "detType": 2,
+      "serial": "CL35W",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ],
+      "pol_list": [
+         0.991,
+         1.317812
+      ]
+   },
+   {
+      "domain": 439,
+      "detType": 1,
+      "serial": "CL35W",
+      "ampl": 10000,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ],
+      "pol_list": [
+         -0.2588,
+         1.383928
+      ]
+   },
+   {
+      "domain": 440,
+      "detType": 10,
+      "serial": "CL35W",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ]
+   },
+   {
+      "domain": 501,
+      "detType": 2,
+      "serial": "CL34B",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ],
+      "pol_list": [
+         5.076,
+         1.332418
+      ]
+   },
+   {
+      "domain": 502,
+      "detType": 2,
+      "serial": "CL34B",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ],
+      "pol_list": [
+         0.6888,
+         1.320088
+      ]
+   },
+   {
+      "domain": 503,
+      "detType": 2,
+      "serial": "CL34B",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ],
+      "pol_list": [
+         -0.3332,
+         1.351633
+      ]
+   },
+   {
+      "domain": 504,
+      "detType": 2,
+      "serial": "CL34B",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ],
+      "pol_list": [
+         -1.9385,
+         1.332246
+      ]
+   },
+   {
+      "domain": 505,
+      "detType": 2,
+      "serial": "CL34B",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ],
+      "pol_list": [
+         -0.1283,
+         1.294227
+      ]
+   },
+   {
+      "domain": 506,
+      "detType": 2,
+      "serial": "CL34B",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ],
+      "pol_list": [
+         0.1247,
+         1.330838
+      ]
+   },
+   {
+      "domain": 507,
+      "detType": 2,
+      "serial": "CL34B",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ],
+      "pol_list": [
+         1.3135,
+         1.316956
+      ]
+   },
+   {
+      "domain": 508,
+      "detType": 2,
+      "serial": "CL34B",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ],
+      "pol_list": [
+         0.6575,
+         1.305053
+      ]
+   },
+   {
+      "domain": 509,
+      "detType": 1,
+      "serial": "CL34B",
+      "ampl": 10000,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ],
+      "pol_list": [
+         0.8036,
+         1.340077
+      ]
+   },
+   {
+      "domain": 510,
+      "detType": 10,
+      "serial": "CL34B",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ]
+   },
+   {
+      "domain": 511,
+      "detType": 2,
+      "serial": "CL34G",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ],
+      "pol_list": [
+         -1.0501,
+         1.345851
+      ]
+   },
+   {
+      "domain": 512,
+      "detType": 2,
+      "serial": "CL34G",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ],
+      "pol_list": [
+         0.1507,
+         1.345681
+      ]
+   },
+   {
+      "domain": 513,
+      "detType": 2,
+      "serial": "CL34G",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ],
+      "pol_list": [
+         0.1438,
+         1.301602
+      ]
+   },
+   {
+      "domain": 514,
+      "detType": 2,
+      "serial": "CL34G",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ],
+      "pol_list": [
+         -0.6019,
+         1.284493
+      ]
+   },
+   {
+      "domain": 515,
+      "detType": 2,
+      "serial": "CL34G",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ],
+      "pol_list": [
+         0.3286,
+         1.378427
+      ]
+   },
+   {
+      "domain": 516,
+      "detType": 2,
+      "serial": "CL34G",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ],
+      "pol_list": [
+         -5.4434,
+         1.397344
+      ]
+   },
+   {
+      "domain": 517,
+      "detType": 2,
+      "serial": "CL34G",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ],
+      "pol_list": [
+         -3.215,
+         1.349174
+      ]
+   },
+   {
+      "domain": 518,
+      "detType": 2,
+      "serial": "CL34G",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ],
+      "pol_list": [
+         -1.3928,
+         1.290909
+      ]
+   },
+   {
+      "domain": 519,
+      "detType": 1,
+      "serial": "CL34G",
+      "ampl": 10000,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ],
+      "pol_list": [
+         1.4834,
+         1.248416
+      ]
+   },
+   {
+      "domain": 520,
+      "detType": 10,
+      "serial": "CL34G",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ]
+   },
+   {
+      "domain": 521,
+      "detType": 2,
+      "serial": "CL34R",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ],
+      "pol_list": [
+         -0.8458,
+         1.328104
+      ]
+   },
+   {
+      "domain": 522,
+      "detType": 2,
+      "serial": "CL34R",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ],
+      "pol_list": [
+         -1.3321,
+         1.357514
+      ]
+   },
+   {
+      "domain": 523,
+      "detType": 2,
+      "serial": "CL34R",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ],
+      "pol_list": [
+         2.1466,
+         1.368271
+      ]
+   },
+   {
+      "domain": 524,
+      "detType": 2,
+      "serial": "CL34R",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ],
+      "pol_list": [
+         1.8311,
+         1.373487
+      ]
+   },
+   {
+      "domain": 525,
+      "detType": 2,
+      "serial": "CL34R",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ],
+      "pol_list": [
+         5.0679,
+         1.339808
+      ]
+   },
+   {
+      "domain": 526,
+      "detType": 2,
+      "serial": "CL34R",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ],
+      "pol_list": [
+         3.7516,
+         1.305712
+      ]
+   },
+   {
+      "domain": 527,
+      "detType": 2,
+      "serial": "CL34R",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ],
+      "pol_list": [
+         -1.0742,
+         1.363877
+      ]
+   },
+   {
+      "domain": 528,
+      "detType": 2,
+      "serial": "CL34R",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ],
+      "pol_list": [
+         0.5158,
+         1.294724
+      ]
+   },
+   {
+      "domain": 529,
+      "detType": 1,
+      "serial": "CL34R",
+      "ampl": 10000,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ],
+      "pol_list": [
+         -0.1946,
+         1.335623
+      ]
+   },
+   {
+      "domain": 530,
+      "detType": 10,
+      "serial": "CL34R",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ]
+   },
+   {
+      "domain": 531,
+      "detType": 2,
+      "serial": "CL34W",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ],
+      "pol_list": [
+         5.5573,
+         1.314932
+      ]
+   },
+   {
+      "domain": 532,
+      "detType": 2,
+      "serial": "CL34W",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ],
+      "pol_list": [
+         0.1184,
+         1.290056
+      ]
+   },
+   {
+      "domain": 533,
+      "detType": 2,
+      "serial": "CL34W",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ],
+      "pol_list": [
+         0.7988,
+         1.251652
+      ]
+   },
+   {
+      "domain": 534,
+      "detType": 2,
+      "serial": "CL34W",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ],
+      "pol_list": [
+         2.7271,
+         1.304214
+      ]
+   },
+   {
+      "domain": 535,
+      "detType": 2,
+      "serial": "CL34W",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ],
+      "pol_list": [
+         -2.7826,
+         1.349897
+      ]
+   },
+   {
+      "domain": 536,
+      "detType": 2,
+      "serial": "CL34W",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ],
+      "pol_list": [
+         1.9049,
+         1.295602
+      ]
+   },
+   {
+      "domain": 537,
+      "detType": 2,
+      "serial": "CL34W",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ],
+      "pol_list": [
+         0.1129,
+         1.35277
+      ]
+   },
+   {
+      "domain": 538,
+      "detType": 2,
+      "serial": "CL34W",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ],
+      "pol_list": [
+         2.4361,
+         1.300506
+      ]
+   },
+   {
+      "domain": 539,
+      "detType": 1,
+      "serial": "CL34W",
+      "ampl": 10000,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ],
+      "pol_list": [
+         2.7649,
+         1.304571
+      ]
+   },
+   {
+      "domain": 540,
+      "detType": 10,
+      "serial": "CL34W",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ]
+   },
+   {
+      "domain": 601,
+      "detType": 2,
+      "serial": "CL31B",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ],
+      "pol_list": [
+         2.5453,
+         1.371268
+      ]
+   },
+   {
+      "domain": 602,
+      "detType": 2,
+      "serial": "CL31B",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ],
+      "pol_list": [
+         0.4383,
+         1.382102
+      ]
+   },
+   {
+      "domain": 603,
+      "detType": 2,
+      "serial": "CL31B",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ]
+   },
+   {
+      "domain": 604,
+      "detType": 2,
+      "serial": "CL31B",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1400
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ],
+      "pol_list": [
+         15.7817,
+         1.343044
+      ]
+   },
+   {
+      "domain": 605,
+      "detType": 2,
+      "serial": "CL31B",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ],
+      "pol_list": [
+         1.6031,
+         1.334839
+      ]
+   },
+   {
+      "domain": 606,
+      "detType": 2,
+      "serial": "CL31B",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ],
+      "pol_list": [
+         -3.12,
+         1.345515
+      ]
+   },
+   {
+      "domain": 607,
+      "detType": 2,
+      "serial": "CL31B",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ],
+      "pol_list": [
+         0.518,
+         1.37342
+      ]
+   },
+   {
+      "domain": 608,
+      "detType": 2,
+      "serial": "CL31B",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ],
+      "pol_list": [
+         -3.573,
+         1.337781
+      ]
+   },
+   {
+      "domain": 609,
+      "detType": 1,
+      "serial": "CL31B",
+      "ampl": 10000,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ]
+   },
+   {
+      "domain": 610,
+      "detType": 10,
+      "serial": "CL31B",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ]
+   },
+   {
+      "domain": 611,
+      "detType": 2,
+      "serial": "CL31G",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ],
+      "pol_list": [
+         -2.56,
+         1.321262
+      ]
+   },
+   {
+      "domain": 612,
+      "detType": 2,
+      "serial": "CL31G",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ],
+      "pol_list": [
+         0.7527,
+         1.372533
+      ]
+   },
+   {
+      "domain": 613,
+      "detType": 2,
+      "serial": "CL31G",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ],
+      "pol_list": [
+         1.3389,
+         1.347598
+      ]
+   },
+   {
+      "domain": 614,
+      "detType": 2,
+      "serial": "CL31G",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ],
+      "pol_list": [
+         -6.1604,
+         1.360633
+      ]
+   },
+   {
+      "domain": 615,
+      "detType": 2,
+      "serial": "CL31G",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ],
+      "pol_list": [
+         6.7258,
+         1.363582
+      ]
+   },
+   {
+      "domain": 616,
+      "detType": 2,
+      "serial": "CL31G",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ],
+      "pol_list": [
+         0.2398,
+         1.329373
+      ]
+   },
+   {
+      "domain": 617,
+      "detType": 2,
+      "serial": "CL31G",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ],
+      "pol_list": [
+         -0.8622,
+         1.35142
+      ]
+   },
+   {
+      "domain": 618,
+      "detType": 2,
+      "serial": "CL31G",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ],
+      "pol_list": [
+         3.5996,
+         1.32977
+      ]
+   },
+   {
+      "domain": 619,
+      "detType": 1,
+      "serial": "CL31G",
+      "ampl": 10000,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ],
+      "pol_list": [
+         -1.5862,
+         1.338147
+      ]
+   },
+   {
+      "domain": 620,
+      "detType": 10,
+      "serial": "CL31G",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ]
+   },
+   {
+      "domain": 621,
+      "detType": 2,
+      "serial": "CL31R",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ],
+      "pol_list": [
+         7.0029,
+         1.36489
+      ]
+   },
+   {
+      "domain": 622,
+      "detType": 2,
+      "serial": "CL31R",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ],
+      "pol_list": [
+         0.2992,
+         1.354702
+      ]
+   },
+   {
+      "domain": 623,
+      "detType": 2,
+      "serial": "CL31R",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ],
+      "pol_list": [
+         -0.8805,
+         1.359872
+      ]
+   },
+   {
+      "domain": 624,
+      "detType": 2,
+      "serial": "CL31R",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ],
+      "pol_list": [
+         0.0065,
+         1.36225
+      ]
+   },
+   {
+      "domain": 625,
+      "detType": 2,
+      "serial": "CL31R",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ],
+      "pol_list": [
+         0.0206,
+         1.362908
+      ]
+   },
+   {
+      "domain": 626,
+      "detType": 2,
+      "serial": "CL31R",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ],
+      "pol_list": [
+         -7.5888,
+         1.313179
+      ]
+   },
+   {
+      "domain": 627,
+      "detType": 2,
+      "serial": "CL31R",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ],
+      "pol_list": [
+         -2.235,
+         1.365213
+      ]
+   },
+   {
+      "domain": 628,
+      "detType": 2,
+      "serial": "CL31R",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ],
+      "pol_list": [
+         -1.2278,
+         1.301695
+      ]
+   },
+   {
+      "domain": 629,
+      "detType": 1,
+      "serial": "CL31R",
+      "ampl": 10000,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ],
+      "pol_list": [
+         -0.2493,
+         1.322892
+      ]
+   },
+   {
+      "domain": 630,
+      "detType": 10,
+      "serial": "CL31R",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ]
+   },
+   {
+      "domain": 631,
+      "detType": 2,
+      "serial": "CL31W",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ],
+      "pol_list": [
+         1.3475,
+         1.372875
+      ]
+   },
+   {
+      "domain": 632,
+      "detType": 2,
+      "serial": "CL31W",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ],
+      "pol_list": [
+         0.0056,
+         1.315805
+      ]
+   },
+   {
+      "domain": 633,
+      "detType": 2,
+      "serial": "CL31W",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ],
+      "pol_list": [
+         -1.2262,
+         1.358873
+      ]
+   },
+   {
+      "domain": 634,
+      "detType": 2,
+      "serial": "CL31W",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ],
+      "pol_list": [
+         0.9277,
+         1.3146
+      ]
+   },
+   {
+      "domain": 635,
+      "detType": 2,
+      "serial": "CL31W",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ],
+      "pol_list": [
+         9.1663,
+         1.308748
+      ]
+   },
+   {
+      "domain": 636,
+      "detType": 2,
+      "serial": "CL31W",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ],
+      "pol_list": [
+         -7.5412,
+         1.346112
+      ]
+   },
+   {
+      "domain": 637,
+      "detType": 2,
+      "serial": "CL31W",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ],
+      "pol_list": [
+         1.9345,
+         1.331837
+      ]
+   },
+   {
+      "domain": 638,
+      "detType": 2,
+      "serial": "CL31W",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ],
+      "pol_list": [
+         -0.0277,
+         1.301824
+      ]
+   },
+   {
+      "domain": 639,
+      "detType": 1,
+      "serial": "CL31W",
+      "ampl": 10000,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ],
+      "pol_list": [
+         -0.8554,
+         1.354982
+      ]
+   },
+   {
+      "domain": 640,
+      "detType": 10,
+      "serial": "CL31W",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ]
+   },
+   {
+      "domain": 701,
+      "detType": 2,
+      "serial": "CL33B",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ],
+      "pol_list": [
+         -1.5155,
+         1.219867
+      ]
+   },
+   {
+      "domain": 702,
+      "detType": 2,
+      "serial": "CL33B",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ],
+      "pol_list": [
+         -4.7126,
+         1.255453
+      ]
+   },
+   {
+      "domain": 703,
+      "detType": 2,
+      "serial": "CL33B",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ],
+      "pol_list": [
+         3.1762,
+         1.243011
+      ]
+   },
+   {
+      "domain": 704,
+      "detType": 2,
+      "serial": "CL33B",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ],
+      "pol_list": [
+         2.9162,
+         1.274927
+      ]
+   },
+   {
+      "domain": 705,
+      "detType": 2,
+      "serial": "CL33B",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ],
+      "pol_list": [
+         0.3968,
+         1.270845
+      ]
+   },
+   {
+      "domain": 706,
+      "detType": 2,
+      "serial": "CL33B",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ],
+      "pol_list": [
+         5.7954,
+         1.293033
+      ]
+   },
+   {
+      "domain": 707,
+      "detType": 2,
+      "serial": "CL33B",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         700,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ],
+      "pol_list": [
+         -0.8245,
+         1.453553
+      ]
+   },
+   {
+      "domain": 708,
+      "detType": 2,
+      "serial": "CL33B",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ],
+      "pol_list": [
+         0.5887,
+         1.263149
+      ]
+   },
+   {
+      "domain": 709,
+      "detType": 1,
+      "serial": "CL33B",
+      "ampl": 10000,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ],
+      "pol_list": [
+         -1.1041,
+         1.232403
+      ]
+   },
+   {
+      "domain": 710,
+      "detType": 10,
+      "serial": "CL33B",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ]
+   },
+   {
+      "domain": 721,
+      "detType": 2,
+      "serial": "CL33R",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ],
+      "pol_list": [
+         -3.0054,
+         1.274542
+      ]
+   },
+   {
+      "domain": 722,
+      "detType": 2,
+      "serial": "CL33R",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ],
+      "pol_list": [
+         0.6254,
+         1.270702
+      ]
+   },
+   {
+      "domain": 723,
+      "detType": 2,
+      "serial": "CL33R",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ],
+      "pol_list": [
+         1.3887,
+         1.295049
+      ]
+   },
+   {
+      "domain": 724,
+      "detType": 2,
+      "serial": "CL33R",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ],
+      "pol_list": [
+         -5.603,
+         1.277079
+      ]
+   },
+   {
+      "domain": 725,
+      "detType": 2,
+      "serial": "CL33R",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ],
+      "pol_list": [
+         -3.6393,
+         1.251369
+      ]
+   },
+   {
+      "domain": 726,
+      "detType": 2,
+      "serial": "CL33R",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ],
+      "pol_list": [
+         3.925,
+         1.251629
+      ]
+   },
+   {
+      "domain": 727,
+      "detType": 2,
+      "serial": "CL33R",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ],
+      "pol_list": [
+         0.7736,
+         1.279544
+      ]
+   },
+   {
+      "domain": 728,
+      "detType": 2,
+      "serial": "CL33R",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ],
+      "pol_list": [
+         0.4673,
+         1.309456
+      ]
+   },
+   {
+      "domain": 729,
+      "detType": 1,
+      "serial": "CL33R",
+      "ampl": 10000,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ],
+      "pol_list": [
+         -2.466,
+         1.21301
+      ]
+   },
+   {
+      "domain": 730,
+      "detType": 10,
+      "serial": "CL33R",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ]
+   },
+   {
+      "domain": 731,
+      "detType": 2,
+      "serial": "CL33W",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ],
+      "pol_list": [
+         -0.0612,
+         1.292221
+      ]
+   },
+   {
+      "domain": 732,
+      "detType": 2,
+      "serial": "CL33W",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ],
+      "pol_list": [
+         -1.5646,
+         1.363942
+      ]
+   },
+   {
+      "domain": 733,
+      "detType": 2,
+      "serial": "CL33W",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ],
+      "pol_list": [
+         3.5668,
+         1.295476
+      ]
+   },
+   {
+      "domain": 734,
+      "detType": 2,
+      "serial": "CL33W",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ],
+      "pol_list": [
+         0.6073,
+         1.358645
+      ]
+   },
+   {
+      "domain": 735,
+      "detType": 2,
+      "serial": "CL33W",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ],
+      "pol_list": [
+         -0.3975,
+         1.27909
+      ]
+   },
+   {
+      "domain": 736,
+      "detType": 2,
+      "serial": "CL33W",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ],
+      "pol_list": [
+         -1.1649,
+         1.322407
+      ]
+   },
+   {
+      "domain": 737,
+      "detType": 2,
+      "serial": "CL33W",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ],
+      "pol_list": [
+         -2.2805,
+         1.256748
+      ]
+   },
+   {
+      "domain": 738,
+      "detType": 2,
+      "serial": "CL33W",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ],
+      "pol_list": [
+         1.3161,
+         1.241512
+      ]
+   },
+   {
+      "domain": 739,
+      "detType": 1,
+      "serial": "CL33W",
+      "ampl": 10000,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ],
+      "pol_list": [
+         0.3427,
+         1.275974
+      ]
+   },
+   {
+      "domain": 740,
+      "detType": 10,
+      "serial": "CL33W",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ]
+   },
+   {
+      "domain": 801,
+      "detType": 2,
+      "serial": "CL36B",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ],
+      "pol_list": [
+         -1.1493,
+         1.297683
+      ]
+   },
+   {
+      "domain": 802,
+      "detType": 2,
+      "serial": "CL36B",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ]
+   },
+   {
+      "domain": 803,
+      "detType": 2,
+      "serial": "CL36B",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ],
+      "pol_list": [
+         2.7674,
+         1.371212
+      ]
+   },
+   {
+      "domain": 804,
+      "detType": 2,
+      "serial": "CL36B",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ],
+      "pol_list": [
+         -4.5009,
+         1.36896
+      ]
+   },
+   {
+      "domain": 805,
+      "detType": 2,
+      "serial": "CL36B",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ],
+      "pol_list": [
+         0.7387,
+         1.356286
+      ]
+   },
+   {
+      "domain": 806,
+      "detType": 2,
+      "serial": "CL36B",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ],
+      "pol_list": [
+         -0.7888,
+         1.441697
+      ]
+   },
+   {
+      "domain": 807,
+      "detType": 2,
+      "serial": "CL36B",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ],
+      "pol_list": [
+         -11.2996,
+         1.360842
+      ]
+   },
+   {
+      "domain": 808,
+      "detType": 2,
+      "serial": "CL36B",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ],
+      "pol_list": [
+         -6.183,
+         1.322754
+      ]
+   },
+   {
+      "domain": 809,
+      "detType": 1,
+      "serial": "CL36B",
+      "ampl": 10000,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ],
+      "pol_list": [
+         0.2165,
+         1.332565
+      ]
+   },
+   {
+      "domain": 810,
+      "detType": 10,
+      "serial": "CL36B",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ]
+   },
+   {
+      "domain": 811,
+      "detType": 2,
+      "serial": "CL36G",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ],
+      "pol_list": [
+         0.8126,
+         1.343348
+      ]
+   },
+   {
+      "domain": 812,
+      "detType": 2,
+      "serial": "CL36G",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ],
+      "pol_list": [
+         2.8491,
+         1.365412
+      ]
+   },
+   {
+      "domain": 813,
+      "detType": 2,
+      "serial": "CL36G",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ],
+      "pol_list": [
+         3.4859,
+         1.329671
+      ]
+   },
+   {
+      "domain": 814,
+      "detType": 2,
+      "serial": "CL36G",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ],
+      "pol_list": [
+         -4.5509,
+         1.366793
+      ]
+   },
+   {
+      "domain": 815,
+      "detType": 2,
+      "serial": "CL36G",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ],
+      "pol_list": [
+         -1.3637,
+         1.440331
+      ]
+   },
+   {
+      "domain": 816,
+      "detType": 2,
+      "serial": "CL36G",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ],
+      "pol_list": [
+         -0.3708,
+         1.441252
+      ]
+   },
+   {
+      "domain": 817,
+      "detType": 2,
+      "serial": "CL36G",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ],
+      "pol_list": [
+         -1.2591,
+         1.356296
+      ]
+   },
+   {
+      "domain": 818,
+      "detType": 2,
+      "serial": "CL36G",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ],
+      "pol_list": [
+         0.6312,
+         1.357514
+      ]
+   },
+   {
+      "domain": 819,
+      "detType": 1,
+      "serial": "CL36G",
+      "ampl": 10000,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ],
+      "pol_list": [
+         2.0736,
+         1.320431
+      ]
+   },
+   {
+      "domain": 820,
+      "detType": 10,
+      "serial": "CL36G",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ]
+   },
+   {
+      "domain": 821,
+      "detType": 2,
+      "serial": "CL36R",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ],
+      "pol_list": [
+         1.7022,
+         1.309739
+      ]
+   },
+   {
+      "domain": 822,
+      "detType": 2,
+      "serial": "CL36R",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ],
+      "pol_list": [
+         -0.6107,
+         1.345109
+      ]
+   },
+   {
+      "domain": 823,
+      "detType": 2,
+      "serial": "CL36R",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ],
+      "pol_list": [
+         1.5043,
+         1.326518
+      ]
+   },
+   {
+      "domain": 824,
+      "detType": 2,
+      "serial": "CL36R",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ],
+      "pol_list": [
+         0.6139,
+         1.332597
+      ]
+   },
+   {
+      "domain": 825,
+      "detType": 2,
+      "serial": "CL36R",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ],
+      "pol_list": [
+         -0.547,
+         1.342939
+      ]
+   },
+   {
+      "domain": 826,
+      "detType": 2,
+      "serial": "CL36R",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ],
+      "pol_list": [
+         4.1945,
+         1.359362
+      ]
+   },
+   {
+      "domain": 827,
+      "detType": 2,
+      "serial": "CL36R",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ],
+      "pol_list": [
+         -0.9791,
+         1.397343
+      ]
+   },
+   {
+      "domain": 828,
+      "detType": 2,
+      "serial": "CL36R",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ],
+      "pol_list": [
+         1.7392,
+         1.442356
+      ]
+   },
+   {
+      "domain": 829,
+      "detType": 1,
+      "serial": "CL36R",
+      "ampl": 10000,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ],
+      "pol_list": [
+         1.4203,
+         1.278722
+      ]
+   },
+   {
+      "domain": 830,
+      "detType": 10,
+      "serial": "CL36R",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ]
+   },
+   {
+      "domain": 831,
+      "detType": 2,
+      "serial": "CL36W",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ],
+      "pol_list": [
+         1.4679,
+         1.347033
+      ]
+   },
+   {
+      "domain": 832,
+      "detType": 2,
+      "serial": "CL36W",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ],
+      "pol_list": [
+         -1.3682,
+         1.353408
+      ]
+   },
+   {
+      "domain": 833,
+      "detType": 2,
+      "serial": "CL36W",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ],
+      "pol_list": [
+         2.5442,
+         1.268373
+      ]
+   },
+   {
+      "domain": 834,
+      "detType": 2,
+      "serial": "CL36W",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ],
+      "pol_list": [
+         2.2572,
+         1.351172
+      ]
+   },
+   {
+      "domain": 835,
+      "detType": 2,
+      "serial": "CL36W",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ],
+      "pol_list": [
+         2.1955,
+         1.356065
+      ]
+   },
+   {
+      "domain": 836,
+      "detType": 2,
+      "serial": "CL36W",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ],
+      "pol_list": [
+         -1.1924,
+         1.317719
+      ]
+   },
+   {
+      "domain": 837,
+      "detType": 2,
+      "serial": "CL36W",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ],
+      "pol_list": [
+         5.7222,
+         1.333469
+      ]
+   },
+   {
+      "domain": 838,
+      "detType": 2,
+      "serial": "CL36W",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ],
+      "pol_list": [
+         -1.7264,
+         1.34002
+      ]
+   },
+   {
+      "domain": 839,
+      "detType": 1,
+      "serial": "CL36W",
+      "ampl": 10000,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ],
+      "pol_list": [
+         -0.4767,
+         1.351337
+      ]
+   },
+   {
+      "domain": 840,
+      "detType": 10,
+      "serial": "CL36W",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ]
+   },
+   {
+      "domain": 900,
+      "detType": 3,
+      "serial": "CeBr1",
+      "ampl": 10,
+      "fwhm": 10,
+      "fitLimits": [
+         800,
+         1300
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ],
+      "pol_list": [
+         -2.4589,
+         1.209795
+      ]
+   },
+   {
+      "domain": 901,
+      "detType": 3,
+      "serial": "CeBr2",
+      "ampl": 10,
+      "fwhm": 20,
+      "fitLimits": [
+         1200,
+         1800
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ],
+      "pol_list": [
+         -11.079,
+         0.865993
+      ]
+   },
+   {
+      "domain": 902,
+      "detType": 3,
+      "serial": "CeBr3",
+      "ampl": 10,
+      "fwhm": 20,
+      "fitLimits": [
+         800,
+         1500
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ],
+      "pol_list": [
+         -3.0571,
+         0.967762
+      ]
+   },
+   {
+      "domain": 903,
+      "detType": 3,
+      "serial": "CeBr4",
+      "ampl": 10,
+      "fwhm": 20,
+      "fitLimits": [
+         1200,
+         2000
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ],
+      "pol_list": [
+         -0.8715,
+         0.731942
+      ]
+   },
+   {
+      "domain": 991,
+      "detType": 3,
+      "serial": "LABR1",
+      "ampl": 10,
+      "fwhm": 15,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ]
+   },
+   {
+      "domain": 992,
+      "detType": 3,
+      "serial": "LABR2",
+      "ampl": 10,
+      "fwhm": 15,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ]
+   },
+   {
+      "domain": 993,
+      "detType": 3,
+      "serial": "LABR3",
+      "ampl": 10,
+      "fwhm": 15,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ]
+   },
+   {
+      "domain": 994,
+      "detType": 3,
+      "serial": "LABR4",
+      "ampl": 10,
+      "fwhm": 15,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ]
+   },
+   {
+      "domain": 904,
+      "detType": 3,
+      "serial": "CeBr",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ]
+   },
+   {
+      "domain": 905,
+      "detType": 6,
+      "serial": "BGOS",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ]
+   },
+   {
+      "domain": 906,
+      "detType": 6,
+      "serial": "BGOS",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ]
+   },
+   {
+      "domain": 907,
+      "detType": 6,
+      "serial": "BGOS",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ]
+   },
+   {
+      "domain": 908,
+      "detType": 4,
+      "serial": "CSIB",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ]
+   },
+   {
+      "domain": 909,
+      "detType": 4,
+      "serial": "CSIB",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ]
+   },
+   {
+      "domain": 911,
+      "detType": 4,
+      "serial": "CSIB",
+      "ampl": 10,
+      "fwhm": 3,
+      "fitLimits": [
+         800,
+         1200
+      ],
+      "PTLimits": [
+         0,
+         10000
+      ]
+   }
+]
