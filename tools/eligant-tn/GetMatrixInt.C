@@ -10,7 +10,7 @@
 #include <TSystem.h>
 
 // void GetMatrixInt(TH2 *matrix)
-void GetMatrixInt(TString mName, int run_start = 0, int run_stop = 0)
+void GetMatrixInt(TString mName, int run_start = 0, int run_stop = 0, int ver = 999)
 {
 
   std::cout << "Welcome to the automatic GetMatrixInt macro \n"
@@ -24,12 +24,12 @@ void GetMatrixInt(TString mName, int run_start = 0, int run_stop = 0)
 //  TFile *fin = new TFile(Form("selected_run_%i_%i_eliadeS2.root", run, 0),"read"); 
  for (int run = run_start; run<= run_stop; run++){
      
-     if(gSystem->AccessPathName(Form("selected_run_%i_%i_eliadeS2.root", run, 0))){
+     if(gSystem->AccessPathName(Form("selected_run_%i_%i_eliadeS2.root", run, 999))){
         std::cout << "File run "<< run <<" does not exist" << std::endl;
         continue;
     };
     
-    fin = new TFile (Form("selected_run_%i_%i_eliadeS2.root", run, 0),"read"); 
+    fin = new TFile (Form("selected_run_%i_%i_eliadeS2.root", run, 999),"read"); 
     
     TH2F *matrix =  (TH2F*) fin->Get(mName);
     int sumInt = matrix -> GetEntries();
