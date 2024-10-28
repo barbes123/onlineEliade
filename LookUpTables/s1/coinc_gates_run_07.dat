@@ -1,3 +1,5 @@
+#------------------------------------i
+IsEliade 0 1
 #------------------------------------
 #coinc_name coinc_id gate_ps
 #------------------------------------
@@ -11,9 +13,9 @@ hpge_seg 	12 	600000
 #------------------------------------
 #builder_parameters index value_ps
 #------------------------------------
-trg_det_type	9998	2
-trg_domain 	9999 	102
-window_length 	1000 	3e5
+trg_det_type	9998	999
+trg_domain 	9999 	101
+window_length 	1000 	5e5
 pre_window	1002	0
 reference_dom   9996    109
 #------------------------------------
