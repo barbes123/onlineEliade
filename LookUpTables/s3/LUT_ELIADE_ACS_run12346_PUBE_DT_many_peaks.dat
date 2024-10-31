@@ -1,4 +1,4 @@
-5daq_ch domain det_def clover Time_Offset thete phi threshold cs_dom nb_par_cal cal_pars 
+#daq_ch domain det_def clover Time_Offset thete phi threshold cs_dom nb_par_cal cal_pars 
 #clover33
 002  101 2  B33 0 0 0 		25 	2  1 2   2.8577 1.248648
 003  102 2  B33 0 0 0		10 	2  1 2   -2.5227 1.271523
