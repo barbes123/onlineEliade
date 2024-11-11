@@ -63,7 +63,7 @@ void sort_AppsSim_0()
   cout<<nEvents<<endl;
   for(auto iEve = 0; iEve < nEvents; iEve++) {
     tree->GetEntry(iEve);
-    event.FineTS = event.TimeStamp * 1000 + event.FineTS;
+ //   event.FineTS = event.TimeStamp * 1000 + event.FineTS;
     dataVec.push_back(event);
     if (iEve%1000000==0) cout<<iEve*100/nEvents<<endl;
     if (iEve%1000000==0&&iEve*100/nEvents>4) cout<<iEve<<endl;
