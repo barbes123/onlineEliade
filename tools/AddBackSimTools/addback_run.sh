@@ -28,7 +28,8 @@ do
     while test $volnb -le $volume2
     do
     
-    name="addback_run_$runnb_""$volnb""_eliadeS$server.root" 
+#    name="addback_run_$runnb_""$volnb""_eliadeS$server.root"
+    name="selected_run_""$runnb""_""$volnb""_eliadeS$server.root"  
     
     if [ -e "$name" ]; then
        echo "$name found"
