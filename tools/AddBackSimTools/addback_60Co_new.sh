@@ -4,12 +4,13 @@ CUR_DIR=$(pwd)
 cd $CUR_DIR
 
 
-fold1=${1:-0}
-foldlast=${2:-$fold1}
-energy1=${3:-800}
-energy2=${4:-$energy1}
-activityCo60=10000000
-run=3
+run=${1:-4}
+fold1=${2:-0}
+foldlast=${3:-$fold1}
+energy1=${4:-800}
+energy2=${5:-$energy1}
+activityCo60=${6:-50000000}
+
 server=10
 
 echo "CUR_DIR $CUR_DIR"
@@ -224,6 +225,12 @@ awk -F " " '{ print $2 " " $5 " " $8 " " $9 " " $13 " " $10 " " $11 " " $11/$10*
 
 
 divisor=$(awk 'NR==1 {print $6}' fold_data.txt) #fold1
+errdivisor=$(awk "BEGIN {print sqrt($divisor)}")
+errdivisor=$(awk "BEGIN {print 1 / $errdivisor}")
+
+echo 'divisor' $divisor 'err' $errdivisor
+
+#exit
 
 #echo $divisor
 
@@ -235,12 +242,22 @@ awk -v divisor="$divisor" '{printf "%s %s ", $1, $6 / divisor}' fold_data.txt
 echo ""
 
 echo -n "Energy "$energy" " > add_back_$energy.txt
-awk -v divisor="$divisor" '{printf "%s %s ", $1, $6 / divisor}' fold_data.txt >> add_back_$energy.txt
+#awk -v divisor="$divisor" '{printf "%s %s ", $1, $6 / divisor}' fold_data.txt >> add_back_$energy.txt
+awk -v divisor="$divisor" '{printf "%s %s %s", $1, $6 / divisor, (1 / sqrt($6) + errdivisor) }' fold_data.txt >> add_back_$energy.txt
+
+#tried to print errors
+#awk -v divisor="$divisor" -v errdivisor="$errdivisor" '{
+#    printf "%s %s %s\n", $1, $6 / divisor, (1 / sqrt($6) + errdivisor)
+#}' fold_data.txt >> add_back_$energy.txt
 
 
-echo -n "Energy "$energy" " >> add_back_all.txt
-awk -v divisor="$divisor" '{printf "%s %s ", $1, $6 / divisor}' fold_data.txt >> add_back_all.txt
-echo "" >> add_back_all.txt
+echo -n "Energy "$energy" " >> add_back_all_run$run.txt
+awk -v divisor="$divisor" '{printf "%s %s %s %s ", $1, $6, divisor, $6 / divisor}' fold_data.txt >> add_back_all_run$run.txt
+#tried to print errors
+#awk -v divisor="$divisor" -v errdivisor="$errdivisor" '{
+#    printf "%s %s %s\n", $1, $6 / divisor, (1 / sqrt($6) + errdivisor)
+#}' fold_data.txt >>  add_back_all_run$run.txt
+echo "" >> add_back_all_run$run.txt
 
  energy=$(($energy + 100))
 done
