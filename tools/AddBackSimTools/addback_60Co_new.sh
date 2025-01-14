@@ -67,7 +67,7 @@ echo "Will run the calib for folds $fold1 upto $foldlast "
    	rm "data.calib"   
    fi
 ##################################            
-lim1=50 lim2=1600 fwhm=4 ampl=1000
+lim1=50 lim2=4000 fwhm=4 ampl=1000
 
 foldnbr=$fold1
 maxfold=$foldlast
@@ -118,7 +118,11 @@ do
       #delete first 14 lines
       awk 'NR > 14 { print }' fulldata.calib >  temp.calib
       echo -n "fold $foldnbr " >> eliade.calib      
-  	##################################      
+      #################################     
+      
+      
+     
+     
 	if grep '100.00' temp.calib
 	then
  	   grep '100.00'  temp.calib >> res.temp
@@ -194,6 +198,134 @@ do
  	   grep '1500.00'  temp.calib >> res.temp
  	   grep '1500.00'  temp.calib >> Co60.temp      
  	   echo "Found 1500.00"
+ 	 elif grep '1600.00' temp.calib
+ 	   then
+ 	   grep '1600.00'  temp.calib >> res.temp
+ 	   grep '1600.00'  temp.calib >> Co60.temp      
+ 	   echo "Found 1600.00"
+	 elif grep '1700.00' temp.calib
+ 	   then
+ 	   grep '1700.00'  temp.calib >> res.temp
+ 	   grep '1700.00'  temp.calib >> Co60.temp      
+ 	   echo "Found 1700.00"  
+	 elif grep '1800.00' temp.calib
+ 	   then
+ 	   grep '1800.00'  temp.calib >> res.temp
+ 	   grep '1800.00'  temp.calib >> Co60.temp      
+ 	   echo "Found 1800.00"   
+ 	 elif grep '1900.00' temp.calib
+ 	   then
+ 	   grep '1900.00'  temp.calib >> res.temp
+ 	   grep '1900.00'  temp.calib >> Co60.temp      
+ 	   echo "Found 1900.00"   
+       elif grep '2000.00' temp.calib
+	then
+	    grep '2000.00' temp.calib >> res.temp
+	    grep '2000.00' temp.calib >> Co60.temp
+	    echo "Found 2000.00"
+	elif grep '2100.00' temp.calib
+then
+    grep '2100.00' temp.calib >> res.temp
+    grep '2100.00' temp.calib >> Co60.temp
+    echo "Found 2100.00"
+elif grep '2200.00' temp.calib
+then
+    grep '2200.00' temp.calib >> res.temp
+    grep '2200.00' temp.calib >> Co60.temp
+    echo "Found 2200.00"
+elif grep '2300.00' temp.calib
+then
+    grep '2300.00' temp.calib >> res.temp
+    grep '2300.00' temp.calib >> Co60.temp
+    echo "Found 2300.00"
+elif grep '2400.00' temp.calib
+then
+    grep '2400.00' temp.calib >> res.temp
+    grep '2400.00' temp.calib >> Co60.temp
+    echo "Found 2400.00"
+elif grep '2500.00' temp.calib
+then
+    grep '2500.00' temp.calib >> res.temp
+    grep '2500.00' temp.calib >> Co60.temp
+    echo "Found 2500.00"
+elif grep '2600.00' temp.calib
+then
+    grep '2600.00' temp.calib >> res.temp
+    grep '2600.00' temp.calib >> Co60.temp
+    echo "Found 2600.00"
+elif grep '2700.00' temp.calib
+then
+    grep '2700.00' temp.calib >> res.temp
+    grep '2700.00' temp.calib >> Co60.temp
+    echo "Found 2700.00"
+elif grep '2800.00' temp.calib
+then
+    grep '2800.00' temp.calib >> res.temp
+    grep '2800.00' temp.calib >> Co60.temp
+    echo "Found 2800.00"
+elif grep '2900.00' temp.calib
+then
+    grep '2900.00' temp.calib >> res.temp
+    grep '2900.00' temp.calib >> Co60.temp
+    echo "Found 2900.00"
+elif grep '3000.00' temp.calib
+then
+    grep '3000.00' temp.calib >> res.temp
+    grep '3000.00' temp.calib >> Co60.temp
+    echo "Found 3000.00"
+elif grep '3100.00' temp.calib
+then
+    grep '3100.00' temp.calib >> res.temp
+    grep '3100.00' temp.calib >> Co60.temp
+    echo "Found 3100.00"
+elif grep '3200.00' temp.calib
+then
+    grep '3200.00' temp.calib >> res.temp
+    grep '3200.00' temp.calib >> Co60.temp
+    echo "Found 3200.00"
+elif grep '3300.00' temp.calib
+then
+    grep '3300.00' temp.calib >> res.temp
+    grep '3300.00' temp.calib >> Co60.temp
+    echo "Found 3300.00"
+elif grep '3400.00' temp.calib
+then
+    grep '3400.00' temp.calib >> res.temp
+    grep '3400.00' temp.calib >> Co60.temp
+    echo "Found 3400.00"
+elif grep '3500.00' temp.calib
+then
+    grep '3500.00' temp.calib >> res.temp
+    grep '3500.00' temp.calib >> Co60.temp
+    echo "Found 3500.00"
+elif grep '3600.00' temp.calib
+then
+    grep '3600.00' temp.calib >> res.temp
+    grep '3600.00' temp.calib >> Co60.temp
+    echo "Found 3600.00"
+elif grep '3700.00' temp.calib
+then
+    grep '3700.00' temp.calib >> res.temp
+    grep '3700.00' temp.calib >> Co60.temp
+    echo "Found 3700.00"
+elif grep '3800.00' temp.calib
+then
+    grep '3800.00' temp.calib >> res.temp
+    grep '3800.00' temp.calib >> Co60.temp
+    echo "Found 3800.00"
+elif grep '3900.00' temp.calib
+then
+    grep '3900.00' temp.calib >> res.temp
+    grep '3900.00' temp.calib >> Co60.temp
+    echo "Found 3900.00"
+elif grep '4000.00' temp.calib
+then
+    grep '4000.00' temp.calib >> res.temp
+    grep '4000.00' temp.calib >> Co60.temp
+    echo "Found 4000.00"
+
+ 	else
+ 	   echo "modify script add energy" 
 	fi	
 #	if grep '#2' res.temp
 #	then
