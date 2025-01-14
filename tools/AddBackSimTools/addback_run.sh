@@ -4,9 +4,8 @@ runnb=$1
 runnb1=${2:-$runnb}
 volume1=${3:-0}
 volume2=${4:-$volume1}
-nevents=${5:-0}
-AddBAck=${6:-1}
-server=${7:-10}
+AddBAck=${5:-0}
+server=${6:-10}
 dvol=100
 
 
@@ -16,8 +15,7 @@ echo "RUNfirst      $runnb"
 echo "RUNlast       $runnb1"
 echo "VOLUMEfirst   $volume1"
 echo "VOLUMElast    $volume2"
-echo "N EVENTS      $events"
-echo "ADDBACK       $AddBAck"
+echo "ADDBACK       $AddBAck" # 1 - for Fold1; 0 - for HPGe_single
 echo "SERVER ID     $server"
 
 
@@ -41,9 +39,12 @@ do
 
        
     
-    echo "Now I am starting run the selector run$runnb"_"$volnb.root"	
-    rootcommand=addback_me.C+"($AddBAck,$server,$runnb,$volnb,$nevents)"    
+    echo "Now I am starting addback_me.C for $name"	
+
+    rootcommand=$HOME/onlineEliade/tools/AddBackSimTools/addback_me.C+"($AddBAck,$server,$runnb,$volnb)"    
+#    rootcommand="$HOME/onlineEliade/tools/AddBackSimTools/addback_me.C+\"($AddBack,$server,$runnb,$volnb)\""
     root -l -b -q $rootcommand    
+    exit
     echo "I finished run$runnb"_"$volnb.root"
     mv addbackspectra.root "addback_run_"$runnb"_""$volnb""_eliadeS$server.root"
 #    name="addback_run_$runnb_""$volnb""_eliadeS$server.root" 
