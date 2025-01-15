@@ -44,10 +44,14 @@ do
     rootcommand=$HOME/onlineEliade/tools/AddBackSimTools/addback_me.C+"($AddBAck,$server,$runnb,$volnb)"    
 #    rootcommand="$HOME/onlineEliade/tools/AddBackSimTools/addback_me.C+\"($AddBack,$server,$runnb,$volnb)\""
     root -l -b -q $rootcommand    
-    exit
+
     echo "I finished run$runnb"_"$volnb.root"
-    mv addbackspectra.root "addback_run_"$runnb"_""$volnb""_eliadeS$server.root"
+    if [ -f "addbackspectra.root" ]; then
+	mv addbackspectra.root "addback_run_"$runnb"_""$volnb""_eliadeS$server.root"
+    fi	    
 #    name="addback_run_$runnb_""$volnb""_eliadeS$server.root" 
+
+    echo "Starting hconverter_ab.C"
 
     rootcommand=hconverter_ab.C+"($runnb,$volnb,$server)"
     echo $rootcommand
