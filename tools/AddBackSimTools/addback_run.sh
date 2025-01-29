@@ -1,12 +1,12 @@
 #!/bin/bash
 
-runnb=$1
-runnb1=${2:-$runnb}
+runnb1=$1
+runnb2=${2:-$runnb}
 volume1=${3:-0}
 volume2=${4:-$volume1}
 AddBAck=${5:-0}
 server=${6:-10}
-dvol=100
+dvol=${7:-100}
 
 
 echo "Put Parameters: AddBack (0 - if none); server_nbr (0 - if none); run_nbr; volume_from; volume_to;"
@@ -17,11 +17,14 @@ echo "VOLUMEfirst   $volume1"
 echo "VOLUMElast    $volume2"
 echo "ADDBACK       $AddBAck" # 1 - for Fold1; 0 - for HPGe_single
 echo "SERVER ID     $server"
+echo "INCRMENT	    $dvol"
 
 
+runnb=$runnb1
 
-while test $runnb -le $runnb1
+while test $runnb -le $runnb2
 do
+    echo "Trying for run $runnb"
     volnb=$volume1
     while test $volnb -le $volume2
     do
@@ -53,12 +56,12 @@ do
 
     echo "Starting hconverter_ab.C"
 
-    rootcommand=hconverter_ab.C+"($runnb,$volnb,$server)"
+    rootcommand=$HOME/onlineEliade/tools/AddBackSimTools/hconverter_ab.C+"($runnb,$volnb,$server)"
     echo $rootcommand
     root -l -b -q $rootcommand 
     volnb=$(($volnb + $dvol))          
     done
-    runnb=$(($runnb + 100))  
+    runnb=$(($runnb + $dvol))  
 done 
 
 
