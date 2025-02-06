@@ -38,23 +38,8 @@
       "ampl": 1000,
       "fwhm": 15,
       "fitLimits": [
-         50,
-         1600
-      ],
-      "PTLimits": [
-         0,
-         1500
-      ]
-   },
-   {
-      "domain": 1,
-      "detType": 1,
-      "serial": "sumCore1",
-      "ampl": 10000,
-      "fwhm": 2,
-      "fitLimits": [
-         50,
-         1600
+         300,
+         2100
       ],
       "PTLimits": [
          0,
@@ -64,14 +49,14 @@
    {
       "domain": 101,
       "detType": 2,
-      "serial": "CL30B",
+      "serial": "CL32B",
       "ampl": [
          100
       ],
       "fwhm": 2,
       "fitLimits": [
-         50,
-         1600
+         300,
+         2100
       ],
       "PTLimits": [
          0,
@@ -81,14 +66,14 @@
    {
       "domain": 102,
       "detType": 2,
-      "serial": "CL30B",
+      "serial": "CL32B",
       "ampl": [
          100
       ],
       "fwhm": 2,
       "fitLimits": [
-         50,
-         1600
+         300,
+         2100
       ],
       "PTLimits": [
          0,
@@ -98,14 +83,14 @@
    {
       "domain": 103,
       "detType": 2,
-      "serial": "CL30B",
+      "serial": "CL32B",
       "ampl": [
          100
       ],
       "fwhm": 2,
       "fitLimits": [
-         50,
-         1600
+         300,
+         2100
       ],
       "PTLimits": [
          0,
@@ -115,14 +100,14 @@
    {
       "domain": 104,
       "detType": 2,
-      "serial": "CL30B",
+      "serial": "CL32B",
       "ampl": [
          100
       ],
       "fwhm": 2,
       "fitLimits": [
-         50,
-         1600
+         300,
+         2100
       ],
       "PTLimits": [
          0,
@@ -132,14 +117,14 @@
    {
       "domain": 105,
       "detType": 2,
-      "serial": "CL30B",
+      "serial": "CL32B",
       "ampl": [
          100
       ],
       "fwhm": 2,
       "fitLimits": [
-         50,
-         1600
+         300,
+         2100
       ],
       "PTLimits": [
          0,
@@ -149,14 +134,14 @@
    {
       "domain": 106,
       "detType": 2,
-      "serial": "CL30B",
+      "serial": "CL32B",
       "ampl": [
          100
       ],
       "fwhm": 2,
       "fitLimits": [
-         50,
-         1600
+         300,
+         2100
       ],
       "PTLimits": [
          0,
@@ -166,14 +151,14 @@
    {
       "domain": 107,
       "detType": 2,
-      "serial": "CL30B",
+      "serial": "CL32B",
       "ampl": [
          100
       ],
       "fwhm": 2,
       "fitLimits": [
-         50,
-         1600
+         300,
+         2100
       ],
       "PTLimits": [
          0,
@@ -183,14 +168,14 @@
    {
       "domain": 108,
       "detType": 2,
-      "serial": "CL30B",
+      "serial": "CL32B",
       "ampl": [
          100
       ],
       "fwhm": 2,
       "fitLimits": [
-         50,
-         1600
+         300,
+         2100
       ],
       "PTLimits": [
          0,
@@ -200,12 +185,12 @@
    {
       "domain": 109,
       "detType": 1,
-      "serial": "CL30B",
+      "serial": "CL32B",
       "ampl": 1000,
-      "fwhm": 2,
+      "fwhm": 3,
       "fitLimits": [
-         50,
-         1600
+         400,
+         1200
       ],
       "PTLimits": [
          0,
@@ -215,12 +200,12 @@
    {
       "domain": 110,
       "detType": 10,
-      "serial": "CL30B",
+      "serial": "CL32B",
       "ampl": 1000,
       "fwhm": 2,
       "fitLimits": [
-         200,
-         700
+         300,
+         2100
       ],
       "PTLimits": [
          0,
@@ -230,14 +215,14 @@
    {
       "domain": 111,
       "detType": 2,
-      "serial": "CL30G",
+      "serial": "CL32G",
       "ampl": [
          100
       ],
       "fwhm": 2,
       "fitLimits": [
-         50,
-         1600
+         300,
+         2100
       ],
       "PTLimits": [
          0,
@@ -247,14 +232,14 @@
    {
       "domain": 112,
       "detType": 2,
-      "serial": "CL30G",
+      "serial": "CL32G",
       "ampl": [
          100
       ],
       "fwhm": 2,
       "fitLimits": [
-         50,
-         1600
+         300,
+         2100
       ],
       "PTLimits": [
          0,
@@ -264,14 +249,14 @@
    {
       "domain": 113,
       "detType": 2,
-      "serial": "CL30G",
+      "serial": "CL32G",
       "ampl": [
          100
       ],
       "fwhm": 2,
       "fitLimits": [
-         50,
-         1600
+         300,
+         2100
       ],
       "PTLimits": [
          0,
@@ -281,14 +266,14 @@
    {
       "domain": 114,
       "detType": 2,
-      "serial": "CL30G",
+      "serial": "CL32G",
       "ampl": [
          100
       ],
       "fwhm": 2,
       "fitLimits": [
-         50,
-         1600
+         300,
+         2100
       ],
       "PTLimits": [
          0,
@@ -298,14 +283,14 @@
    {
       "domain": 115,
       "detType": 2,
-      "serial": "CL30G",
+      "serial": "CL32G",
       "ampl": [
          100
       ],
       "fwhm": 2,
       "fitLimits": [
-         50,
-         1600
+         300,
+         2100
       ],
       "PTLimits": [
          0,
@@ -315,14 +300,14 @@
    {
       "domain": 116,
       "detType": 2,
-      "serial": "CL30G",
+      "serial": "CL32G",
       "ampl": [
          100
       ],
       "fwhm": 2,
       "fitLimits": [
-         50,
-         1600
+         300,
+         2100
       ],
       "PTLimits": [
          0,
@@ -332,14 +317,14 @@
    {
       "domain": 117,
       "detType": 2,
-      "serial": "CL30G",
+      "serial": "CL32G",
       "ampl": [
          100
       ],
       "fwhm": 2,
       "fitLimits": [
-         50,
-         1600
+         300,
+         2100
       ],
       "PTLimits": [
          0,
@@ -349,14 +334,14 @@
    {
       "domain": 118,
       "detType": 2,
-      "serial": "CL30G",
+      "serial": "CL32G",
       "ampl": [
          100
       ],
       "fwhm": 2,
       "fitLimits": [
-         50,
-         1600
+         300,
+         2100
       ],
       "PTLimits": [
          0,
@@ -366,12 +351,12 @@
    {
       "domain": 119,
       "detType": 1,
-      "serial": "CL30G",
+      "serial": "CL32G",
       "ampl": 1000,
       "fwhm": 2,
       "fitLimits": [
-         50,
-         1600
+         300,
+         2100
       ],
       "PTLimits": [
          0,
@@ -381,7 +366,7 @@
    {
       "domain": 120,
       "detType": 10,
-      "serial": "CL30G",
+      "serial": "CL32G",
       "ampl": 1000,
       "fwhm": 2,
       "fitLimits": [
@@ -396,14 +381,14 @@
    {
       "domain": 121,
       "detType": 2,
-      "serial": "CL30R",
+      "serial": "CL32R",
       "ampl": [
          100
       ],
       "fwhm": 2,
       "fitLimits": [
-         50,
-         1600
+         300,
+         2100
       ],
       "PTLimits": [
          0,
@@ -413,14 +398,14 @@
    {
       "domain": 122,
       "detType": 2,
-      "serial": "CL30R",
+      "serial": "CL32R",
       "ampl": [
          100
       ],
       "fwhm": 2,
       "fitLimits": [
-         50,
-         1600
+         300,
+         2100
       ],
       "PTLimits": [
          0,
@@ -430,14 +415,14 @@
    {
       "domain": 123,
       "detType": 2,
-      "serial": "CL30R",
+      "serial": "CL32R",
       "ampl": [
          100
       ],
       "fwhm": 2,
       "fitLimits": [
-         50,
-         1600
+         300,
+         2100
       ],
       "PTLimits": [
          0,
@@ -447,14 +432,14 @@
    {
       "domain": 124,
       "detType": 2,
-      "serial": "CL30R",
+      "serial": "CL32R",
       "ampl": [
          100
       ],
       "fwhm": 2,
       "fitLimits": [
-         50,
-         1600
+         300,
+         2100
       ],
       "PTLimits": [
          0,
@@ -464,14 +449,14 @@
    {
       "domain": 125,
       "detType": 2,
-      "serial": "CL30R",
+      "serial": "CL32R",
       "ampl": [
          100
       ],
       "fwhm": 2,
       "fitLimits": [
-         50,
-         1600
+         300,
+         2100
       ],
       "PTLimits": [
          0,
@@ -481,14 +466,14 @@
    {
       "domain": 126,
       "detType": 2,
-      "serial": "CL30R",
+      "serial": "CL32R",
       "ampl": [
          100
       ],
       "fwhm": 2,
       "fitLimits": [
-         50,
-         1600
+         300,
+         2100
       ],
       "PTLimits": [
          0,
@@ -498,14 +483,14 @@
    {
       "domain": 127,
       "detType": 2,
-      "serial": "CL30R",
+      "serial": "CL32R",
       "ampl": [
          100
       ],
       "fwhm": 2,
       "fitLimits": [
-         50,
-         1600
+         300,
+         2100
       ],
       "PTLimits": [
          0,
@@ -515,14 +500,14 @@
    {
       "domain": 128,
       "detType": 2,
-      "serial": "CL30R",
+      "serial": "CL32R",
       "ampl": [
          100
       ],
       "fwhm": 2,
       "fitLimits": [
-         50,
-         1600
+         300,
+         2100
       ],
       "PTLimits": [
          0,
@@ -532,12 +517,12 @@
    {
       "domain": 129,
       "detType": 1,
-      "serial": "CL30R",
+      "serial": "CL32R",
       "ampl": 1000,
       "fwhm": 2,
       "fitLimits": [
-         50,
-         1400
+         300,
+         2100
       ],
       "PTLimits": [
          0,
@@ -547,12 +532,12 @@
    {
       "domain": 130,
       "detType": 10,
-      "serial": "CL30R",
+      "serial": "CL32R",
       "ampl": 1000,
       "fwhm": 2,
       "fitLimits": [
-         50,
-         1600
+         300,
+         2100
       ],
       "PTLimits": [
          0,
@@ -562,14 +547,14 @@
    {
       "domain": 131,
       "detType": 2,
-      "serial": "CL30W",
+      "serial": "CL32W",
       "ampl": [
          100
       ],
       "fwhm": 2,
       "fitLimits": [
-         50,
-         1600
+         300,
+         2100
       ],
       "PTLimits": [
          0,
@@ -579,14 +564,14 @@
    {
       "domain": 132,
       "detType": 2,
-      "serial": "CL30W",
+      "serial": "CL32W",
       "ampl": [
          100
       ],
       "fwhm": 2,
       "fitLimits": [
-         50,
-         1600
+         300,
+         2100
       ],
       "PTLimits": [
          0,
@@ -596,14 +581,14 @@
    {
       "domain": 133,
       "detType": 2,
-      "serial": "CL30W",
+      "serial": "CL32W",
       "ampl": [
          100
       ],
       "fwhm": 2,
       "fitLimits": [
-         50,
-         1600
+         300,
+         2100
       ],
       "PTLimits": [
          0,
@@ -613,14 +598,14 @@
    {
       "domain": 134,
       "detType": 2,
-      "serial": "CL30W",
+      "serial": "CL32W",
       "ampl": [
          100
       ],
       "fwhm": 2,
       "fitLimits": [
-         50,
-         1600
+         300,
+         2100
       ],
       "PTLimits": [
          0,
@@ -630,14 +615,14 @@
    {
       "domain": 135,
       "detType": 2,
-      "serial": "CL30W",
+      "serial": "CL32W",
       "ampl": [
          100
       ],
       "fwhm": 2,
       "fitLimits": [
-         50,
-         1600
+         300,
+         2100
       ],
       "PTLimits": [
          0,
@@ -647,14 +632,14 @@
    {
       "domain": 136,
       "detType": 2,
-      "serial": "CL30W",
+      "serial": "CL32W",
       "ampl": [
-         100
+         10
       ],
-      "fwhm": 2,
+      "fwhm": 3,
       "fitLimits": [
-         50,
-         1600
+         70,
+         1200
       ],
       "PTLimits": [
          0,
@@ -664,14 +649,14 @@
    {
       "domain": 137,
       "detType": 2,
-      "serial": "CL30W",
+      "serial": "CL32W",
       "ampl": [
          100
       ],
       "fwhm": 2,
       "fitLimits": [
-         50,
-         1600
+         300,
+         2100
       ],
       "PTLimits": [
          0,
@@ -681,14 +666,14 @@
    {
       "domain": 138,
       "detType": 2,
-      "serial": "CL30W",
+      "serial": "CL32W",
       "ampl": [
          100
       ],
       "fwhm": 2,
       "fitLimits": [
-         50,
-         1600
+         300,
+         2100
       ],
       "PTLimits": [
          0,
@@ -698,12 +683,12 @@
    {
       "domain": 139,
       "detType": 1,
-      "serial": "CL30W",
+      "serial": "CL32W",
       "ampl": 1000,
       "fwhm": 2,
       "fitLimits": [
-         50,
-         1600
+         300,
+         2100
       ],
       "PTLimits": [
          0,
@@ -713,7 +698,7 @@
    {
       "domain": 140,
       "detType": 10,
-      "serial": "CL30W",
+      "serial": "CL32W",
       "ampl": 1000,
       "fwhm": 2,
       "fitLimits": [
@@ -728,14 +713,14 @@
    {
       "domain": 201,
       "detType": 2,
-      "serial": "CL30B",
+      "serial": "CL32B",
       "ampl": [
          100
       ],
       "fwhm": 2,
       "fitLimits": [
-         50,
-         1600
+         300,
+         2100
       ],
       "PTLimits": [
          0,
@@ -745,14 +730,14 @@
    {
       "domain": 202,
       "detType": 2,
-      "serial": "CL30B",
+      "serial": "CL32B",
       "ampl": [
          100
       ],
       "fwhm": 2,
       "fitLimits": [
-         50,
-         1600
+         300,
+         2100
       ],
       "PTLimits": [
          0,
@@ -762,14 +747,14 @@
    {
       "domain": 203,
       "detType": 2,
-      "serial": "CL30B",
+      "serial": "CL32B",
       "ampl": [
          100
       ],
       "fwhm": 2,
       "fitLimits": [
-         50,
-         1600
+         300,
+         2100
       ],
       "PTLimits": [
          0,
@@ -779,14 +764,14 @@
    {
       "domain": 204,
       "detType": 2,
-      "serial": "CL30B",
+      "serial": "CL32B",
       "ampl": [
          100
       ],
       "fwhm": 2,
       "fitLimits": [
-         50,
-         1600
+         300,
+         2100
       ],
       "PTLimits": [
          0,
@@ -796,14 +781,14 @@
    {
       "domain": 205,
       "detType": 2,
-      "serial": "CL30B",
+      "serial": "CL32B",
       "ampl": [
          100
       ],
       "fwhm": 2,
       "fitLimits": [
-         50,
-         1600
+         300,
+         2100
       ],
       "PTLimits": [
          0,
@@ -813,14 +798,14 @@
    {
       "domain": 206,
       "detType": 2,
-      "serial": "CL30B",
+      "serial": "CL32B",
       "ampl": [
          100
       ],
       "fwhm": 2,
       "fitLimits": [
-         50,
-         1600
+         300,
+         2100
       ],
       "PTLimits": [
          0,
@@ -830,14 +815,14 @@
    {
       "domain": 207,
       "detType": 2,
-      "serial": "CL30B",
+      "serial": "CL32B",
       "ampl": [
          100
       ],
       "fwhm": 2,
       "fitLimits": [
-         50,
-         1600
+         300,
+         2100
       ],
       "PTLimits": [
          0,
@@ -847,14 +832,14 @@
    {
       "domain": 208,
       "detType": 2,
-      "serial": "CL30B",
+      "serial": "CL32B",
       "ampl": [
          100
       ],
       "fwhm": 2,
       "fitLimits": [
-         50,
-         1600
+         300,
+         2100
       ],
       "PTLimits": [
          0,
@@ -864,12 +849,12 @@
    {
       "domain": 209,
       "detType": 1,
-      "serial": "CL30B",
+      "serial": "CL32B",
       "ampl": 10000,
       "fwhm": 2,
       "fitLimits": [
-         50,
-         1600
+         300,
+         2100
       ],
       "PTLimits": [
          0,
@@ -879,7 +864,7 @@
    {
       "domain": 210,
       "detType": 10,
-      "serial": "CL30B",
+      "serial": "CL32B",
       "ampl": 1000,
       "fwhm": 2,
       "fitLimits": [
@@ -894,14 +879,14 @@
    {
       "domain": 211,
       "detType": 2,
-      "serial": "CL30G",
+      "serial": "CL32G",
       "ampl": [
          100
       ],
       "fwhm": 2,
       "fitLimits": [
-         50,
-         1600
+         300,
+         2100
       ],
       "PTLimits": [
          0,
@@ -911,14 +896,14 @@
    {
       "domain": 212,
       "detType": 2,
-      "serial": "CL30G",
+      "serial": "CL32G",
       "ampl": [
          100
       ],
       "fwhm": 2,
       "fitLimits": [
-         50,
-         1600
+         300,
+         2100
       ],
       "PTLimits": [
          0,
@@ -928,14 +913,14 @@
    {
       "domain": 213,
       "detType": 2,
-      "serial": "CL30G",
+      "serial": "CL32G",
       "ampl": [
          100
       ],
       "fwhm": 2,
       "fitLimits": [
-         50,
-         1600
+         300,
+         2100
       ],
       "PTLimits": [
          0,
@@ -945,14 +930,14 @@
    {
       "domain": 214,
       "detType": 2,
-      "serial": "CL30G",
+      "serial": "CL32G",
       "ampl": [
          100
       ],
       "fwhm": 2,
       "fitLimits": [
-         50,
-         1600
+         300,
+         2100
       ],
       "PTLimits": [
          0,
@@ -962,14 +947,14 @@
    {
       "domain": 215,
       "detType": 2,
-      "serial": "CL30G",
+      "serial": "CL32G",
       "ampl": [
          100
       ],
       "fwhm": 2,
       "fitLimits": [
-         50,
-         1600
+         300,
+         2100
       ],
       "PTLimits": [
          0,
@@ -979,14 +964,14 @@
    {
       "domain": 216,
       "detType": 2,
-      "serial": "CL30G",
+      "serial": "CL32G",
       "ampl": [
          100
       ],
       "fwhm": 2,
       "fitLimits": [
-         50,
-         1600
+         300,
+         2100
       ],
       "PTLimits": [
          0,
@@ -996,14 +981,14 @@
    {
       "domain": 217,
       "detType": 2,
-      "serial": "CL30G",
+      "serial": "CL32G",
       "ampl": [
          100
       ],
       "fwhm": 2,
       "fitLimits": [
-         50,
-         1600
+         300,
+         2100
       ],
       "PTLimits": [
          0,
@@ -1013,14 +998,14 @@
    {
       "domain": 218,
       "detType": 2,
-      "serial": "CL30G",
+      "serial": "CL32G",
       "ampl": [
          100
       ],
       "fwhm": 2,
       "fitLimits": [
-         50,
-         1600
+         300,
+         2100
       ],
       "PTLimits": [
          0,
@@ -1030,12 +1015,12 @@
    {
       "domain": 219,
       "detType": 1,
-      "serial": "CL30G",
+      "serial": "CL32G",
       "ampl": 10000,
       "fwhm": 2,
       "fitLimits": [
-         50,
-         1600
+         300,
+         2100
       ],
       "PTLimits": [
          0,
@@ -1045,7 +1030,7 @@
    {
       "domain": 220,
       "detType": 10,
-      "serial": "CL30G",
+      "serial": "CL32G",
       "ampl": 1000,
       "fwhm": 2,
       "fitLimits": [
@@ -1060,14 +1045,14 @@
    {
       "domain": 221,
       "detType": 2,
-      "serial": "CL30R",
+      "serial": "CL32R",
       "ampl": [
          100
       ],
       "fwhm": 2,
       "fitLimits": [
-         50,
-         1600
+         300,
+         2100
       ],
       "PTLimits": [
          0,
@@ -1077,14 +1062,14 @@
    {
       "domain": 222,
       "detType": 2,
-      "serial": "CL30R",
+      "serial": "CL32R",
       "ampl": [
          100
       ],
       "fwhm": 2,
       "fitLimits": [
-         50,
-         1600
+         300,
+         2100
       ],
       "PTLimits": [
          0,
@@ -1094,14 +1079,14 @@
    {
       "domain": 223,
       "detType": 2,
-      "serial": "CL30R",
+      "serial": "CL32R",
       "ampl": [
          100
       ],
       "fwhm": 2,
       "fitLimits": [
-         50,
-         1600
+         300,
+         2100
       ],
       "PTLimits": [
          0,
@@ -1111,14 +1096,14 @@
    {
       "domain": 224,
       "detType": 2,
-      "serial": "CL30R",
+      "serial": "CL32R",
       "ampl": [
          100
       ],
       "fwhm": 2,
       "fitLimits": [
-         50,
-         1600
+         300,
+         2100
       ],
       "PTLimits": [
          0,
@@ -1128,14 +1113,14 @@
    {
       "domain": 225,
       "detType": 2,
-      "serial": "CL30R",
+      "serial": "CL32R",
       "ampl": [
          100
       ],
       "fwhm": 2,
       "fitLimits": [
-         50,
-         1600
+         300,
+         2100
       ],
       "PTLimits": [
          0,
@@ -1145,14 +1130,14 @@
    {
       "domain": 226,
       "detType": 2,
-      "serial": "CL30R",
+      "serial": "CL32R",
       "ampl": [
          100
       ],
       "fwhm": 2,
       "fitLimits": [
-         50,
-         1600
+         300,
+         2100
       ],
       "PTLimits": [
          0,
@@ -1162,14 +1147,14 @@
    {
       "domain": 227,
       "detType": 2,
-      "serial": "CL30R",
+      "serial": "CL32R",
       "ampl": [
          100
       ],
       "fwhm": 2,
       "fitLimits": [
-         50,
-         1600
+         300,
+         2100
       ],
       "PTLimits": [
          0,
@@ -1179,14 +1164,14 @@
    {
       "domain": 228,
       "detType": 2,
-      "serial": "CL30R",
+      "serial": "CL32R",
       "ampl": [
          100
       ],
       "fwhm": 2,
       "fitLimits": [
-         50,
-         1600
+         300,
+         2100
       ],
       "PTLimits": [
          0,
@@ -1196,12 +1181,12 @@
    {
       "domain": 229,
       "detType": 1,
-      "serial": "CL30R",
+      "serial": "CL32R",
       "ampl": 10000,
       "fwhm": 2,
       "fitLimits": [
-         50,
-         1600
+         300,
+         2100
       ],
       "PTLimits": [
          0,
@@ -1211,7 +1196,7 @@
    {
       "domain": 230,
       "detType": 10,
-      "serial": "CL30R",
+      "serial": "CL32R",
       "ampl": 1000,
       "fwhm": 2,
       "fitLimits": [
@@ -1226,14 +1211,14 @@
    {
       "domain": 231,
       "detType": 2,
-      "serial": "CL30W",
+      "serial": "CL32W",
       "ampl": [
          100
       ],
       "fwhm": 2,
       "fitLimits": [
-         50,
-         1600
+         300,
+         2100
       ],
       "PTLimits": [
          0,
@@ -1243,14 +1228,14 @@
    {
       "domain": 232,
       "detType": 2,
-      "serial": "CL30W",
+      "serial": "CL32W",
       "ampl": [
          100
       ],
       "fwhm": 2,
       "fitLimits": [
-         50,
-         1600
+         300,
+         2100
       ],
       "PTLimits": [
          0,
@@ -1260,14 +1245,14 @@
    {
       "domain": 233,
       "detType": 2,
-      "serial": "CL30W",
+      "serial": "CL32W",
       "ampl": [
          100
       ],
       "fwhm": 2,
       "fitLimits": [
-         50,
-         1600
+         300,
+         2100
       ],
       "PTLimits": [
          0,
@@ -1277,14 +1262,14 @@
    {
       "domain": 234,
       "detType": 2,
-      "serial": "CL30W",
+      "serial": "CL32W",
       "ampl": [
          100
       ],
       "fwhm": 2,
       "fitLimits": [
-         50,
-         1600
+         300,
+         2100
       ],
       "PTLimits": [
          0,
@@ -1294,14 +1279,14 @@
    {
       "domain": 235,
       "detType": 2,
-      "serial": "CL30W",
+      "serial": "CL32W",
       "ampl": [
          100
       ],
       "fwhm": 2,
       "fitLimits": [
-         50,
-         1600
+         300,
+         2100
       ],
       "PTLimits": [
          0,
@@ -1311,14 +1296,14 @@
    {
       "domain": 236,
       "detType": 2,
-      "serial": "CL30W",
+      "serial": "CL32W",
       "ampl": [
          100
       ],
       "fwhm": 2,
       "fitLimits": [
-         50,
-         1600
+         300,
+         2100
       ],
       "PTLimits": [
          0,
@@ -1328,14 +1313,14 @@
    {
       "domain": 237,
       "detType": 2,
-      "serial": "CL30W",
+      "serial": "CL32W",
       "ampl": [
          100
       ],
       "fwhm": 2,
       "fitLimits": [
-         50,
-         1600
+         300,
+         2100
       ],
       "PTLimits": [
          0,
@@ -1345,14 +1330,14 @@
    {
       "domain": 238,
       "detType": 2,
-      "serial": "CL30W",
+      "serial": "CL32W",
       "ampl": [
          100
       ],
       "fwhm": 2,
       "fitLimits": [
-         50,
-         1600
+         300,
+         2100
       ],
       "PTLimits": [
          0,
@@ -1362,12 +1347,12 @@
    {
       "domain": 239,
       "detType": 1,
-      "serial": "CL30W",
+      "serial": "CL32W",
       "ampl": 10000,
       "fwhm": 2,
       "fitLimits": [
-         50,
-         1600
+         300,
+         2100
       ],
       "PTLimits": [
          0,
@@ -1377,7 +1362,7 @@
    {
       "domain": 240,
       "detType": 10,
-      "serial": "CL30W",
+      "serial": "CL32W",
       "ampl": 1000,
       "fwhm": 2,
       "fitLimits": [
@@ -1398,8 +1383,8 @@
       ],
       "fwhm": 2,
       "fitLimits": [
-         50,
-         1600
+         300,
+         2100
       ],
       "PTLimits": [
          0,
@@ -1415,8 +1400,8 @@
       ],
       "fwhm": 2,
       "fitLimits": [
-         50,
-         1600
+         300,
+         2100
       ],
       "PTLimits": [
          0,
@@ -1432,8 +1417,8 @@
       ],
       "fwhm": 2,
       "fitLimits": [
-         50,
-         1600
+         300,
+         2100
       ],
       "PTLimits": [
          0,
@@ -1449,8 +1434,8 @@
       ],
       "fwhm": 2,
       "fitLimits": [
-         50,
-         1600
+         300,
+         2100
       ],
       "PTLimits": [
          0,
@@ -1466,8 +1451,8 @@
       ],
       "fwhm": 2,
       "fitLimits": [
-         50,
-         1600
+         300,
+         2100
       ],
       "PTLimits": [
          0,
@@ -1483,8 +1468,8 @@
       ],
       "fwhm": 2,
       "fitLimits": [
-         50,
-         1600
+         300,
+         2100
       ],
       "PTLimits": [
          0,
@@ -1500,8 +1485,8 @@
       ],
       "fwhm": 2,
       "fitLimits": [
-         50,
-         1600
+         300,
+         2100
       ],
       "PTLimits": [
          0,
@@ -1517,8 +1502,8 @@
       ],
       "fwhm": 2,
       "fitLimits": [
-         50,
-         1600
+         300,
+         2100
       ],
       "PTLimits": [
          0,
@@ -1532,8 +1517,8 @@
       "ampl": 10000,
       "fwhm": 2,
       "fitLimits": [
-         50,
-         1600
+         300,
+         2100
       ],
       "PTLimits": [
          0,
@@ -1564,8 +1549,8 @@
       ],
       "fwhm": 2,
       "fitLimits": [
-         50,
-         1600
+         300,
+         2100
       ],
       "PTLimits": [
          0,
@@ -1581,8 +1566,8 @@
       ],
       "fwhm": 2,
       "fitLimits": [
-         50,
-         1600
+         300,
+         2100
       ],
       "PTLimits": [
          0,
@@ -1598,8 +1583,8 @@
       ],
       "fwhm": 2,
       "fitLimits": [
-         50,
-         1600
+         300,
+         2100
       ],
       "PTLimits": [
          0,
@@ -1615,8 +1600,8 @@
       ],
       "fwhm": 2,
       "fitLimits": [
-         50,
-         1600
+         300,
+         2100
       ],
       "PTLimits": [
          0,
@@ -1632,8 +1617,8 @@
       ],
       "fwhm": 2,
       "fitLimits": [
-         50,
-         1600
+         300,
+         2100
       ],
       "PTLimits": [
          0,
@@ -1649,8 +1634,8 @@
       ],
       "fwhm": 2,
       "fitLimits": [
-         50,
-         1600
+         300,
+         2100
       ],
       "PTLimits": [
          0,
@@ -1666,8 +1651,8 @@
       ],
       "fwhm": 2,
       "fitLimits": [
-         50,
-         1600
+         300,
+         2100
       ],
       "PTLimits": [
          0,
@@ -1683,8 +1668,8 @@
       ],
       "fwhm": 2,
       "fitLimits": [
-         50,
-         1600
+         300,
+         2100
       ],
       "PTLimits": [
          0,
@@ -1698,8 +1683,8 @@
       "ampl": 10000,
       "fwhm": 2,
       "fitLimits": [
-         50,
-         1600
+         300,
+         2100
       ],
       "PTLimits": [
          0,
@@ -1730,8 +1715,8 @@
       ],
       "fwhm": 2,
       "fitLimits": [
-         50,
-         1600
+         300,
+         2100
       ],
       "PTLimits": [
          0,
@@ -1747,8 +1732,8 @@
       ],
       "fwhm": 2,
       "fitLimits": [
-         50,
-         1600
+         300,
+         2100
       ],
       "PTLimits": [
          0,
@@ -1764,8 +1749,8 @@
       ],
       "fwhm": 2,
       "fitLimits": [
-         50,
-         1600
+         300,
+         2100
       ],
       "PTLimits": [
          0,
@@ -1781,8 +1766,8 @@
       ],
       "fwhm": 2,
       "fitLimits": [
-         50,
-         1600
+         300,
+         2100
       ],
       "PTLimits": [
          0,
@@ -1798,8 +1783,8 @@
       ],
       "fwhm": 2,
       "fitLimits": [
-         50,
-         1600
+         300,
+         2100
       ],
       "PTLimits": [
          0,
@@ -1815,8 +1800,8 @@
       ],
       "fwhm": 2,
       "fitLimits": [
-         50,
-         1600
+         300,
+         2100
       ],
       "PTLimits": [
          0,
@@ -1832,8 +1817,8 @@
       ],
       "fwhm": 2,
       "fitLimits": [
-         50,
-         1600
+         300,
+         2100
       ],
       "PTLimits": [
          0,
@@ -1849,8 +1834,8 @@
       ],
       "fwhm": 2,
       "fitLimits": [
-         50,
-         1600
+         300,
+         2100
       ],
       "PTLimits": [
          0,
@@ -1864,8 +1849,8 @@
       "ampl": 10000,
       "fwhm": 2,
       "fitLimits": [
-         50,
-         1600
+         300,
+         2100
       ],
       "PTLimits": [
          0,
@@ -1896,8 +1881,8 @@
       ],
       "fwhm": 2,
       "fitLimits": [
-         50,
-         1600
+         300,
+         2100
       ],
       "PTLimits": [
          0,
@@ -1913,8 +1898,8 @@
       ],
       "fwhm": 2,
       "fitLimits": [
-         50,
-         1600
+         300,
+         2100
       ],
       "PTLimits": [
          0,
@@ -1930,8 +1915,8 @@
       ],
       "fwhm": 2,
       "fitLimits": [
-         50,
-         1600
+         300,
+         2100
       ],
       "PTLimits": [
          0,
@@ -1947,8 +1932,8 @@
       ],
       "fwhm": 2,
       "fitLimits": [
-         50,
-         1600
+         300,
+         2100
       ],
       "PTLimits": [
          0,
@@ -1964,8 +1949,8 @@
       ],
       "fwhm": 2,
       "fitLimits": [
-         50,
-         1600
+         300,
+         2100
       ],
       "PTLimits": [
          0,
@@ -1981,8 +1966,8 @@
       ],
       "fwhm": 2,
       "fitLimits": [
-         50,
-         1600
+         300,
+         2100
       ],
       "PTLimits": [
          0,
@@ -1998,8 +1983,8 @@
       ],
       "fwhm": 2,
       "fitLimits": [
-         50,
-         1600
+         300,
+         2100
       ],
       "PTLimits": [
          0,
@@ -2015,8 +2000,8 @@
       ],
       "fwhm": 2,
       "fitLimits": [
-         50,
-         1600
+         300,
+         2100
       ],
       "PTLimits": [
          0,
@@ -2030,8 +2015,8 @@
       "ampl": 10000,
       "fwhm": 2,
       "fitLimits": [
-         50,
-         1600
+         300,
+         2100
       ],
       "PTLimits": [
          0,
@@ -2062,8 +2047,8 @@
       ],
       "fwhm": 2,
       "fitLimits": [
-         50,
-         1600
+         300,
+         2100
       ],
       "PTLimits": [
          0,
@@ -2079,8 +2064,8 @@
       ],
       "fwhm": 2,
       "fitLimits": [
-         50,
-         1600
+         300,
+         2100
       ],
       "PTLimits": [
          0,
@@ -2096,8 +2081,8 @@
       ],
       "fwhm": 2,
       "fitLimits": [
-         50,
-         1600
+         300,
+         2100
       ],
       "PTLimits": [
          0,
@@ -2113,8 +2098,8 @@
       ],
       "fwhm": 2,
       "fitLimits": [
-         50,
-         1600
+         300,
+         2100
       ],
       "PTLimits": [
          0,
@@ -2130,8 +2115,8 @@
       ],
       "fwhm": 2,
       "fitLimits": [
-         50,
-         1600
+         300,
+         2100
       ],
       "PTLimits": [
          0,
@@ -2147,8 +2132,8 @@
       ],
       "fwhm": 2,
       "fitLimits": [
-         50,
-         1600
+         300,
+         2100
       ],
       "PTLimits": [
          0,
@@ -2164,8 +2149,8 @@
       ],
       "fwhm": 2,
       "fitLimits": [
-         50,
-         1600
+         300,
+         2100
       ],
       "PTLimits": [
          0,
@@ -2181,8 +2166,8 @@
       ],
       "fwhm": 2,
       "fitLimits": [
-         50,
-         1600
+         300,
+         2100
       ],
       "PTLimits": [
          0,
@@ -2196,8 +2181,8 @@
       "ampl": 10000,
       "fwhm": 2,
       "fitLimits": [
-         50,
-         1600
+         300,
+         2100
       ],
       "PTLimits": [
          0,
@@ -2228,8 +2213,8 @@
       ],
       "fwhm": 2,
       "fitLimits": [
-         50,
-         1600
+         300,
+         2100
       ],
       "PTLimits": [
          0,
@@ -2245,8 +2230,8 @@
       ],
       "fwhm": 2,
       "fitLimits": [
-         50,
-         1600
+         300,
+         2100
       ],
       "PTLimits": [
          0,
@@ -2262,8 +2247,8 @@
       ],
       "fwhm": 2,
       "fitLimits": [
-         50,
-         1600
+         300,
+         2100
       ],
       "PTLimits": [
          0,
@@ -2279,8 +2264,8 @@
       ],
       "fwhm": 2,
       "fitLimits": [
-         50,
-         1600
+         300,
+         2100
       ],
       "PTLimits": [
          0,
@@ -2296,8 +2281,8 @@
       ],
       "fwhm": 2,
       "fitLimits": [
-         50,
-         1600
+         300,
+         2100
       ],
       "PTLimits": [
          0,
@@ -2313,8 +2298,8 @@
       ],
       "fwhm": 2,
       "fitLimits": [
-         50,
-         1600
+         300,
+         2100
       ],
       "PTLimits": [
          0,
@@ -2330,8 +2315,8 @@
       ],
       "fwhm": 2,
       "fitLimits": [
-         50,
-         1600
+         300,
+         2100
       ],
       "PTLimits": [
          0,
@@ -2347,8 +2332,8 @@
       ],
       "fwhm": 2,
       "fitLimits": [
-         50,
-         1600
+         300,
+         2100
       ],
       "PTLimits": [
          0,
@@ -2362,8 +2347,8 @@
       "ampl": 10000,
       "fwhm": 2,
       "fitLimits": [
-         50,
-         1600
+         300,
+         2100
       ],
       "PTLimits": [
          0,
@@ -2394,8 +2379,8 @@
       ],
       "fwhm": 2,
       "fitLimits": [
-         50,
-         1600
+         300,
+         2100
       ],
       "PTLimits": [
          0,
@@ -2411,8 +2396,8 @@
       ],
       "fwhm": 2,
       "fitLimits": [
-         50,
-         1600
+         300,
+         2100
       ],
       "PTLimits": [
          0,
@@ -2428,8 +2413,8 @@
       ],
       "fwhm": 2,
       "fitLimits": [
-         50,
-         1600
+         300,
+         2100
       ],
       "PTLimits": [
          0,
@@ -2445,8 +2430,8 @@
       ],
       "fwhm": 2,
       "fitLimits": [
-         50,
-         1600
+         300,
+         2100
       ],
       "PTLimits": [
          0,
@@ -2462,8 +2447,8 @@
       ],
       "fwhm": 2,
       "fitLimits": [
-         50,
-         1600
+         300,
+         2100
       ],
       "PTLimits": [
          0,
@@ -2479,8 +2464,8 @@
       ],
       "fwhm": 2,
       "fitLimits": [
-         50,
-         1600
+         300,
+         2100
       ],
       "PTLimits": [
          0,
@@ -2496,8 +2481,8 @@
       ],
       "fwhm": 2,
       "fitLimits": [
-         50,
-         1600
+         300,
+         2100
       ],
       "PTLimits": [
          0,
@@ -2513,8 +2498,8 @@
       ],
       "fwhm": 2,
       "fitLimits": [
-         50,
-         1600
+         300,
+         2100
       ],
       "PTLimits": [
          0,
@@ -2528,8 +2513,8 @@
       "ampl": 10000,
       "fwhm": 2,
       "fitLimits": [
-         50,
-         1600
+         300,
+         2100
       ],
       "PTLimits": [
          0,
@@ -2560,8 +2545,8 @@
       ],
       "fwhm": 2,
       "fitLimits": [
-         50,
-         1600
+         300,
+         2100
       ],
       "PTLimits": [
          0,
@@ -2577,8 +2562,8 @@
       ],
       "fwhm": 2,
       "fitLimits": [
-         50,
-         1600
+         300,
+         2100
       ],
       "PTLimits": [
          0,
@@ -2594,8 +2579,8 @@
       ],
       "fwhm": 2,
       "fitLimits": [
-         50,
-         1600
+         300,
+         2100
       ],
       "PTLimits": [
          0,
@@ -2611,8 +2596,8 @@
       ],
       "fwhm": 2,
       "fitLimits": [
-         50,
-         1600
+         300,
+         2100
       ],
       "PTLimits": [
          0,
@@ -2628,8 +2613,8 @@
       ],
       "fwhm": 2,
       "fitLimits": [
-         50,
-         1600
+         300,
+         2100
       ],
       "PTLimits": [
          0,
@@ -2645,8 +2630,8 @@
       ],
       "fwhm": 2,
       "fitLimits": [
-         50,
-         1600
+         300,
+         2100
       ],
       "PTLimits": [
          0,
@@ -2662,8 +2647,8 @@
       ],
       "fwhm": 2,
       "fitLimits": [
-         50,
-         1600
+         300,
+         2100
       ],
       "PTLimits": [
          0,
@@ -2679,8 +2664,8 @@
       ],
       "fwhm": 2,
       "fitLimits": [
-         50,
-         1600
+         300,
+         2100
       ],
       "PTLimits": [
          0,
@@ -2694,8 +2679,8 @@
       "ampl": 10000,
       "fwhm": 2,
       "fitLimits": [
-         50,
-         1600
+         300,
+         2100
       ],
       "PTLimits": [
          0,
@@ -2720,14 +2705,14 @@
    {
       "domain": 501,
       "detType": 2,
-      "serial": "CL30B",
+      "serial": "CL32B",
       "ampl": [
          100
       ],
       "fwhm": 2,
       "fitLimits": [
-         50,
-         1600
+         300,
+         2100
       ],
       "PTLimits": [
          0,
@@ -2737,14 +2722,14 @@
    {
       "domain": 502,
       "detType": 2,
-      "serial": "CL30B",
+      "serial": "CL32B",
       "ampl": [
          100
       ],
       "fwhm": 2,
       "fitLimits": [
-         50,
-         1600
+         300,
+         2100
       ],
       "PTLimits": [
          0,
@@ -2754,14 +2739,14 @@
    {
       "domain": 503,
       "detType": 2,
-      "serial": "CL30B",
+      "serial": "CL32B",
       "ampl": [
          100
       ],
       "fwhm": 2,
       "fitLimits": [
-         50,
-         1600
+         300,
+         2100
       ],
       "PTLimits": [
          0,
@@ -2771,14 +2756,14 @@
    {
       "domain": 504,
       "detType": 2,
-      "serial": "CL30B",
+      "serial": "CL32B",
       "ampl": [
          100
       ],
       "fwhm": 2,
       "fitLimits": [
-         50,
-         1600
+         300,
+         2100
       ],
       "PTLimits": [
          0,
@@ -2788,14 +2773,14 @@
    {
       "domain": 505,
       "detType": 2,
-      "serial": "CL30B",
+      "serial": "CL32B",
       "ampl": [
          100
       ],
       "fwhm": 2,
       "fitLimits": [
-         50,
-         1600
+         300,
+         2100
       ],
       "PTLimits": [
          0,
@@ -2805,14 +2790,14 @@
    {
       "domain": 506,
       "detType": 2,
-      "serial": "CL30B",
+      "serial": "CL32B",
       "ampl": [
          100
       ],
       "fwhm": 2,
       "fitLimits": [
-         50,
-         1600
+         300,
+         2100
       ],
       "PTLimits": [
          0,
@@ -2822,14 +2807,14 @@
    {
       "domain": 507,
       "detType": 2,
-      "serial": "CL30B",
+      "serial": "CL32B",
       "ampl": [
          100
       ],
       "fwhm": 2,
       "fitLimits": [
-         50,
-         1600
+         300,
+         2100
       ],
       "PTLimits": [
          0,
@@ -2839,14 +2824,14 @@
    {
       "domain": 508,
       "detType": 2,
-      "serial": "CL30B",
+      "serial": "CL32B",
       "ampl": [
          100
       ],
       "fwhm": 2,
       "fitLimits": [
-         50,
-         1600
+         300,
+         2100
       ],
       "PTLimits": [
          0,
@@ -2856,12 +2841,12 @@
    {
       "domain": 509,
       "detType": 1,
-      "serial": "CL30B",
+      "serial": "CL32B",
       "ampl": 10000,
       "fwhm": 2,
       "fitLimits": [
-         50,
-         1600
+         300,
+         2100
       ],
       "PTLimits": [
          0,
@@ -2871,7 +2856,7 @@
    {
       "domain": 510,
       "detType": 10,
-      "serial": "CL30B",
+      "serial": "CL32B",
       "ampl": 1000,
       "fwhm": 2,
       "fitLimits": [
@@ -2886,14 +2871,14 @@
    {
       "domain": 511,
       "detType": 2,
-      "serial": "CL30G",
+      "serial": "CL32G",
       "ampl": [
          100
       ],
       "fwhm": 2,
       "fitLimits": [
-         50,
-         1600
+         300,
+         2100
       ],
       "PTLimits": [
          0,
@@ -2903,14 +2888,14 @@
    {
       "domain": 512,
       "detType": 2,
-      "serial": "CL30G",
+      "serial": "CL32G",
       "ampl": [
          100
       ],
       "fwhm": 2,
       "fitLimits": [
-         50,
-         1600
+         300,
+         2100
       ],
       "PTLimits": [
          0,
@@ -2920,14 +2905,14 @@
    {
       "domain": 513,
       "detType": 2,
-      "serial": "CL30G",
+      "serial": "CL32G",
       "ampl": [
          100
       ],
       "fwhm": 2,
       "fitLimits": [
-         50,
-         1600
+         300,
+         2100
       ],
       "PTLimits": [
          0,
@@ -2937,14 +2922,14 @@
    {
       "domain": 514,
       "detType": 2,
-      "serial": "CL30G",
+      "serial": "CL32G",
       "ampl": [
          100
       ],
       "fwhm": 2,
       "fitLimits": [
-         50,
-         1600
+         300,
+         2100
       ],
       "PTLimits": [
          0,
@@ -2954,14 +2939,14 @@
    {
       "domain": 515,
       "detType": 2,
-      "serial": "CL30G",
+      "serial": "CL32G",
       "ampl": [
          100
       ],
       "fwhm": 2,
       "fitLimits": [
-         50,
-         1600
+         300,
+         2100
       ],
       "PTLimits": [
          0,
@@ -2971,14 +2956,14 @@
    {
       "domain": 516,
       "detType": 2,
-      "serial": "CL30G",
+      "serial": "CL32G",
       "ampl": [
          100
       ],
       "fwhm": 2,
       "fitLimits": [
-         50,
-         1600
+         300,
+         2100
       ],
       "PTLimits": [
          0,
@@ -2988,14 +2973,14 @@
    {
       "domain": 517,
       "detType": 2,
-      "serial": "CL30G",
+      "serial": "CL32G",
       "ampl": [
          100
       ],
       "fwhm": 2,
       "fitLimits": [
-         50,
-         1600
+         300,
+         2100
       ],
       "PTLimits": [
          0,
@@ -3005,14 +2990,14 @@
    {
       "domain": 518,
       "detType": 2,
-      "serial": "CL30G",
+      "serial": "CL32G",
       "ampl": [
          100
       ],
       "fwhm": 2,
       "fitLimits": [
-         50,
-         1600
+         300,
+         2100
       ],
       "PTLimits": [
          0,
@@ -3022,12 +3007,12 @@
    {
       "domain": 519,
       "detType": 1,
-      "serial": "CL30G",
+      "serial": "CL32G",
       "ampl": 10000,
       "fwhm": 2,
       "fitLimits": [
-         50,
-         1600
+         300,
+         2100
       ],
       "PTLimits": [
          0,
@@ -3037,7 +3022,7 @@
    {
       "domain": 520,
       "detType": 10,
-      "serial": "CL30G",
+      "serial": "CL32G",
       "ampl": 1000,
       "fwhm": 2,
       "fitLimits": [
@@ -3052,14 +3037,14 @@
    {
       "domain": 521,
       "detType": 2,
-      "serial": "CL30R",
+      "serial": "CL32R",
       "ampl": [
          100
       ],
       "fwhm": 2,
       "fitLimits": [
-         50,
-         1600
+         300,
+         2100
       ],
       "PTLimits": [
          0,
@@ -3069,14 +3054,14 @@
    {
       "domain": 522,
       "detType": 2,
-      "serial": "CL30R",
+      "serial": "CL32R",
       "ampl": [
          100
       ],
       "fwhm": 2,
       "fitLimits": [
-         50,
-         1600
+         300,
+         2100
       ],
       "PTLimits": [
          0,
@@ -3086,14 +3071,14 @@
    {
       "domain": 523,
       "detType": 2,
-      "serial": "CL30R",
+      "serial": "CL32R",
       "ampl": [
          100
       ],
       "fwhm": 2,
       "fitLimits": [
-         50,
-         1600
+         300,
+         2100
       ],
       "PTLimits": [
          0,
@@ -3103,14 +3088,14 @@
    {
       "domain": 524,
       "detType": 2,
-      "serial": "CL30R",
+      "serial": "CL32R",
       "ampl": [
          100
       ],
       "fwhm": 2,
       "fitLimits": [
-         50,
-         1600
+         300,
+         2100
       ],
       "PTLimits": [
          0,
@@ -3120,14 +3105,14 @@
    {
       "domain": 525,
       "detType": 2,
-      "serial": "CL30R",
+      "serial": "CL32R",
       "ampl": [
          100
       ],
       "fwhm": 2,
       "fitLimits": [
-         50,
-         1600
+         300,
+         2100
       ],
       "PTLimits": [
          0,
@@ -3137,14 +3122,14 @@
    {
       "domain": 526,
       "detType": 2,
-      "serial": "CL30R",
+      "serial": "CL32R",
       "ampl": [
          100
       ],
       "fwhm": 2,
       "fitLimits": [
-         50,
-         1600
+         300,
+         2100
       ],
       "PTLimits": [
          0,
@@ -3154,14 +3139,14 @@
    {
       "domain": 527,
       "detType": 2,
-      "serial": "CL30R",
+      "serial": "CL32R",
       "ampl": [
          100
       ],
       "fwhm": 2,
       "fitLimits": [
-         50,
-         1600
+         300,
+         2100
       ],
       "PTLimits": [
          0,
@@ -3171,14 +3156,14 @@
    {
       "domain": 528,
       "detType": 2,
-      "serial": "CL30R",
+      "serial": "CL32R",
       "ampl": [
          100
       ],
       "fwhm": 2,
       "fitLimits": [
-         50,
-         1600
+         300,
+         2100
       ],
       "PTLimits": [
          0,
@@ -3188,12 +3173,12 @@
    {
       "domain": 529,
       "detType": 1,
-      "serial": "CL30R",
+      "serial": "CL32R",
       "ampl": 10000,
       "fwhm": 2,
       "fitLimits": [
-         50,
-         1600
+         300,
+         2100
       ],
       "PTLimits": [
          0,
@@ -3203,7 +3188,7 @@
    {
       "domain": 530,
       "detType": 10,
-      "serial": "CL30R",
+      "serial": "CL32R",
       "ampl": 1000,
       "fwhm": 2,
       "fitLimits": [
@@ -3218,14 +3203,14 @@
    {
       "domain": 531,
       "detType": 2,
-      "serial": "CL30W",
+      "serial": "CL32W",
       "ampl": [
          100
       ],
       "fwhm": 2,
       "fitLimits": [
-         50,
-         1600
+         300,
+         2100
       ],
       "PTLimits": [
          0,
@@ -3235,14 +3220,14 @@
    {
       "domain": 532,
       "detType": 2,
-      "serial": "CL30W",
+      "serial": "CL32W",
       "ampl": [
          100
       ],
       "fwhm": 2,
       "fitLimits": [
-         50,
-         1600
+         300,
+         2100
       ],
       "PTLimits": [
          0,
@@ -3252,14 +3237,14 @@
    {
       "domain": 533,
       "detType": 2,
-      "serial": "CL30W",
+      "serial": "CL32W",
       "ampl": [
          100
       ],
       "fwhm": 2,
       "fitLimits": [
-         50,
-         1600
+         300,
+         2100
       ],
       "PTLimits": [
          0,
@@ -3269,14 +3254,14 @@
    {
       "domain": 534,
       "detType": 2,
-      "serial": "CL30W",
+      "serial": "CL32W",
       "ampl": [
          100
       ],
       "fwhm": 2,
       "fitLimits": [
-         50,
-         1600
+         300,
+         2100
       ],
       "PTLimits": [
          0,
@@ -3286,14 +3271,14 @@
    {
       "domain": 535,
       "detType": 2,
-      "serial": "CL30W",
+      "serial": "CL32W",
       "ampl": [
          100
       ],
       "fwhm": 2,
       "fitLimits": [
-         50,
-         1600
+         300,
+         2100
       ],
       "PTLimits": [
          0,
@@ -3303,14 +3288,14 @@
    {
       "domain": 536,
       "detType": 2,
-      "serial": "CL30W",
+      "serial": "CL32W",
       "ampl": [
          100
       ],
       "fwhm": 2,
       "fitLimits": [
-         50,
-         1600
+         300,
+         2100
       ],
       "PTLimits": [
          0,
@@ -3320,14 +3305,14 @@
    {
       "domain": 537,
       "detType": 2,
-      "serial": "CL30W",
+      "serial": "CL32W",
       "ampl": [
          100
       ],
       "fwhm": 2,
       "fitLimits": [
-         50,
-         1600
+         300,
+         2100
       ],
       "PTLimits": [
          0,
@@ -3337,14 +3322,14 @@
    {
       "domain": 538,
       "detType": 2,
-      "serial": "CL30W",
+      "serial": "CL32W",
       "ampl": [
          100
       ],
       "fwhm": 2,
       "fitLimits": [
-         50,
-         1600
+         300,
+         2100
       ],
       "PTLimits": [
          0,
@@ -3354,12 +3339,12 @@
    {
       "domain": 539,
       "detType": 1,
-      "serial": "CL30W",
+      "serial": "CL32W",
       "ampl": 10000,
       "fwhm": 2,
       "fitLimits": [
-         50,
-         1600
+         300,
+         2100
       ],
       "PTLimits": [
          0,
@@ -3369,7 +3354,7 @@
    {
       "domain": 540,
       "detType": 10,
-      "serial": "CL30W",
+      "serial": "CL32W",
       "ampl": 1000,
       "fwhm": 2,
       "fitLimits": [
@@ -3390,8 +3375,8 @@
       ],
       "fwhm": 2,
       "fitLimits": [
-         50,
-         1600
+         300,
+         2100
       ],
       "PTLimits": [
          0,
@@ -3407,8 +3392,8 @@
       ],
       "fwhm": 2,
       "fitLimits": [
-         50,
-         1600
+         300,
+         2100
       ],
       "PTLimits": [
          0,
@@ -3424,8 +3409,8 @@
       ],
       "fwhm": 2,
       "fitLimits": [
-         50,
-         1600
+         300,
+         2100
       ],
       "PTLimits": [
          0,
@@ -3441,8 +3426,8 @@
       ],
       "fwhm": 2,
       "fitLimits": [
-         50,
-         1600
+         300,
+         2100
       ],
       "PTLimits": [
          0,
@@ -3458,8 +3443,8 @@
       ],
       "fwhm": 2,
       "fitLimits": [
-         50,
-         1600
+         300,
+         2100
       ],
       "PTLimits": [
          0,
@@ -3475,8 +3460,8 @@
       ],
       "fwhm": 2,
       "fitLimits": [
-         50,
-         1600
+         300,
+         2100
       ],
       "PTLimits": [
          0,
@@ -3492,8 +3477,8 @@
       ],
       "fwhm": 2,
       "fitLimits": [
-         50,
-         1600
+         300,
+         2100
       ],
       "PTLimits": [
          0,
@@ -3509,8 +3494,8 @@
       ],
       "fwhm": 2,
       "fitLimits": [
-         50,
-         1600
+         300,
+         2100
       ],
       "PTLimits": [
          0,
@@ -3524,8 +3509,8 @@
       "ampl": 10000,
       "fwhm": 2,
       "fitLimits": [
-         50,
-         1600
+         300,
+         2100
       ],
       "PTLimits": [
          0,
@@ -3556,8 +3541,8 @@
       ],
       "fwhm": 2,
       "fitLimits": [
-         50,
-         1600
+         300,
+         2100
       ],
       "PTLimits": [
          0,
@@ -3573,8 +3558,8 @@
       ],
       "fwhm": 2,
       "fitLimits": [
-         50,
-         1600
+         300,
+         2100
       ],
       "PTLimits": [
          0,
@@ -3590,8 +3575,8 @@
       ],
       "fwhm": 2,
       "fitLimits": [
-         50,
-         1600
+         300,
+         2100
       ],
       "PTLimits": [
          0,
@@ -3607,8 +3592,8 @@
       ],
       "fwhm": 2,
       "fitLimits": [
-         50,
-         1600
+         300,
+         2100
       ],
       "PTLimits": [
          0,
@@ -3624,8 +3609,8 @@
       ],
       "fwhm": 2,
       "fitLimits": [
-         50,
-         1600
+         300,
+         2100
       ],
       "PTLimits": [
          0,
@@ -3641,8 +3626,8 @@
       ],
       "fwhm": 2,
       "fitLimits": [
-         50,
-         1600
+         300,
+         2100
       ],
       "PTLimits": [
          0,
@@ -3658,8 +3643,8 @@
       ],
       "fwhm": 2,
       "fitLimits": [
-         50,
-         1600
+         300,
+         2100
       ],
       "PTLimits": [
          0,
@@ -3675,8 +3660,8 @@
       ],
       "fwhm": 2,
       "fitLimits": [
-         50,
-         1600
+         300,
+         2100
       ],
       "PTLimits": [
          0,
@@ -3690,8 +3675,8 @@
       "ampl": 10000,
       "fwhm": 2,
       "fitLimits": [
-         50,
-         1600
+         300,
+         2100
       ],
       "PTLimits": [
          0,
@@ -3722,8 +3707,8 @@
       ],
       "fwhm": 2,
       "fitLimits": [
-         50,
-         1600
+         300,
+         2100
       ],
       "PTLimits": [
          0,
@@ -3739,8 +3724,8 @@
       ],
       "fwhm": 2,
       "fitLimits": [
-         50,
-         1600
+         300,
+         2100
       ],
       "PTLimits": [
          0,
@@ -3756,8 +3741,8 @@
       ],
       "fwhm": 2,
       "fitLimits": [
-         50,
-         1600
+         300,
+         2100
       ],
       "PTLimits": [
          0,
@@ -3773,8 +3758,8 @@
       ],
       "fwhm": 2,
       "fitLimits": [
-         50,
-         1600
+         300,
+         2100
       ],
       "PTLimits": [
          0,
@@ -3790,8 +3775,8 @@
       ],
       "fwhm": 2,
       "fitLimits": [
-         50,
-         1600
+         300,
+         2100
       ],
       "PTLimits": [
          0,
@@ -3807,8 +3792,8 @@
       ],
       "fwhm": 2,
       "fitLimits": [
-         50,
-         1600
+         300,
+         2100
       ],
       "PTLimits": [
          0,
@@ -3824,8 +3809,8 @@
       ],
       "fwhm": 2,
       "fitLimits": [
-         50,
-         1600
+         300,
+         2100
       ],
       "PTLimits": [
          0,
@@ -3841,8 +3826,8 @@
       ],
       "fwhm": 2,
       "fitLimits": [
-         50,
-         1600
+         300,
+         2100
       ],
       "PTLimits": [
          0,
@@ -3856,8 +3841,8 @@
       "ampl": 10000,
       "fwhm": 2,
       "fitLimits": [
-         50,
-         1600
+         300,
+         2100
       ],
       "PTLimits": [
          0,
@@ -3888,8 +3873,8 @@
       ],
       "fwhm": 2,
       "fitLimits": [
-         50,
-         1600
+         300,
+         2100
       ],
       "PTLimits": [
          0,
@@ -3905,8 +3890,8 @@
       ],
       "fwhm": 2,
       "fitLimits": [
-         50,
-         1600
+         300,
+         2100
       ],
       "PTLimits": [
          0,
@@ -3922,8 +3907,8 @@
       ],
       "fwhm": 2,
       "fitLimits": [
-         50,
-         1600
+         300,
+         2100
       ],
       "PTLimits": [
          0,
@@ -3939,8 +3924,8 @@
       ],
       "fwhm": 2,
       "fitLimits": [
-         50,
-         1600
+         300,
+         2100
       ],
       "PTLimits": [
          0,
@@ -3956,8 +3941,8 @@
       ],
       "fwhm": 2,
       "fitLimits": [
-         50,
-         1600
+         300,
+         2100
       ],
       "PTLimits": [
          0,
@@ -3973,8 +3958,8 @@
       ],
       "fwhm": 2,
       "fitLimits": [
-         50,
-         1600
+         300,
+         2100
       ],
       "PTLimits": [
          0,
@@ -3990,8 +3975,8 @@
       ],
       "fwhm": 2,
       "fitLimits": [
-         50,
-         1600
+         300,
+         2100
       ],
       "PTLimits": [
          0,
@@ -4007,8 +3992,8 @@
       ],
       "fwhm": 2,
       "fitLimits": [
-         50,
-         1600
+         300,
+         2100
       ],
       "PTLimits": [
          0,
@@ -4022,8 +4007,8 @@
       "ampl": 10000,
       "fwhm": 2,
       "fitLimits": [
-         50,
-         1600
+         300,
+         2100
       ],
       "PTLimits": [
          0,
@@ -4054,8 +4039,8 @@
       ],
       "fwhm": 2,
       "fitLimits": [
-         50,
-         1600
+         300,
+         2100
       ],
       "PTLimits": [
          0,
@@ -4071,8 +4056,8 @@
       ],
       "fwhm": 2,
       "fitLimits": [
-         50,
-         1600
+         300,
+         2100
       ],
       "PTLimits": [
          0,
@@ -4088,8 +4073,8 @@
       ],
       "fwhm": 2,
       "fitLimits": [
-         50,
-         1600
+         300,
+         2100
       ],
       "PTLimits": [
          0,
@@ -4105,8 +4090,8 @@
       ],
       "fwhm": 2,
       "fitLimits": [
-         50,
-         1600
+         300,
+         2100
       ],
       "PTLimits": [
          0,
@@ -4122,8 +4107,8 @@
       ],
       "fwhm": 2,
       "fitLimits": [
-         50,
-         1600
+         300,
+         2100
       ],
       "PTLimits": [
          0,
@@ -4139,8 +4124,8 @@
       ],
       "fwhm": 2,
       "fitLimits": [
-         50,
-         1600
+         300,
+         2100
       ],
       "PTLimits": [
          0,
@@ -4156,8 +4141,8 @@
       ],
       "fwhm": 2,
       "fitLimits": [
-         50,
-         1600
+         300,
+         2100
       ],
       "PTLimits": [
          0,
@@ -4173,8 +4158,8 @@
       ],
       "fwhm": 2,
       "fitLimits": [
-         50,
-         1600
+         300,
+         2100
       ],
       "PTLimits": [
          0,
@@ -4188,8 +4173,8 @@
       "ampl": 10000,
       "fwhm": 2,
       "fitLimits": [
-         50,
-         1600
+         300,
+         2100
       ],
       "PTLimits": [
          0,
@@ -4220,8 +4205,8 @@
       ],
       "fwhm": 2,
       "fitLimits": [
-         50,
-         1600
+         300,
+         2100
       ],
       "PTLimits": [
          0,
@@ -4237,8 +4222,8 @@
       ],
       "fwhm": 2,
       "fitLimits": [
-         50,
-         1600
+         300,
+         2100
       ],
       "PTLimits": [
          0,
@@ -4254,8 +4239,8 @@
       ],
       "fwhm": 2,
       "fitLimits": [
-         50,
-         1600
+         300,
+         2100
       ],
       "PTLimits": [
          0,
@@ -4271,8 +4256,8 @@
       ],
       "fwhm": 2,
       "fitLimits": [
-         50,
-         1600
+         300,
+         2100
       ],
       "PTLimits": [
          0,
@@ -4288,8 +4273,8 @@
       ],
       "fwhm": 2,
       "fitLimits": [
-         50,
-         1600
+         300,
+         2100
       ],
       "PTLimits": [
          0,
@@ -4305,8 +4290,8 @@
       ],
       "fwhm": 2,
       "fitLimits": [
-         50,
-         1600
+         300,
+         2100
       ],
       "PTLimits": [
          0,
@@ -4322,8 +4307,8 @@
       ],
       "fwhm": 2,
       "fitLimits": [
-         50,
-         1600
+         300,
+         2100
       ],
       "PTLimits": [
          0,
@@ -4339,8 +4324,8 @@
       ],
       "fwhm": 2,
       "fitLimits": [
-         50,
-         1600
+         300,
+         2100
       ],
       "PTLimits": [
          0,
@@ -4354,8 +4339,8 @@
       "ampl": 10000,
       "fwhm": 2,
       "fitLimits": [
-         50,
-         1600
+         300,
+         2100
       ],
       "PTLimits": [
          0,
@@ -4386,8 +4371,8 @@
       ],
       "fwhm": 2,
       "fitLimits": [
-         50,
-         1600
+         300,
+         2100
       ],
       "PTLimits": [
          0,
@@ -4403,8 +4388,8 @@
       ],
       "fwhm": 2,
       "fitLimits": [
-         50,
-         1600
+         300,
+         2100
       ],
       "PTLimits": [
          0,
@@ -4420,8 +4405,8 @@
       ],
       "fwhm": 2,
       "fitLimits": [
-         50,
-         1600
+         300,
+         2100
       ],
       "PTLimits": [
          0,
@@ -4437,8 +4422,8 @@
       ],
       "fwhm": 2,
       "fitLimits": [
-         50,
-         1600
+         300,
+         2100
       ],
       "PTLimits": [
          0,
@@ -4454,8 +4439,8 @@
       ],
       "fwhm": 2,
       "fitLimits": [
-         50,
-         1600
+         300,
+         2100
       ],
       "PTLimits": [
          0,
@@ -4471,8 +4456,8 @@
       ],
       "fwhm": 2,
       "fitLimits": [
-         50,
-         1600
+         300,
+         2100
       ],
       "PTLimits": [
          0,
@@ -4488,8 +4473,8 @@
       ],
       "fwhm": 2,
       "fitLimits": [
-         50,
-         1600
+         300,
+         2100
       ],
       "PTLimits": [
          0,
@@ -4505,8 +4490,8 @@
       ],
       "fwhm": 2,
       "fitLimits": [
-         50,
-         1600
+         300,
+         2100
       ],
       "PTLimits": [
          0,
@@ -4520,8 +4505,8 @@
       "ampl": 10000,
       "fwhm": 2,
       "fitLimits": [
-         50,
-         1600
+         300,
+         2100
       ],
       "PTLimits": [
          0,
@@ -4552,8 +4537,8 @@
       ],
       "fwhm": 2,
       "fitLimits": [
-         50,
-         1600
+         300,
+         2100
       ],
       "PTLimits": [
          0,
@@ -4569,8 +4554,8 @@
       ],
       "fwhm": 2,
       "fitLimits": [
-         50,
-         1600
+         300,
+         2100
       ],
       "PTLimits": [
          0,
@@ -4586,8 +4571,8 @@
       ],
       "fwhm": 2,
       "fitLimits": [
-         50,
-         1600
+         300,
+         2100
       ],
       "PTLimits": [
          0,
@@ -4603,8 +4588,8 @@
       ],
       "fwhm": 2,
       "fitLimits": [
-         50,
-         1600
+         300,
+         2100
       ],
       "PTLimits": [
          0,
@@ -4620,8 +4605,8 @@
       ],
       "fwhm": 2,
       "fitLimits": [
-         50,
-         1600
+         300,
+         2100
       ],
       "PTLimits": [
          0,
@@ -4637,8 +4622,8 @@
       ],
       "fwhm": 2,
       "fitLimits": [
-         50,
-         1600
+         300,
+         2100
       ],
       "PTLimits": [
          0,
@@ -4654,8 +4639,8 @@
       ],
       "fwhm": 2,
       "fitLimits": [
-         50,
-         1600
+         300,
+         2100
       ],
       "PTLimits": [
          0,
@@ -4671,8 +4656,8 @@
       ],
       "fwhm": 2,
       "fitLimits": [
-         50,
-         1600
+         300,
+         2100
       ],
       "PTLimits": [
          0,
@@ -4686,8 +4671,8 @@
       "ampl": 10000,
       "fwhm": 2,
       "fitLimits": [
-         50,
-         1600
+         300,
+         2100
       ],
       "PTLimits": [
          0,
@@ -4718,8 +4703,8 @@
       ],
       "fwhm": 2,
       "fitLimits": [
-         50,
-         1600
+         300,
+         2100
       ],
       "PTLimits": [
          0,
@@ -4735,8 +4720,8 @@
       ],
       "fwhm": 2,
       "fitLimits": [
-         50,
-         1600
+         300,
+         2100
       ],
       "PTLimits": [
          0,
@@ -4752,8 +4737,8 @@
       ],
       "fwhm": 2,
       "fitLimits": [
-         50,
-         1600
+         300,
+         2100
       ],
       "PTLimits": [
          0,
@@ -4769,8 +4754,8 @@
       ],
       "fwhm": 2,
       "fitLimits": [
-         50,
-         1600
+         300,
+         2100
       ],
       "PTLimits": [
          0,
@@ -4786,8 +4771,8 @@
       ],
       "fwhm": 2,
       "fitLimits": [
-         50,
-         1600
+         300,
+         2100
       ],
       "PTLimits": [
          0,
@@ -4803,8 +4788,8 @@
       ],
       "fwhm": 2,
       "fitLimits": [
-         50,
-         1600
+         300,
+         2100
       ],
       "PTLimits": [
          0,
@@ -4820,8 +4805,8 @@
       ],
       "fwhm": 2,
       "fitLimits": [
-         50,
-         1600
+         300,
+         2100
       ],
       "PTLimits": [
          0,
@@ -4837,8 +4822,8 @@
       ],
       "fwhm": 2,
       "fitLimits": [
-         50,
-         1600
+         300,
+         2100
       ],
       "PTLimits": [
          0,
@@ -4852,8 +4837,8 @@
       "ampl": 10000,
       "fwhm": 2,
       "fitLimits": [
-         50,
-         1600
+         300,
+         2100
       ],
       "PTLimits": [
          0,
@@ -4884,8 +4869,8 @@
       ],
       "fwhm": 2,
       "fitLimits": [
-         50,
-         1600
+         300,
+         2100
       ],
       "PTLimits": [
          0,
@@ -4901,8 +4886,8 @@
       ],
       "fwhm": 2,
       "fitLimits": [
-         50,
-         1600
+         300,
+         2100
       ],
       "PTLimits": [
          0,
@@ -4918,8 +4903,8 @@
       ],
       "fwhm": 2,
       "fitLimits": [
-         50,
-         1600
+         300,
+         2100
       ],
       "PTLimits": [
          0,
@@ -4935,8 +4920,8 @@
       ],
       "fwhm": 2,
       "fitLimits": [
-         50,
-         1600
+         300,
+         2100
       ],
       "PTLimits": [
          0,
@@ -4952,8 +4937,8 @@
       ],
       "fwhm": 2,
       "fitLimits": [
-         50,
-         1600
+         300,
+         2100
       ],
       "PTLimits": [
          0,
@@ -4969,8 +4954,8 @@
       ],
       "fwhm": 2,
       "fitLimits": [
-         50,
-         1600
+         300,
+         2100
       ],
       "PTLimits": [
          0,
@@ -4986,8 +4971,8 @@
       ],
       "fwhm": 2,
       "fitLimits": [
-         50,
-         1600
+         300,
+         2100
       ],
       "PTLimits": [
          0,
@@ -5003,8 +4988,8 @@
       ],
       "fwhm": 2,
       "fitLimits": [
-         50,
-         1600
+         300,
+         2100
       ],
       "PTLimits": [
          0,
@@ -5018,8 +5003,8 @@
       "ampl": 10000,
       "fwhm": 2,
       "fitLimits": [
-         50,
-         1600
+         300,
+         2100
       ],
       "PTLimits": [
          0,
@@ -5108,8 +5093,8 @@
       "ampl": 1000,
       "fwhm": 15,
       "fitLimits": [
-         50,
-         1600
+         300,
+         2100
       ],
       "PTLimits": [
          0,
@@ -5123,8 +5108,8 @@
       "ampl": 1000,
       "fwhm": 15,
       "fitLimits": [
-         50,
-         1600
+         300,
+         2100
       ],
       "PTLimits": [
          0,
@@ -5138,8 +5123,8 @@
       "ampl": 1000,
       "fwhm": 15,
       "fitLimits": [
-         50,
-         1600
+         300,
+         2100
       ],
       "PTLimits": [
          0,
@@ -5153,8 +5138,8 @@
       "ampl": 1000,
       "fwhm": 15,
       "fitLimits": [
-         50,
-         1600
+         300,
+         2100
       ],
       "PTLimits": [
          0,
