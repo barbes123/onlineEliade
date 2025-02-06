@@ -26,9 +26,11 @@ void addback_me(UInt_t AddBAck = 0, int serverID=10, UInt_t first_run=3, UInt_t 
  
  UInt_t vol1 = vol0;  
  UInt_t last_run = first_run;
- string data_path = "/eliadedisks/simul/selector_dmitry";  
+ string data_path = "/eliadedisks/simul/selector_dmitry"; 
  string suffix = Form("eliadeS%i",serverID);
  string file_name_prefix = "selected_run_";
+ 
+ if (serverID < 10)  data_path = Form("/eliadedisks/s%i/selector_dmitry",serverID);
   
  for(UInt_t run=first_run;run<=last_run;++run){     
  	for (UInt_t vol=vol0;vol<=vol1;++vol){
@@ -56,12 +58,18 @@ void addback_me(UInt_t AddBAck = 0, int serverID=10, UInt_t first_run=3, UInt_t 
     	} else {  	
    	        std::cout << "File "<<ifile.str().c_str()<<"  exists! " << std::endl;
     	        if (AddBAck == 1){
-	                std::cout << " GetAddBack.C \n";
+	               std::cout << " GetAddBack.C \n";
 			std::cout << Form("TFile *file = TFile::Open(\"%s\", \"READ\")",ifile.str().c_str()) << std::endl;
+			
 			gROOT->ProcessLine(Form("TFile *file = TFile::Open(\"%s\", \"READ\")",ifile.str().c_str()) );
 	      	        gROOT->ProcessLine("file->cd(\"AddBack\")");
-			std::cout << Form(".x %s/onlineEliade/tools/GetAddBack.C+(AddBack/mFoldSpecSum_1)",home_path1.Data()) << std::endl;
-			gROOT->ProcessLine(Form(".x %s/onlineEliade/tools/GetAddBack.C+(mFoldSpecSum_1)",home_path1.Data()) );
+	      	        
+     			      std::cout << Form(".x %s/onlineEliade/tools/AddBackSimTools/GetAddBack.C(AddBack/mFoldSpecSum_1)",home_path1.Data()) << std::endl;
+			gROOT->ProcessLine(Form(".x %s/onlineEliade/tools/AddBackSimTools/GetAddBack.C(mFoldSpecSum_1)",home_path1.Data()) );
+			
+	      	        gROOT->ProcessLine("file->cd(\"AddBack\")");
+   			      std::cout << Form(".x %s/onlineEliade/tools/AddBackSimTools/GetTimeSpec.C(mTimeDiffCoreCore_10)",home_path1.Data()) << std::endl;
+			gROOT->ProcessLine(Form(".x %s/onlineEliade/tools/AddBackSimTools/GetTimeSpec.C(mTimeDiffCoreCore_10)",home_path1.Data()) );
 			}			
 		else if (AddBAck == 0){
 	                std::cout << " GetAddBackNew.C \n";

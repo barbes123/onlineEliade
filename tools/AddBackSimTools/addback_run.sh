@@ -51,14 +51,19 @@ do
     echo "I finished run$runnb"_"$volnb.root"
     if [ -f "addbackspectra.root" ]; then
 	mv addbackspectra.root "addback_run_"$runnb"_""$volnb""_eliadeS$server.root"
+    fi
+    
+        if [ -f "timespectra.root" ]; then
+	mv timespectra.root "ts_run_"$runnb"_""$volnb""_eliadeS$server.root"
     fi	    
+    	    
 #    name="addback_run_$runnb_""$volnb""_eliadeS$server.root" 
 
     echo "Starting hconverter_ab.C"
 
-    rootcommand=$HOME/onlineEliade/tools/AddBackSimTools/hconverter_ab.C+"($runnb,$volnb,$server)"
+    rootcommand=$HOME/onlineEliade/tools/AddBackSimTools/hconverter_ts.C"($runnb,$volnb,$server)"
     echo $rootcommand
-    root -l -b -q $rootcommand 
+    root -l -b -q "$rootcommand"
     volnb=$(($volnb + $dvol))          
     done
     runnb=$(($runnb + $dvol))  
