@@ -89,6 +89,16 @@
       }
     }
   },
+   "168": {
+    "volumes": {
+      "999": {
+        "lut_json": "LUT_ELIADE_S1_CL29_RUN162_152Eu.json",
+        "lut_conf": "coinc_gates_run_07.dat",
+        "lut_ta": "LUT_TA_TimeCalibGaussian_RUN161.dat",
+        "lut_file": ""
+      }
+    }
+  },
   "169": {
     "volumes": {
       "999": {
