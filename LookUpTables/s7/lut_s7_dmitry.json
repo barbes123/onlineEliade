@@ -1,0 +1,12 @@
+{
+  "170": {
+    "volumes": {
+      "999": {
+        "lut_conf": "LUT_CONF_S7_CL33_20241104.dat",
+        "lut_json": "LUT_BGO_S7_20250306.json",
+        "lut_ta": "",
+        "lut_file": ""
+      }
+    }
+  } 
+}
