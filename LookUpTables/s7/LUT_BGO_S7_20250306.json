@@ -1,8 +1,81 @@
 [
   {
+      "channel": 0,
+      "domain": 111,
+      "detType": 3,
+      "serial": "CeBr1",
+      "TimeOffset": 0.0,
+      "theta": 0,
+      "phi": 0,
+      "threshold": 25,
+      "cs_dom": 2,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         -1.6585,
+         1.221274
+      ],
+      "on": 1
+   }, 
+  
+   {
+      "channel": 1,
+      "domain": 112,
+      "detType": 3,
+      "serial": "CeBr2",
+      "TimeOffset": 0.0,
+      "theta": 0,
+      "phi": 0,
+      "threshold": 25,
+      "cs_dom": 2,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         -1.6585,
+         1.221274
+      ],
+      "on": 1
+   },
+   {
+      "channel": 2,
+      "domain": 113,
+      "detType": 3,
+      "serial": "CeBr3",
+      "TimeOffset": 0.0,
+      "theta": 0,
+      "phi": 0,
+      "threshold": 10,
+      "cs_dom": 2,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         -2.1955,
+         1.24839
+      ],
+      "on": 1
+   },
+   {
+      "channel": 3,
+      "domain": 114,
+      "detType": 3,
+      "serial": "CeBr4",
+      "TimeOffset": 0.0,
+      "theta": 0,
+      "phi": 0,
+      "threshold": 10,
+      "cs_dom": 2,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         2.7865,
+         1.241119
+      ],
+      "on": 1
+  },
+  {
       "channel": 100,
       "domain": 100,
-      "detType": 2,
+      "detType": 4,
       "serial": "F9062S12",
       "TimeOffset": 0.0,
       "theta": 0,
@@ -21,7 +94,7 @@
    {
       "channel": 101,
       "domain": 101,
-      "detType": 2,
+      "detType": 4,
       "serial": "F9062S34",
       "TimeOffset": 0.0,
       "theta": 0,
@@ -39,7 +112,7 @@
    {
       "channel": 102,
       "domain": 102,
-      "detType": 2,
+      "detType": 5,
       "serial": "S9061S12",
       "TimeOffset": 0.0,
       "theta": 0,
@@ -57,7 +130,7 @@
    {
       "channel": 103,
       "domain": 103,
-      "detType": 2,
+      "detType": 5,
       "serial": "S9061S34",
       "TimeOffset": 0.0,
       "theta": 0,
@@ -75,7 +148,7 @@
    {
       "channel": 104,
       "domain": 104,
-      "detType": 2,
+      "detType": 6,
       "serial": "BCS07",
       "TimeOffset": 0.0,
       "theta": 0,
