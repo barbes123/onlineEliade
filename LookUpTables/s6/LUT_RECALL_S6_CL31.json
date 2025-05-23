@@ -47,21 +47,6 @@
       ]
    },
    {
-      "domain": 1,
-      "detType": 1,
-      "serial": "sumCore1",
-      "ampl": 10000,
-      "fwhm": 3,
-      "fitLimits": [
-         200,
-         400
-      ],
-      "PTLimits": [
-         0,
-         10000
-      ]
-   },
-   {
       "domain": 101,
       "detType": 2,
       "serial": "CL30B",
