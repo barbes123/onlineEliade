@@ -1,4 +1,14 @@
 {
+  "176": {
+    "volumes": {
+      "999": {
+        "lut_conf": "LUT_CONF_S1_C29_20250527.dat",
+        "lut_json": "LUT_ELIADE_S1_CL33_20250529_DT.json",
+        "lut_ta": "LUT_TA_TimeCalibGaussian_RUN159.dat",
+        "lut_file": ""
+      }
+    }
+  },  
   "159": {
     "volumes": {
       "999": {
