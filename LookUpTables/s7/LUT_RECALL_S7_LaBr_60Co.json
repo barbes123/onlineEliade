@@ -1,0 +1,70 @@
+[  
+   {
+      "domain": 111,
+      "detType": 3,
+      "serial": "CEBR1",
+      "ampl": [
+         100
+      ],
+      "fwhm": 30,
+      "fitLimits": [
+         2500,
+         5000
+      ],
+      "PTLimits": [
+         0,
+         16000
+      ]
+   },
+   {
+      "domain": 112,
+      "detType": 3,
+      "serial": "CEBR2",
+      "ampl": [
+         100
+      ],
+      "fwhm": 50,
+      "fitLimits": [
+         5000,
+         8000
+      ],
+      "PTLimits": [
+         0,
+         16000
+      ]
+   },
+   {
+      "domain": 113,
+      "detType": 3,
+      "serial": "CEBR3",
+      "ampl": [
+         200
+      ],
+      "fwhm": 50,
+      "fitLimits": [
+         4000,
+         7000
+      ],
+      "PTLimits": [
+         0,
+         16000
+      ]
+   },
+   {
+      "domain": 114,
+      "detType": 3,
+      "serial": "CEBR4",
+      "ampl": [
+         100
+      ],
+      "fwhm": 50,
+      "fitLimits": [
+         4000,
+         9000
+      ],
+      "PTLimits": [
+         0,
+         16000
+      ]
+   }
+]
