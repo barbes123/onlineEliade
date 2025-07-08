@@ -78,11 +78,11 @@
       "domain": 103,
       "detType": 2,
       "serial": "CL30B",
-      "ampl": 10,
-      "fwhm": 3,
+      "ampl": 100,
+      "fwhm": 4,
       "fitLimits": [
          50,
-         1200
+         1500
       ],
       "PTLimits": [
          0,
@@ -93,11 +93,11 @@
       "domain": 104,
       "detType": 2,
       "serial": "CL30B",
-      "ampl": 10,
-      "fwhm": 3,
+      "ampl": 100,
+      "fwhm": 4,
       "fitLimits": [
          50,
-         1200
+         1500
       ],
       "PTLimits": [
          0,
