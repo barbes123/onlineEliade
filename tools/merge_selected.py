@@ -3,7 +3,7 @@ import os
 import sys
 from pathlib import Path
 
-server_default = 7
+server_default = 5
 
 def merge_eliade_files(server, run1, run2, volume1, volume2):
     """Merge ELIADE selector files for runs from first_run to last_run"""
@@ -17,7 +17,7 @@ def merge_eliade_files(server, run1, run2, volume1, volume2):
         fileout = f"sum_{prefix}_{runnb}_{volume1}_{volume2}_{suffix}.root"
         print(f'OutPut File: {fileout}')
 
-        command = f"hadd sum_{prefix}_run_{runnb}_{volume1}_{volume2}_{suffix}.root "
+        command = f"hadd sum_{prefix}_{runnb}_{volume1}_{volume2}_{suffix}.root "
 
         if Path(fileout).exists():
             os.remove(fileout)
