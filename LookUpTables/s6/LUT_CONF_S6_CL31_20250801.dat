@@ -17,7 +17,7 @@ trg_det_type	9998	999
 #trg_domain 	9999 	102
 window_length 	1000 	5e5
 pre_window	1002	0
-reference_dom   9996   101
+reference_dom   9996   111
 #------------------------------------
 #addback_parameters index value
 #------------------------------------
