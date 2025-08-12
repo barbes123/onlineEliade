@@ -1,0 +1,1 @@
+parallel -j 5 python3 ::: plot_ts.py plot_res_vs_res.py plot_mult.py plot_fold_vs_energy.py plot_calib_all_sources.py
