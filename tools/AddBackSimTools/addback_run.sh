@@ -25,7 +25,9 @@ runnb=$runnb1
 while test $runnb -le $runnb2
 do
     echo "Trying for run $runnb"
+    
     volnb=$volume1
+    
     while test $volnb -le $volume2
     do
     
@@ -38,9 +40,7 @@ do
       echo "$name is missing"
       volnb=$(($volnb + $dvol))   
       continue
-    fi
-
-       
+    fi       
     
     echo "Now I am starting addback_me.C for $name"	
 
@@ -48,7 +48,8 @@ do
 #    rootcommand="$HOME/onlineEliade/tools/AddBackSimTools/addback_me.C+\"($AddBack,$server,$runnb,$volnb)\""
     root -l -b -q $rootcommand    
 
-    echo "I finished run$runnb"_"$volnb.root"
+    echo "I finished addback_me.C for run$runnb"_"$volnb.root"
+    
     if [ -f "addbackspectra.root" ]; then
 	mv addbackspectra.root "addback_run_"$runnb"_""$volnb""_eliadeS$server.root"
     fi
@@ -59,14 +60,26 @@ do
     	    
 #    name="addback_run_$runnb_""$volnb""_eliadeS$server.root" 
 
+
     echo "Starting hconverter_ab.C"
 
+    rootcommand=$HOME/onlineEliade/tools/AddBackSimTools/hconverter_ab.C"($runnb,$volnb,$server)"
+    echo $rootcommand
+    root -l -b -q "$rootcommand"
+
+
+
+    echo "Starting hconverter_ts.C"
     rootcommand=$HOME/onlineEliade/tools/AddBackSimTools/hconverter_ts.C"($runnb,$volnb,$server)"
     echo $rootcommand
     root -l -b -q "$rootcommand"
+    
     volnb=$(($volnb + $dvol))          
-    done
+    
+    done    
+    
     runnb=$(($runnb + $dvol))  
+    
 done 
 
 
