@@ -9,7 +9,7 @@ fold1=${2:-0}
 foldlast=${3:-$fold1}
 energy1=${4:-800}
 energy2=${5:-$energy1}
-activity=${6:-50000000} #nevents from simulations
+activity=${6:-10000000} #nevents from simulations
 
 server=10
 
