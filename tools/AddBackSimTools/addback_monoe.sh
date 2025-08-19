@@ -64,6 +64,7 @@ maxfold=$foldlast
 
 
 energy=$energy1
+found=True
 
 while test $energy -le $energy2
 do
@@ -78,6 +79,7 @@ do
 	fi
 	################################## 
  
+	#found=True
 	while test $foldnbr -le $maxfold
 	do
 	 echo "Now starting fold  $foldnbr"	
@@ -94,13 +96,17 @@ do
 	      if ! test -f $filename 
 	      then 
 		 filename=$path"/"$filename
+		 found=False
 		 echo "No file "$filename
 	      fi
 	      
 	      if ! test -f $filename
 	      then 
 	      	 echo "No file "$filename
-	      	 exit
+	      	 found=False
+	      	 foldnbr=$((foldnbr + 100))
+	      	 continue
+	      	 #exit
 	      else
 		 echo "File name:" $filename 
 
@@ -117,11 +123,18 @@ do
 	      #delete first 14 lines
 	      awk 'NR > 14 { print }' fulldata.calib >  temp.calib
 	      echo -n "fold $foldnbr " >> eliade.calib      
-	      #################################     
+	      #################################
+	      
+	      energies=("100.00" "200.00" "300.00" "400.00" "500.00" "600.00" "700.00" "800.00" "900.00" "1000.00" \
+	          "1100.00" "1200.00" "1300.00" "1400.00" "1500.00" "1600.00" "1700.00" "1800.00" "1900.00" "2000.00" \
+	          "2100.00" "2200.00" "2300.00" "2400.00" "2500.00" "2600.00" "2700.00" "2800.00" "2900.00" "3000.00" \
+	          "3100.00" "3200.00" "3300.00" "3400.00" "3500.00" "3600.00" "3700.00" "3800.00" "3900.00" "4000.00")
+     
 	      
 	      
 	     
 	     
+		found=True
 		if grep '100.00' temp.calib
 		then
 	 	   grep '100.00'  temp.calib >> res.temp
@@ -319,11 +332,20 @@ do
 		then
 		    grep '4000.00' temp.calib >> res.temp
 		    echo "Found 4000.00"
+		elif grep '4500.00' temp.calib
+		then
+		    grep '4500.00' temp.calib >> res.temp
+#		    grep '3900.00' temp.calib >> Co60.temp
+		    echo "Found 4500.00"
+		 else
+		    echo "modify script: add energy" 
+		    found=False
+      		    foldnbr=$(($foldnbr + 1))
+      		    continue
+		    fi	
+		fi
+		
 
-		 	else
-		 	   echo "modify script add energy" 
-			fi	
-		fi  
 	  
 		sed "1 s/./Fold $foldnbr\t&/" res.temp >res1.temp
 
@@ -339,7 +361,12 @@ do
 	done 
 
 
-
+	if [ "$found" = False ]; then
+    		echo "not found any gamma from list"
+    		energy=$(($energy + 100))
+    		continue
+	fi 
+	
 	fold_file=fold_data_run_"$run"_"$energy".txt
 
 	#awk -F " " '{ print $3 " " $6 " " $7 " " $11 " " $8 " " $9 " " $9/$8*$11 " keV" }' data.calib > resolution.txt 
@@ -385,6 +412,10 @@ do
 
 #	rm data.calib
 
+
+
+
+
         tput setaf 2; echo "FINISHED for $energy";tput sgr0;
 		
 
@@ -392,6 +423,7 @@ do
 	energy=$(($energy + 100))
 done
 
+echo "now copying..."
 
 dir_name=run_"$run"
 
