@@ -7,14 +7,16 @@ from config import *
 
 # list_of_runs = {'60Co': 196, '152Eu': 195,'133Ba':194}
 list_of_names = {'60Co': '$^{60}Co$', '152Eu': '$^{152}Eu$','133Ba':'$^{133}Ba$'}
+server = 4
+
 
 def plot_source_spectrun(source, run):
 
     files = [
-        f"../addback_run_{run}_999_eliadeS5/sum_fold_1_1.spe",
-        f"../addback_run_{run}_999_eliadeS5/sum_fold_1_2.spe",
-        f"../addback_run_{run}_999_eliadeS5/sum_fold_1_3.spe",
-        f"../addback_run_{run}_999_eliadeS5/sum_fold_1_4.spe"
+        f"../addback_run_{run}_999_eliadeS{server}/sum_fold_1_1.spe",
+        f"../addback_run_{run}_999_eliadeS{server}/sum_fold_1_2.spe",
+        f"../addback_run_{run}_999_eliadeS{server}/sum_fold_1_3.spe",
+        f"../addback_run_{run}_999_eliadeS{server}/sum_fold_1_4.spe"
     ]
 
     # Function to read one-column .spe files
