@@ -1,0 +1,172 @@
+[
+   {
+      "channel": 0,
+      "domain": 111,
+      "detType": 3,
+      "serial": "CEBR1",
+      "TimeOffset": 0.0,
+      "theta": 0,
+      "phi": 0,
+      "threshold": 25,
+      "cs_dom": 2,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         -2.53218,
+         0.352231,
+         -8.74627e-06,
+         1.33739e-09
+      ],
+      "on": 1
+   },
+   {
+      "channel": 1,
+      "domain": 112,
+      "detType": 3,
+      "serial": "CEBR2",
+      "TimeOffset": 0.0,
+      "theta": 0,
+      "phi": 0,
+      "threshold": 25,
+      "cs_dom": 2,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         -1.5019,
+         0.218733,
+         -3.16022e-06,
+         3.36589e-10
+      ],
+      "on": 1
+   },
+   {
+      "channel": 2,
+      "domain": 113,
+      "detType": 3,
+      "serial": "CEBR3",
+      "TimeOffset": 0.0,
+      "theta": 0,
+      "phi": 0,
+      "threshold": 10,
+      "cs_dom": 2,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         8.39586,
+         0.2318,
+         3.64385e-06,
+         -4.06504e-10
+      ],
+      "on": 1
+   },
+   {
+      "channel": 3,
+      "domain": 114,
+      "detType": 3,
+      "serial": "CEBR4",
+      "TimeOffset": 0.0,
+      "theta": 0,
+      "phi": 0,
+      "threshold": 10,
+      "cs_dom": 2,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         7.45792,
+         0.176144,
+         2.14281e-06,
+         -1.73262e-10
+      ],
+      "on": 1
+   },
+   {
+      "channel": 100,
+      "domain": 100,
+      "detType": 4,
+      "serial": "F9062S12",
+      "TimeOffset": 0.0,
+      "theta": 0,
+      "phi": 0,
+      "threshold": 25,
+      "cs_dom": 2,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         -1.6585,
+         1.221274
+      ],
+      "on": 1
+   },
+   {
+      "channel": 101,
+      "domain": 101,
+      "detType": 4,
+      "serial": "F9062S34",
+      "TimeOffset": 0.0,
+      "theta": 0,
+      "phi": 0,
+      "threshold": 25,
+      "cs_dom": 2,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         -1.6585,
+         1.221274
+      ],
+      "on": 1
+   },
+   {
+      "channel": 102,
+      "domain": 102,
+      "detType": 5,
+      "serial": "S9061S12",
+      "TimeOffset": 0.0,
+      "theta": 0,
+      "phi": 0,
+      "threshold": 10,
+      "cs_dom": 2,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         -2.1955,
+         1.24839
+      ],
+      "on": 1
+   },
+   {
+      "channel": 103,
+      "domain": 103,
+      "detType": 5,
+      "serial": "S9061S34",
+      "TimeOffset": 0.0,
+      "theta": 0,
+      "phi": 0,
+      "threshold": 10,
+      "cs_dom": 2,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         2.7865,
+         1.241119
+      ],
+      "on": 1
+   },
+   {
+      "channel": 104,
+      "domain": 104,
+      "detType": 6,
+      "serial": "BCS07",
+      "TimeOffset": 0.0,
+      "theta": 0,
+      "phi": 0,
+      "threshold": 22,
+      "cs_dom": 2,
+      "enable": 1,
+      "pol_order": 2,
+      "pol_list": [
+         3.8783,
+         1.27182
+      ],
+      "on": 1
+   }
+]
