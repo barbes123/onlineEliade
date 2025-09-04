@@ -3,8 +3,8 @@
        "domain": 101,
        "detType": 2,
        "serial": "CL29B",
-       "ampl": 100,
-       "fwhm": 100,
+       "ampl": 500,
+       "fwhm": 500,
        "fitLimits": [
           2050,
           16000
@@ -18,8 +18,8 @@
        "domain": 102,
        "detType": 2,
        "serial": "CL29B",
-       "ampl": 100,
-       "fwhm": 100,
+       "ampl": 500,
+       "fwhm": 500,
        "fitLimits": [
           2050,
           16000
@@ -33,8 +33,8 @@
        "domain": 103,
        "detType": 2,
        "serial": "CL29B",
-       "ampl": 100,
-       "fwhm": 100,
+       "ampl": 500,
+       "fwhm": 500,
        "fitLimits": [
           2050,
           16000
@@ -48,8 +48,8 @@
        "domain": 104,
        "detType": 2,
        "serial": "CL29B",
-       "ampl": 100,
-       "fwhm": 100,
+       "ampl": 500,
+       "fwhm": 500,
        "fitLimits": [
           2050,
           16000
@@ -63,8 +63,8 @@
        "domain": 105,
        "detType": 2,
        "serial": "CL29B",
-       "ampl": 100,
-       "fwhm": 100,
+       "ampl": 500,
+       "fwhm": 500,
        "fitLimits": [
           2050,
           16000
@@ -78,8 +78,8 @@
        "domain": 106,
        "detType": 2,
        "serial": "CL29B",
-       "ampl": 100,
-       "fwhm": 100,
+       "ampl": 500,
+       "fwhm": 500,
        "fitLimits": [
           2050,
           16000
@@ -93,8 +93,8 @@
        "domain": 107,
        "detType": 2,
        "serial": "CL29B",
-       "ampl": 100,
-       "fwhm": 100,
+       "ampl": 500,
+       "fwhm": 500,
        "fitLimits": [
           2050,
           16000
@@ -108,8 +108,8 @@
        "domain": 108,
        "detType": 2,
        "serial": "CL29B",
-       "ampl": 100,
-       "fwhm": 100,
+       "ampl": 500,
+       "fwhm": 500,
        "fitLimits": [
           2050,
           16000
@@ -123,8 +123,8 @@
        "domain": 109,
        "detType": 1,
        "serial": "CL29B",
-       "ampl": 100,
-       "fwhm": 100,
+       "ampl": 500,
+       "fwhm": 500,
        "fitLimits": [
           2050,
           16000
@@ -138,8 +138,8 @@
        "domain": 110,
        "detType": 2,
        "serial": "CL29B",
-       "ampl": 100,
-       "fwhm": 100,
+       "ampl": 500,
+       "fwhm": 500,
        "fitLimits": [
           2050,
           16000
@@ -153,8 +153,8 @@
        "domain": 111,
        "detType": 2,
        "serial": "CL29B",
-       "ampl": 100,
-       "fwhm": 100,
+       "ampl": 500,
+       "fwhm": 500,
        "fitLimits": [
           2050,
           16000
@@ -168,8 +168,8 @@
        "domain": 112,
        "detType": 2,
        "serial": "CL29B",
-       "ampl": 100,
-       "fwhm": 100,
+       "ampl": 500,
+       "fwhm": 500,
        "fitLimits": [
           2050,
           16000
@@ -183,8 +183,8 @@
        "domain": 113,
        "detType": 2,
        "serial": "CL29B",
-       "ampl": 100,
-       "fwhm": 100,
+       "ampl": 500,
+       "fwhm": 500,
        "fitLimits": [
           2050,
           16000
@@ -198,8 +198,8 @@
        "domain": 114,
        "detType": 2,
        "serial": "CL29B",
-       "ampl": 100,
-       "fwhm": 100,
+       "ampl": 500,
+       "fwhm": 500,
        "fitLimits": [
           2050,
           16000
@@ -213,8 +213,8 @@
        "domain": 115,
        "detType": 2,
        "serial": "CL29B",
-       "ampl": 100,
-       "fwhm": 100,
+       "ampl": 500,
+       "fwhm": 500,
        "fitLimits": [
           2050,
           16000
@@ -228,8 +228,8 @@
        "domain": 116,
        "detType": 2,
        "serial": "CL29B",
-       "ampl": 100,
-       "fwhm": 100,
+       "ampl": 500,
+       "fwhm": 500,
        "fitLimits": [
           2050,
           16000
@@ -243,8 +243,8 @@
        "domain": 117,
        "detType": 2,
        "serial": "CL29B",
-       "ampl": 100,
-       "fwhm": 100,
+       "ampl": 500,
+       "fwhm": 500,
        "fitLimits": [
           2050,
           16000
@@ -258,8 +258,8 @@
        "domain": 118,
        "detType": 2,
        "serial": "CL29B",
-       "ampl": 100,
-       "fwhm": 100,
+       "ampl": 500,
+       "fwhm": 500,
        "fitLimits": [
           2050,
           16000
@@ -273,8 +273,8 @@
        "domain": 119,
        "detType": 1,
        "serial": "CL29B",
-       "ampl": 100,
-       "fwhm": 100,
+       "ampl": 500,
+       "fwhm": 500,
        "fitLimits": [
           2050,
           16000
@@ -288,8 +288,8 @@
        "domain": 120,
        "detType": 2,
        "serial": "CL29B",
-       "ampl": 100,
-       "fwhm": 100,
+       "ampl": 500,
+       "fwhm": 500,
        "fitLimits": [
           2050,
           16000
@@ -303,8 +303,8 @@
        "domain": 121,
        "detType": 2,
        "serial": "CL29B",
-       "ampl": 100,
-       "fwhm": 100,
+       "ampl": 500,
+       "fwhm": 500,
        "fitLimits": [
           2050,
           16000
@@ -318,8 +318,8 @@
        "domain": 122,
        "detType": 2,
        "serial": "CL29B",
-       "ampl": 100,
-       "fwhm": 100,
+       "ampl": 500,
+       "fwhm": 500,
        "fitLimits": [
           2050,
           16000
@@ -333,8 +333,8 @@
        "domain": 123,
        "detType": 2,
        "serial": "CL29B",
-       "ampl": 100,
-       "fwhm": 100,
+       "ampl": 500,
+       "fwhm": 500,
        "fitLimits": [
           2050,
           16000
@@ -348,8 +348,8 @@
        "domain": 124,
        "detType": 2,
        "serial": "CL29B",
-       "ampl": 100,
-       "fwhm": 100,
+       "ampl": 500,
+       "fwhm": 500,
        "fitLimits": [
           2050,
           16000
@@ -363,8 +363,8 @@
        "domain": 125,
        "detType": 2,
        "serial": "CL29B",
-       "ampl": 100,
-       "fwhm": 100,
+       "ampl": 500,
+       "fwhm": 500,
        "fitLimits": [
           2050,
           16000
@@ -378,8 +378,8 @@
        "domain": 126,
        "detType": 2,
        "serial": "CL29B",
-       "ampl": 100,
-       "fwhm": 100,
+       "ampl": 500,
+       "fwhm": 500,
        "fitLimits": [
           2050,
           16000
@@ -393,8 +393,8 @@
        "domain": 127,
        "detType": 2,
        "serial": "CL29B",
-       "ampl": 100,
-       "fwhm": 100,
+       "ampl": 500,
+       "fwhm": 500,
        "fitLimits": [
           2050,
           16000
@@ -408,8 +408,8 @@
        "domain": 128,
        "detType": 2,
        "serial": "CL29B",
-       "ampl": 100,
-       "fwhm": 100,
+       "ampl": 500,
+       "fwhm": 500,
        "fitLimits": [
           2050,
           16000
@@ -423,8 +423,8 @@
        "domain": 129,
        "detType": 1,
        "serial": "CL29B",
-       "ampl": 100,
-       "fwhm": 100,
+       "ampl": 500,
+       "fwhm": 500,
        "fitLimits": [
           2050,
           16000
@@ -438,8 +438,8 @@
        "domain": 130,
        "detType": 2,
        "serial": "CL29B",
-       "ampl": 100,
-       "fwhm": 100,
+       "ampl": 500,
+       "fwhm": 500,
        "fitLimits": [
           2050,
           16000
@@ -453,8 +453,8 @@
        "domain": 131,
        "detType": 2,
        "serial": "CL29B",
-       "ampl": 100,
-       "fwhm": 100,
+       "ampl": 500,
+       "fwhm": 500,
        "fitLimits": [
           2050,
           16000
@@ -468,8 +468,8 @@
        "domain": 132,
        "detType": 2,
        "serial": "CL29B",
-       "ampl": 100,
-       "fwhm": 100,
+       "ampl": 500,
+       "fwhm": 500,
        "fitLimits": [
           2050,
           16000
@@ -483,8 +483,8 @@
        "domain": 133,
        "detType": 2,
        "serial": "CL29B",
-       "ampl": 100,
-       "fwhm": 100,
+       "ampl": 500,
+       "fwhm": 500,
        "fitLimits": [
           2050,
           16000
@@ -498,8 +498,8 @@
        "domain": 134,
        "detType": 2,
        "serial": "CL29B",
-       "ampl": 100,
-       "fwhm": 100,
+       "ampl": 500,
+       "fwhm": 500,
        "fitLimits": [
           2050,
           16000
@@ -513,8 +513,8 @@
        "domain": 135,
        "detType": 2,
        "serial": "CL29B",
-       "ampl": 100,
-       "fwhm": 100,
+       "ampl": 500,
+       "fwhm": 500,
        "fitLimits": [
           2050,
           16000
@@ -528,8 +528,8 @@
        "domain": 136,
        "detType": 2,
        "serial": "CL29B",
-       "ampl": 100,
-       "fwhm": 100,
+       "ampl": 500,
+       "fwhm": 500,
        "fitLimits": [
           2050,
           16000
@@ -543,8 +543,8 @@
        "domain": 137,
        "detType": 2,
        "serial": "CL29B",
-       "ampl": 100,
-       "fwhm": 100,
+       "ampl": 500,
+       "fwhm": 500,
        "fitLimits": [
           2050,
           16000
@@ -558,8 +558,8 @@
        "domain": 138,
        "detType": 2,
        "serial": "CL29B",
-       "ampl": 100,
-       "fwhm": 100,
+       "ampl": 500,
+       "fwhm": 500,
        "fitLimits": [
           2050,
           16000
@@ -573,8 +573,8 @@
        "domain": 139,
        "detType": 1,
        "serial": "CL29B",
-       "ampl": 100,
-       "fwhm": 100,
+       "ampl": 500,
+       "fwhm": 500,
        "fitLimits": [
           2050,
           16000
