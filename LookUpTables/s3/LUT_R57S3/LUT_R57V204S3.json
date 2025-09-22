@@ -75,7 +75,7 @@
       "channel": 2,
       "domain": 101,
       "detType": 2,
-      "serial": "CL34B",
+      "serial": "CL32B",
       "TimeOffset": 0.0,
       "theta": 90,
       "phi": 0,
@@ -84,8 +84,10 @@
       "enable": 1,
       "pol_order": 2,
       "pol_list": [
-         -0.4652,
-         1.316641
+         0.777099,
+         1.31331,
+         4.10227e-06,
+         -1.23427e-09
       ],
       "on": 1
    },
@@ -93,7 +95,7 @@
       "channel": 3,
       "domain": 102,
       "detType": 2,
-      "serial": "CL34B",
+      "serial": "CL32B",
       "TimeOffset": 0.0,
       "theta": 90,
       "phi": 0,
@@ -102,8 +104,10 @@
       "enable": 1,
       "pol_order": 2,
       "pol_list": [
-         -0.0033,
-         1.275097
+         0.750984,
+         1.27455,
+         -5.82383e-08,
+         1.90938e-10
       ],
       "on": 1
    },
@@ -111,7 +115,7 @@
       "channel": 4,
       "domain": 103,
       "detType": 2,
-      "serial": "CL34B",
+      "serial": "CL32B",
       "TimeOffset": 0.0,
       "theta": 90,
       "phi": 0,
@@ -120,8 +124,10 @@
       "enable": 1,
       "pol_order": 2,
       "pol_list": [
-         0.264,
-         1.290647
+         0.385323,
+         1.2936,
+         -3.23305e-06,
+         6.09333e-10
       ],
       "on": 1
    },
@@ -129,7 +135,7 @@
       "channel": 5,
       "domain": 104,
       "detType": 2,
-      "serial": "CL34B",
+      "serial": "CL32B",
       "TimeOffset": 0.0,
       "theta": 90,
       "phi": 0,
@@ -138,8 +144,10 @@
       "enable": 1,
       "pol_order": 2,
       "pol_list": [
-         0.1563,
-         1.284244
+         0.74167,
+         1.28493,
+         -1.6507e-06,
+         9.56784e-10
       ],
       "on": 1
    },
@@ -147,7 +155,7 @@
       "channel": 6,
       "domain": 105,
       "detType": 2,
-      "serial": "CL34B",
+      "serial": "CL32B",
       "TimeOffset": 0.0,
       "theta": 90,
       "phi": 0,
@@ -156,8 +164,10 @@
       "enable": 1,
       "pol_order": 2,
       "pol_list": [
-         0.5437,
-         1.289584
+         0.0869603,
+         1.29515,
+         -7.10397e-06,
+         2.31981e-09
       ],
       "on": 1
    },
@@ -165,7 +175,7 @@
       "channel": 7,
       "domain": 106,
       "detType": 2,
-      "serial": "CL34B",
+      "serial": "CL32B",
       "TimeOffset": 0.0,
       "theta": 90,
       "phi": 0,
@@ -174,8 +184,9 @@
       "enable": 1,
       "pol_order": 2,
       "pol_list": [
-         0.2376,
-         1.345783
+         0.82777,
+         1.34544,
+         4.36043e-07
       ],
       "on": 1
    },
@@ -183,7 +194,7 @@
       "channel": 8,
       "domain": 107,
       "detType": 2,
-      "serial": "CL34B",
+      "serial": "CL32B",
       "TimeOffset": 0.0,
       "theta": 90,
       "phi": 0,
@@ -192,8 +203,10 @@
       "enable": 1,
       "pol_order": 2,
       "pol_list": [
-         -0.4226,
-         1.279898
+         -1.97623,
+         1.29333,
+         -2.19725e-05,
+         1.05433e-08
       ],
       "on": 1
    },
@@ -201,7 +214,7 @@
       "channel": 9,
       "domain": 108,
       "detType": 2,
-      "serial": "CL34B",
+      "serial": "CL32B",
       "TimeOffset": 0.0,
       "theta": 90,
       "phi": 0,
@@ -210,8 +223,9 @@
       "enable": 1,
       "pol_order": 2,
       "pol_list": [
-         1.0448,
-         1.305476
+         2.13561,
+         1.30307,
+         2.07842e-06
       ],
       "on": 1
    },
@@ -219,7 +233,7 @@
       "channel": 0,
       "domain": 109,
       "detType": 1,
-      "serial": "CL34B",
+      "serial": "CL32B",
       "TimeOffset": 0.0,
       "theta": 90,
       "phi": 0,
@@ -228,8 +242,10 @@
       "enable": 1,
       "pol_order": 2,
       "pol_list": [
-         0.1605,
-         1.353131
+         0.740596,
+         1.35451,
+         -3.69341e-06,
+         2.44605e-09
       ],
       "on": 1
    },
@@ -237,7 +253,7 @@
       "channel": 1,
       "domain": 110,
       "detType": 10,
-      "serial": "CL34B",
+      "serial": "CL32B",
       "TimeOffset": 0.0,
       "theta": 90,
       "phi": 0,
@@ -255,7 +271,7 @@
       "channel": 102,
       "domain": 111,
       "detType": 2,
-      "serial": "CL34G",
+      "serial": "CL32G",
       "TimeOffset": 0.0,
       "theta": 90,
       "phi": 0,
@@ -264,8 +280,10 @@
       "enable": 1,
       "pol_order": 2,
       "pol_list": [
-         0.0354,
-         1.283413
+         0.137512,
+         1.28786,
+         -8.79319e-06,
+         4.79349e-09
       ],
       "on": 1
    },
@@ -273,7 +291,7 @@
       "channel": 103,
       "domain": 112,
       "detType": 2,
-      "serial": "CL34G",
+      "serial": "CL32G",
       "TimeOffset": 0.0,
       "theta": 90,
       "phi": 0,
@@ -282,8 +300,10 @@
       "enable": 1,
       "pol_order": 2,
       "pol_list": [
-         -0.2396,
-         1.300407
+         0.4875,
+         1.30009,
+         2.05722e-07,
+         1.81982e-11
       ],
       "on": 1
    },
@@ -291,7 +311,7 @@
       "channel": 104,
       "domain": 113,
       "detType": 2,
-      "serial": "CL34G",
+      "serial": "CL32G",
       "TimeOffset": 0.0,
       "theta": 90,
       "phi": 0,
@@ -300,8 +320,10 @@
       "enable": 1,
       "pol_order": 2,
       "pol_list": [
-         -0.1237,
-         1.271835
+         0.67968,
+         1.27106,
+         8.14977e-07,
+         -1.89673e-10
       ],
       "on": 1
    },
@@ -309,7 +331,7 @@
       "channel": 105,
       "domain": 114,
       "detType": 2,
-      "serial": "CL34G",
+      "serial": "CL32G",
       "TimeOffset": 0.0,
       "theta": 90,
       "phi": 0,
@@ -318,8 +340,10 @@
       "enable": 1,
       "pol_order": 2,
       "pol_list": [
-         0.3317,
-         1.338526
+         0.779294,
+         1.34022,
+         -2.886e-06,
+         1.31265e-09
       ],
       "on": 1
    },
@@ -327,7 +351,7 @@
       "channel": 106,
       "domain": 115,
       "detType": 2,
-      "serial": "CL34G",
+      "serial": "CL32G",
       "TimeOffset": 0.0,
       "theta": 90,
       "phi": 0,
@@ -336,8 +360,10 @@
       "enable": 1,
       "pol_order": 2,
       "pol_list": [
-         0.4075,
-         1.346524
+         0.882758,
+         1.34737,
+         -1.235e-06,
+         5.1643e-10
       ],
       "on": 1
    },
@@ -345,7 +371,7 @@
       "channel": 107,
       "domain": 116,
       "detType": 2,
-      "serial": "CL34G",
+      "serial": "CL32G",
       "TimeOffset": 0.0,
       "theta": 90,
       "phi": 0,
@@ -354,8 +380,10 @@
       "enable": 1,
       "pol_order": 2,
       "pol_list": [
-         0.7653,
-         1.355967
+         1.65616,
+         1.35219,
+         9.77683e-06,
+         -6.45365e-09
       ],
       "on": 1
    },
@@ -363,7 +391,7 @@
       "channel": 108,
       "domain": 117,
       "detType": 2,
-      "serial": "CL34G",
+      "serial": "CL32G",
       "TimeOffset": 0.0,
       "theta": 90,
       "phi": 0,
@@ -372,8 +400,8 @@
       "enable": 1,
       "pol_order": 2,
       "pol_list": [
-         -0.2914,
-         1.352453
+         0.428438,
+         1.35253
       ],
       "on": 1
    },
@@ -381,7 +409,7 @@
       "channel": 109,
       "domain": 118,
       "detType": 2,
-      "serial": "CL34G",
+      "serial": "CL32G",
       "TimeOffset": 0.0,
       "theta": 90,
       "phi": 0,
@@ -390,8 +418,9 @@
       "enable": 1,
       "pol_order": 2,
       "pol_list": [
-         0.1406,
-         1.304353
+         0.0383539,
+         1.30789,
+         -3.06264e-06
       ],
       "on": 1
    },
@@ -399,7 +428,7 @@
       "channel": 100,
       "domain": 119,
       "detType": 1,
-      "serial": "CL34G",
+      "serial": "CL32G",
       "TimeOffset": 0.0,
       "theta": 90,
       "phi": 0,
@@ -408,8 +437,10 @@
       "enable": 1,
       "pol_order": 2,
       "pol_list": [
-         -0.2357,
-         1.327861
+         0.267387,
+         1.32957,
+         -4.01697e-06,
+         2.54818e-09
       ],
       "on": 1
    },
@@ -417,7 +448,7 @@
       "channel": 101,
       "domain": 120,
       "detType": 10,
-      "serial": "CL34G",
+      "serial": "CL32G",
       "TimeOffset": 0.0,
       "theta": 90,
       "phi": 0,
@@ -435,7 +466,7 @@
       "channel": 202,
       "domain": 121,
       "detType": 2,
-      "serial": "CL34R",
+      "serial": "CL32R",
       "TimeOffset": 0.0,
       "theta": 90,
       "phi": 0,
@@ -444,8 +475,10 @@
       "enable": 1,
       "pol_order": 2,
       "pol_list": [
-         0.2975,
-         1.284778
+         0.87426,
+         1.28494,
+         4.94815e-07,
+         -6.82557e-10
       ],
       "on": 1
    },
@@ -453,7 +486,7 @@
       "channel": 203,
       "domain": 122,
       "detType": 2,
-      "serial": "CL34R",
+      "serial": "CL32R",
       "TimeOffset": 0.0,
       "theta": 90,
       "phi": 0,
@@ -462,8 +495,10 @@
       "enable": 1,
       "pol_order": 2,
       "pol_list": [
-         -0.6382,
-         1.24032
+         0.657071,
+         1.23677,
+         5.54989e-06,
+         -2.62815e-09
       ],
       "on": 1
    },
@@ -471,7 +506,7 @@
       "channel": 204,
       "domain": 123,
       "detType": 2,
-      "serial": "CL34R",
+      "serial": "CL32R",
       "TimeOffset": 0.0,
       "theta": 90,
       "phi": 0,
@@ -480,8 +515,10 @@
       "enable": 1,
       "pol_order": 2,
       "pol_list": [
-         0.3533,
-         1.279403
+         0.773917,
+         1.2808,
+         -1.86189e-06,
+         5.8648e-10
       ],
       "on": 1
    },
@@ -489,7 +526,7 @@
       "channel": 205,
       "domain": 124,
       "detType": 2,
-      "serial": "CL34R",
+      "serial": "CL32R",
       "TimeOffset": 0.0,
       "theta": 90,
       "phi": 0,
@@ -498,8 +535,10 @@
       "enable": 1,
       "pol_order": 2,
       "pol_list": [
-         0.2983,
-         1.262301
+         0.54729,
+         1.26487,
+         -4.08461e-06,
+         1.78567e-09
       ],
       "on": 1
    },
@@ -507,7 +546,7 @@
       "channel": 206,
       "domain": 125,
       "detType": 2,
-      "serial": "CL34R",
+      "serial": "CL32R",
       "TimeOffset": 0.0,
       "theta": 90,
       "phi": 0,
@@ -516,8 +555,9 @@
       "enable": 1,
       "pol_order": 2,
       "pol_list": [
-         0.327,
-         1.282178
+         0.502305,
+         1.28373,
+         -1.15536e-06
       ],
       "on": 1
    },
@@ -525,7 +565,7 @@
       "channel": 207,
       "domain": 126,
       "detType": 2,
-      "serial": "CL34R",
+      "serial": "CL32R",
       "TimeOffset": 0.0,
       "theta": 90,
       "phi": 0,
@@ -534,8 +574,8 @@
       "enable": 1,
       "pol_order": 2,
       "pol_list": [
-         -1.0158,
-         1.324198
+         -0.494798,
+         1.32456
       ],
       "on": 1
    },
@@ -543,7 +583,7 @@
       "channel": 208,
       "domain": 127,
       "detType": 2,
-      "serial": "CL34R",
+      "serial": "CL32R",
       "TimeOffset": 0.0,
       "theta": 90,
       "phi": 0,
@@ -552,8 +592,9 @@
       "enable": 1,
       "pol_order": 2,
       "pol_list": [
-         0.0526,
-         1.284472
+         1.07082,
+         1.28429,
+         -3.61656e-07
       ],
       "on": 1
    },
@@ -561,7 +602,7 @@
       "channel": 209,
       "domain": 128,
       "detType": 2,
-      "serial": "CL34R",
+      "serial": "CL32R",
       "TimeOffset": 0.0,
       "theta": 90,
       "phi": 0,
@@ -570,8 +611,10 @@
       "enable": 1,
       "pol_order": 2,
       "pol_list": [
-         -0.4186,
-         1.277669
+         0.61943,
+         1.27634,
+         2.74316e-06,
+         -1.86071e-09
       ],
       "on": 1
    },
@@ -579,7 +622,7 @@
       "channel": 200,
       "domain": 129,
       "detType": 1,
-      "serial": "CL34R",
+      "serial": "CL32R",
       "TimeOffset": 0.0,
       "theta": 90,
       "phi": 0,
@@ -588,8 +631,10 @@
       "enable": 1,
       "pol_order": 2,
       "pol_list": [
-         0.7832,
-         1.238984
+         1.20405,
+         1.2396,
+         4.8057e-07,
+         -1.02125e-09
       ],
       "on": 1
    },
@@ -597,7 +642,7 @@
       "channel": 201,
       "domain": 130,
       "detType": 10,
-      "serial": "CL34R",
+      "serial": "CL32R",
       "TimeOffset": 0.0,
       "theta": 90,
       "phi": 0,
@@ -615,7 +660,7 @@
       "channel": 302,
       "domain": 131,
       "detType": 2,
-      "serial": "CL34W",
+      "serial": "CL32W",
       "TimeOffset": 0.0,
       "theta": 90,
       "phi": 0,
@@ -624,8 +669,10 @@
       "enable": 1,
       "pol_order": 2,
       "pol_list": [
-         0.2615,
-         1.288856
+         0.1379,
+         1.29375,
+         -7.15876e-06,
+         2.83506e-09
       ],
       "on": 1
    },
@@ -633,7 +680,7 @@
       "channel": 303,
       "domain": 132,
       "detType": 2,
-      "serial": "CL34W",
+      "serial": "CL32W",
       "TimeOffset": 0.0,
       "theta": 90,
       "phi": 0,
@@ -642,8 +689,10 @@
       "enable": 1,
       "pol_order": 2,
       "pol_list": [
-         -0.1369,
-         1.268411
+         0.465586,
+         1.26838,
+         3.70467e-07,
+         -3.81988e-10
       ],
       "on": 1
    },
@@ -651,7 +700,7 @@
       "channel": 304,
       "domain": 133,
       "detType": 2,
-      "serial": "CL34W",
+      "serial": "CL32W",
       "TimeOffset": 0.0,
       "theta": 90,
       "phi": 0,
@@ -660,8 +709,10 @@
       "enable": 1,
       "pol_order": 2,
       "pol_list": [
-         0.0503,
-         1.235708
+         0.322992,
+         1.23773,
+         -3.98392e-06,
+         2.2433e-09
       ],
       "on": 1
    },
@@ -669,7 +720,7 @@
       "channel": 305,
       "domain": 134,
       "detType": 2,
-      "serial": "CL34W",
+      "serial": "CL32W",
       "TimeOffset": 0.0,
       "theta": 90,
       "phi": 0,
@@ -678,8 +729,10 @@
       "enable": 1,
       "pol_order": 2,
       "pol_list": [
-         0.5994,
-         1.360308
+         0.643173,
+         1.36532,
+         -9.58121e-06,
+         5.13409e-09
       ],
       "on": 1
    },
@@ -687,7 +740,7 @@
       "channel": 306,
       "domain": 135,
       "detType": 2,
-      "serial": "CL34W",
+      "serial": "CL32W",
       "TimeOffset": 0.0,
       "theta": 90,
       "phi": 0,
@@ -696,8 +749,10 @@
       "enable": 1,
       "pol_order": 2,
       "pol_list": [
-         0.3254,
-         1.313042
+         1.88881,
+         1.30814,
+         7.96475e-06,
+         -3.99858e-09
       ],
       "on": 1
    },
@@ -705,7 +760,7 @@
       "channel": 307,
       "domain": 136,
       "detType": 2,
-      "serial": "CL34W",
+      "serial": "CL32W",
       "TimeOffset": 0.0,
       "theta": 90,
       "phi": 0,
@@ -714,8 +769,10 @@
       "enable": 1,
       "pol_order": 2,
       "pol_list": [
-         0.413,
-         1.342783
+         1.56149,
+         1.33867,
+         7.97658e-06,
+         -4.42752e-09
       ],
       "on": 1
    },
@@ -723,7 +780,7 @@
       "channel": 308,
       "domain": 137,
       "detType": 2,
-      "serial": "CL34W",
+      "serial": "CL32W",
       "TimeOffset": 0.0,
       "theta": 90,
       "phi": 0,
@@ -732,8 +789,9 @@
       "enable": 1,
       "pol_order": 2,
       "pol_list": [
-         -0.2394,
-         1.284692
+         0.588672,
+         1.28417,
+         3.24547e-07
       ],
       "on": 1
    },
@@ -741,7 +799,7 @@
       "channel": 309,
       "domain": 138,
       "detType": 2,
-      "serial": "CL34W",
+      "serial": "CL32W",
       "TimeOffset": 0.0,
       "theta": 90,
       "phi": 0,
@@ -750,8 +808,10 @@
       "enable": 1,
       "pol_order": 2,
       "pol_list": [
-         0.3845,
-         1.29086
+         2.32694,
+         1.28554,
+         8.93771e-06,
+         -5.18998e-09
       ],
       "on": 1
    },
@@ -759,7 +819,7 @@
       "channel": 300,
       "domain": 139,
       "detType": 1,
-      "serial": "CL34W",
+      "serial": "CL32W",
       "TimeOffset": 0.0,
       "theta": 90,
       "phi": 0,
@@ -768,8 +828,10 @@
       "enable": 1,
       "pol_order": 2,
       "pol_list": [
-         -2.183,
-         1.331884
+         -0.557163,
+         1.32643,
+         1.07235e-05,
+         -6.01681e-09
       ],
       "on": 1
    },
@@ -777,7 +839,7 @@
       "channel": 301,
       "domain": 140,
       "detType": 10,
-      "serial": "CL34W",
+      "serial": "CL32W",
       "TimeOffset": 0.0,
       "theta": 90,
       "phi": 0,
